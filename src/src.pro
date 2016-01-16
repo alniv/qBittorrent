@@ -2,6 +2,11 @@
 TEMPLATE = app
 CONFIG += qt thread silent
 
+# C++11 support
+CONFIG += c++11
+DEFINES += BOOST_NO_CXX11_RVALUE_REFERENCES
+greaterThan(QT_MAJOR_VERSION, 4): DEFINES += QBT_USES_QT5
+
 # Windows specific configuration
 win32: include(../winconf.pri)
 
@@ -20,7 +25,7 @@ nogui {
     TARGET = qbittorrent-nox
 } else {
     QT += xml
-    QT += concurrent
+    greaterThan(QT_MAJOR_VERSION, 4): QT += concurrent
     CONFIG(static) {
         DEFINES += QBT_STATIC_QT
         QTPLUGIN += qico
@@ -56,7 +61,7 @@ win32: DEFINES += NOMINMAX
 INCLUDEPATH += $$PWD
 
 include(app/app.pri)
-include(core/core.pri)
+include(base/base.pri)
 !nowebui: include(webui/webui.pri)
 !nogui {
     include(gui/gui.pri)
@@ -80,6 +85,7 @@ TRANSLATIONS = \
     $$LANG_PATH/qbittorrent_en_GB.ts \
     $$LANG_PATH/qbittorrent_ca.ts \
     $$LANG_PATH/qbittorrent_es.ts \
+    $$LANG_PATH/qbittorrent_eo.ts \
     $$LANG_PATH/qbittorrent_pl.ts \
     $$LANG_PATH/qbittorrent_ko.ts \
     $$LANG_PATH/qbittorrent_de.ts \

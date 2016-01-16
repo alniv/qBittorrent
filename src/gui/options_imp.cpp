@@ -42,14 +42,14 @@
 
 #include <cstdlib>
 #include "options_imp.h"
-#include "core/preferences.h"
-#include "core/utils/fs.h"
+#include "base/preferences.h"
+#include "base/utils/fs.h"
 #include "advancedsettings.h"
-#include "core/scanfoldersmodel.h"
-#include "core/bittorrent/session.h"
+#include "base/scanfoldersmodel.h"
+#include "base/bittorrent/session.h"
 #include "guiiconprovider.h"
-#include "core/net/dnsupdater.h"
-#include "core/unicodestrings.h"
+#include "base/net/dnsupdater.h"
+#include "base/unicodestrings.h"
 
 #ifndef QT_NO_OPENSSL
 #include <QSslKey>
@@ -90,7 +90,7 @@ options_imp::options_imp(QWidget *parent)
         }
     }
 
-#if (QT_VERSION < QT_VERSION_CHECK(5, 0, 0))
+#ifndef QBT_USES_QT5
     scanFoldersView->horizontalHeader()->setResizeMode(QHeaderView::ResizeToContents);
 #else
     scanFoldersView->horizontalHeader()->setSectionResizeMode(QHeaderView::ResizeToContents);
@@ -184,10 +184,10 @@ options_imp::options_imp(QWidget *parent)
     autoRun_param->setText(QString::fromUtf8("%1\n    %2\n    %3\n    %4\n    %5\n    %6\n    %7\n    %8\n    %9\n    %10")
                            .arg(tr("Supported parameters (case sensitive):"))
                            .arg(tr("%N: Torrent name"))
-                           .arg(tr("%F: Downloaded file name (single-file torrent only)"))
                            .arg(tr("%L: Label"))
+                           .arg(tr("%F: Content path (same as root path for multifile torrent)"))
+                           .arg(tr("%R: Root path (first torrent subdirectory path)"))
                            .arg(tr("%D: Save path"))
-                           .arg(tr("%K: \"single\"|\"multi\" file(s)"))
                            .arg(tr("%C: Number of files"))
                            .arg(tr("%Z: Torrent size (bytes)"))
                            .arg(tr("%T: Current tracker"))
@@ -249,6 +249,8 @@ options_imp::options_imp(QWidget *parent)
     connect(spinMaxActiveUploads, SIGNAL(valueChanged(QString)), this, SLOT(enableApplyButton()));
     connect(spinMaxActiveTorrents, SIGNAL(valueChanged(QString)), this, SLOT(enableApplyButton()));
     connect(checkIgnoreSlowTorrentsForQueueing, SIGNAL(toggled(bool)), this, SLOT(enableApplyButton()));
+    connect(checkEnableAddTrackers, SIGNAL(toggled(bool)), this, SLOT(enableApplyButton()));
+    connect(textTrackers, SIGNAL(textChanged()), this, SLOT(enableApplyButton()));
 #ifndef DISABLE_WEBUI
     // Web UI tab
     connect(checkWebUi, SIGNAL(toggled(bool)), this, SLOT(enableApplyButton()));
@@ -468,8 +470,10 @@ void options_imp::saveOptions()
     pref->setLSDEnabled(isLSDEnabled());
     pref->setEncryptionSetting(getEncryptionSetting());
     pref->enableAnonymousMode(checkAnonymousMode->isChecked());
+    pref->setAddTrackersEnabled(checkEnableAddTrackers->isChecked());
+    pref->setTrackersList(textTrackers->toPlainText());
     pref->setGlobalMaxRatio(getMaxRatio());
-    pref->setMaxRatioAction(comboRatioLimitAct->currentIndex());
+    pref->setMaxRatioAction(static_cast<MaxRatioAction>(comboRatioLimitAct->currentIndex()));
     // End Bittorrent preferences
     // Misc preferences
     // * IPFilter
@@ -783,6 +787,8 @@ void options_imp::loadOptions()
     checkLSD->setChecked(pref->isLSDEnabled());
     comboEncryption->setCurrentIndex(pref->getEncryptionSetting());
     checkAnonymousMode->setChecked(pref->isAnonymousModeEnabled());
+    checkEnableAddTrackers->setChecked(pref->isAddTrackersEnabled());
+    textTrackers->setPlainText(pref->getTrackersList());
 
     checkEnableQueueing->setChecked(pref->isQueueingSystemEnabled());
     spinMaxActiveDownloads->setValue(pref->getMaxActiveDownloads());
@@ -804,7 +810,7 @@ void options_imp::loadOptions()
         spinMaxRatio->setEnabled(false);
         comboRatioLimitAct->setEnabled(false);
     }
-    comboRatioLimitAct->setCurrentIndex(pref->getMaxRatioAction());
+    comboRatioLimitAct->setCurrentIndex(static_cast<int>(pref->getMaxRatioAction()));
     // End Bittorrent preferences
 
     // Web UI preferences
@@ -994,10 +1000,9 @@ void options_imp::on_buttonBox_accepted()
             tabSelection->setCurrentRow(TAB_SPEED);
             return;
         }
-        saveOptions();
         applyButton->setEnabled(false);
         this->hide();
-        emit status_changed();
+        saveOptions();
     }
     saveWindowState();
     accept();
@@ -1011,7 +1016,6 @@ void options_imp::applySettings(QAbstractButton* button)
             return;
         }
         saveOptions();
-        emit status_changed();
     }
 }
 
@@ -1196,7 +1200,7 @@ void options_imp::on_addScanFolderButton_clicked()
     const QString dir = QFileDialog::getExistingDirectory(this, tr("Add directory to scan"),
                                                           Utils::Fs::toNativePath(Utils::Fs::folderName(pref->getScanDirsLastPath())));
     if (!dir.isEmpty()) {
-        const ScanFoldersModel::PathStatus status = ScanFoldersModel::instance()->addPath(dir, false);
+        const ScanFoldersModel::PathStatus status = ScanFoldersModel::instance()->addPath(dir, true, "");
         QString error;
         switch (status) {
         case ScanFoldersModel::AlreadyInList:
@@ -1397,6 +1401,7 @@ QString options_imp::languageToLocalizedString(const QLocale &locale)
             return QString::fromUtf8(C_LOCALE_ENGLISH_UNITEDKINGDOM);
         return QString::fromUtf8(C_LOCALE_ENGLISH);
     }
+    case QLocale::Esperanto: return QString::fromUtf8(C_LOCALE_ESPERANTO);
     case QLocale::French: return QString::fromUtf8(C_LOCALE_FRENCH);
     case QLocale::German: return QString::fromUtf8(C_LOCALE_GERMAN);
     case QLocale::Hungarian: return QString::fromUtf8(C_LOCALE_HUNGARIAN);

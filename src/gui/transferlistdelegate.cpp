@@ -34,15 +34,15 @@
 #include <QStyleOptionViewItemV2>
 #include <QApplication>
 #include <QPainter>
-#include "core/utils/misc.h"
-#include "core/utils/string.h"
+#include "base/utils/misc.h"
+#include "base/utils/string.h"
 #include "torrentmodel.h"
-#include "core/bittorrent/session.h"
-#include "core/bittorrent/torrenthandle.h"
-#include "core/unicodestrings.h"
+#include "base/bittorrent/session.h"
+#include "base/bittorrent/torrenthandle.h"
+#include "base/unicodestrings.h"
 
 #ifdef Q_OS_WIN
-#if (QT_VERSION < QT_VERSION_CHECK(5, 0, 0))
+#ifndef QBT_USES_QT5
 #include <QPlastiqueStyle>
 #else
 #include <QProxyStyle>
@@ -135,8 +135,11 @@ void TransferListDelegate::paint(QPainter * painter, const QStyleOptionViewItem 
       case BitTorrent::TorrentState::PausedUploading:
         display = tr("Completed");
         break;
+      case BitTorrent::TorrentState::MissingFiles:
+          display = tr("Missing Files");
+          break;
       case BitTorrent::TorrentState::Error:
-        display = tr("Missing Files");
+        display = tr("Errored", "torrent status, the torrent has an error");
         break;
       default:
          display = "";
@@ -211,7 +214,7 @@ void TransferListDelegate::paint(QPainter * painter, const QStyleOptionViewItem 
       QApplication::style()->drawControl(QStyle::CE_ProgressBar, &newopt, painter);
 #else
       // XXX: To avoid having the progress text on the right of the bar
-#if (QT_VERSION < QT_VERSION_CHECK(5, 0, 0))
+#ifndef QBT_USES_QT5
         QPlastiqueStyle st;
 #else
         QProxyStyle st("fusion");

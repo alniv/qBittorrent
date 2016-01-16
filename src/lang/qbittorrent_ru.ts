@@ -125,217 +125,222 @@
         <translation>Не проверять контрольную сумму</translation>
     </message>
     <message>
-        <location filename="../gui/addnewtorrentdialog.ui" line="136"/>
+        <location filename="../gui/addnewtorrentdialog.ui" line="133"/>
+        <source>Set as default label</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../gui/addnewtorrentdialog.ui" line="143"/>
         <source>Torrent Information</source>
         <translation>Сведения о торренте</translation>
     </message>
     <message>
-        <location filename="../gui/addnewtorrentdialog.ui" line="144"/>
+        <location filename="../gui/addnewtorrentdialog.ui" line="151"/>
         <source>Size:</source>
         <translation>Размер:</translation>
     </message>
     <message>
-        <location filename="../gui/addnewtorrentdialog.ui" line="158"/>
+        <location filename="../gui/addnewtorrentdialog.ui" line="165"/>
         <source>Comment:</source>
         <translation>Комментарий:</translation>
     </message>
     <message>
-        <location filename="../gui/addnewtorrentdialog.ui" line="172"/>
+        <location filename="../gui/addnewtorrentdialog.ui" line="191"/>
         <source>Date:</source>
         <translation>Дата:</translation>
     </message>
     <message>
-        <location filename="../gui/addnewtorrentdialog.ui" line="186"/>
+        <location filename="../gui/addnewtorrentdialog.ui" line="205"/>
         <source>Info Hash:</source>
         <translation>Хеш:</translation>
     </message>
     <message>
-        <location filename="../gui/addnewtorrentdialog.ui" line="277"/>
+        <location filename="../gui/addnewtorrentdialog.ui" line="296"/>
         <source>Normal</source>
         <translation>Обычный</translation>
     </message>
     <message>
-        <location filename="../gui/addnewtorrentdialog.ui" line="282"/>
+        <location filename="../gui/addnewtorrentdialog.ui" line="301"/>
         <source>High</source>
         <translation>Высокий</translation>
     </message>
     <message>
-        <location filename="../gui/addnewtorrentdialog.ui" line="287"/>
+        <location filename="../gui/addnewtorrentdialog.ui" line="306"/>
         <source>Maximum</source>
         <translation>Высший</translation>
     </message>
     <message>
-        <location filename="../gui/addnewtorrentdialog.ui" line="292"/>
+        <location filename="../gui/addnewtorrentdialog.ui" line="311"/>
         <source>Do not download</source>
         <translation>Не загружать</translation>
     </message>
     <message>
-        <location filename="../gui/addnewtorrentdialog.cpp" line="165"/>
-        <location filename="../gui/addnewtorrentdialog.cpp" line="636"/>
+        <location filename="../gui/addnewtorrentdialog.cpp" line="172"/>
+        <location filename="../gui/addnewtorrentdialog.cpp" line="646"/>
         <source>I/O Error</source>
         <translation>Ошибка ввода/вывода</translation>
     </message>
     <message>
-        <location filename="../gui/addnewtorrentdialog.cpp" line="165"/>
+        <location filename="../gui/addnewtorrentdialog.cpp" line="172"/>
         <source>The torrent file does not exist.</source>
         <translation>Торрент-файл не существует.</translation>
     </message>
     <message>
-        <location filename="../gui/addnewtorrentdialog.cpp" line="173"/>
+        <location filename="../gui/addnewtorrentdialog.cpp" line="180"/>
         <source>Invalid torrent</source>
         <translation>Некорректный торрент</translation>
     </message>
     <message>
-        <location filename="../gui/addnewtorrentdialog.cpp" line="173"/>
+        <location filename="../gui/addnewtorrentdialog.cpp" line="180"/>
         <source>Failed to load the torrent: %1</source>
         <translation>Не удалось загрузить торрент: %1</translation>
     </message>
     <message>
-        <location filename="../gui/addnewtorrentdialog.cpp" line="185"/>
-        <location filename="../gui/addnewtorrentdialog.cpp" line="213"/>
+        <location filename="../gui/addnewtorrentdialog.cpp" line="192"/>
+        <location filename="../gui/addnewtorrentdialog.cpp" line="220"/>
         <source>Already in download list</source>
         <translation>Уже присутствует в списке загрузок</translation>
     </message>
     <message>
-        <location filename="../gui/addnewtorrentdialog.cpp" line="333"/>
+        <location filename="../gui/addnewtorrentdialog.cpp" line="340"/>
         <source>Free disk space: %1</source>
         <translation>Свободно на диске: %1</translation>
     </message>
     <message>
-        <location filename="../gui/addnewtorrentdialog.cpp" line="662"/>
+        <location filename="../gui/addnewtorrentdialog.cpp" line="672"/>
         <source>Not Available</source>
         <comment>This comment is unavailable</comment>
         <translation>Недоступно</translation>
     </message>
     <message>
-        <location filename="../gui/addnewtorrentdialog.cpp" line="663"/>
+        <location filename="../gui/addnewtorrentdialog.cpp" line="673"/>
         <source>Not Available</source>
         <comment>This date is unavailable</comment>
         <translation>Недоступно</translation>
     </message>
     <message>
-        <location filename="../gui/addnewtorrentdialog.cpp" line="672"/>
+        <location filename="../gui/addnewtorrentdialog.cpp" line="681"/>
         <source>Not available</source>
         <translation>Недоступно</translation>
     </message>
     <message>
-        <location filename="../gui/addnewtorrentdialog.cpp" line="202"/>
+        <location filename="../gui/addnewtorrentdialog.cpp" line="209"/>
         <source>Invalid magnet link</source>
         <translation>Некорректная magnet-ссылка</translation>
     </message>
     <message>
-        <location filename="../gui/addnewtorrentdialog.cpp" line="185"/>
+        <location filename="../gui/addnewtorrentdialog.cpp" line="192"/>
         <source>Torrent is already in download list. Trackers were merged.</source>
         <translation>Торрент уже присутствует в списке загрузок. Трекеры были объединены.</translation>
     </message>
     <message>
-        <location filename="../gui/addnewtorrentdialog.cpp" line="188"/>
-        <location filename="../gui/addnewtorrentdialog.cpp" line="216"/>
+        <location filename="../gui/addnewtorrentdialog.cpp" line="195"/>
+        <location filename="../gui/addnewtorrentdialog.cpp" line="223"/>
         <source>Cannot add torrent</source>
         <translation>Нельзя добавить торрент</translation>
     </message>
     <message>
-        <location filename="../gui/addnewtorrentdialog.cpp" line="188"/>
+        <location filename="../gui/addnewtorrentdialog.cpp" line="195"/>
         <source>Cannot add this torrent. Perhaps it is already in adding state.</source>
         <translation>Нельзя добавить этот торрент. Возможно, он уже в состоянии добавления.</translation>
     </message>
     <message>
-        <location filename="../gui/addnewtorrentdialog.cpp" line="202"/>
+        <location filename="../gui/addnewtorrentdialog.cpp" line="209"/>
         <source>This magnet link was not recognized</source>
         <translation>Magnet-ссылка не распознана</translation>
     </message>
     <message>
-        <location filename="../gui/addnewtorrentdialog.cpp" line="213"/>
+        <location filename="../gui/addnewtorrentdialog.cpp" line="220"/>
         <source>Magnet link is already in download list. Trackers were merged.</source>
         <translation>Magnet-ссылка уже присутствует в списке загрузок. Трекеры были объединены.</translation>
     </message>
     <message>
-        <location filename="../gui/addnewtorrentdialog.cpp" line="216"/>
+        <location filename="../gui/addnewtorrentdialog.cpp" line="223"/>
         <source>Cannot add this torrent. Perhaps it is already in adding.</source>
         <translation>Нельзя добавить этот торрент. Возможно, он уже добавляется.</translation>
     </message>
     <message>
-        <location filename="../gui/addnewtorrentdialog.cpp" line="225"/>
+        <location filename="../gui/addnewtorrentdialog.cpp" line="232"/>
         <source>Magnet link</source>
         <translation>Magnet-ссылка</translation>
     </message>
     <message>
-        <location filename="../gui/addnewtorrentdialog.cpp" line="232"/>
+        <location filename="../gui/addnewtorrentdialog.cpp" line="239"/>
         <source>Retrieving metadata...</source>
         <translation>Получение метаданных…</translation>
     </message>
     <message>
-        <location filename="../gui/addnewtorrentdialog.cpp" line="331"/>
+        <location filename="../gui/addnewtorrentdialog.cpp" line="338"/>
         <source>Not Available</source>
         <comment>This size is unavailable.</comment>
         <translation>Недоступно</translation>
     </message>
     <message>
-        <location filename="../gui/addnewtorrentdialog.cpp" line="362"/>
-        <location filename="../gui/addnewtorrentdialog.cpp" line="370"/>
-        <location filename="../gui/addnewtorrentdialog.cpp" line="372"/>
+        <location filename="../gui/addnewtorrentdialog.cpp" line="369"/>
+        <location filename="../gui/addnewtorrentdialog.cpp" line="377"/>
+        <location filename="../gui/addnewtorrentdialog.cpp" line="379"/>
         <source>Choose save path</source>
         <translation>Выберите путь сохранения</translation>
     </message>
     <message>
-        <location filename="../gui/addnewtorrentdialog.cpp" line="421"/>
+        <location filename="../gui/addnewtorrentdialog.cpp" line="428"/>
         <source>Rename the file</source>
         <translation>Переименовать файл</translation>
     </message>
     <message>
-        <location filename="../gui/addnewtorrentdialog.cpp" line="422"/>
+        <location filename="../gui/addnewtorrentdialog.cpp" line="429"/>
         <source>New name:</source>
         <translation>Новое имя:</translation>
     </message>
     <message>
-        <location filename="../gui/addnewtorrentdialog.cpp" line="426"/>
-        <location filename="../gui/addnewtorrentdialog.cpp" line="451"/>
+        <location filename="../gui/addnewtorrentdialog.cpp" line="433"/>
+        <location filename="../gui/addnewtorrentdialog.cpp" line="458"/>
         <source>The file could not be renamed</source>
         <translation>Файл не может быть переименован</translation>
     </message>
     <message>
-        <location filename="../gui/addnewtorrentdialog.cpp" line="427"/>
+        <location filename="../gui/addnewtorrentdialog.cpp" line="434"/>
         <source>This file name contains forbidden characters, please choose a different one.</source>
         <translation>Имя файла содержит недопустимые символы. Пожалуйста, выберите другое.</translation>
     </message>
     <message>
-        <location filename="../gui/addnewtorrentdialog.cpp" line="452"/>
-        <location filename="../gui/addnewtorrentdialog.cpp" line="485"/>
+        <location filename="../gui/addnewtorrentdialog.cpp" line="459"/>
+        <location filename="../gui/addnewtorrentdialog.cpp" line="492"/>
         <source>This name is already in use in this folder. Please use a different name.</source>
         <translation>Файл с таким именем уже существует в этой папке. Пожалуйста, задайте другое.</translation>
     </message>
     <message>
-        <location filename="../gui/addnewtorrentdialog.cpp" line="484"/>
+        <location filename="../gui/addnewtorrentdialog.cpp" line="491"/>
         <source>The folder could not be renamed</source>
         <translation>Папка не может быть переименована</translation>
     </message>
     <message>
-        <location filename="../gui/addnewtorrentdialog.cpp" line="541"/>
+        <location filename="../gui/addnewtorrentdialog.cpp" line="548"/>
         <source>Rename...</source>
         <translation>Переименовать…</translation>
     </message>
     <message>
-        <location filename="../gui/addnewtorrentdialog.cpp" line="545"/>
+        <location filename="../gui/addnewtorrentdialog.cpp" line="552"/>
         <source>Priority</source>
         <translation>Приоритет</translation>
     </message>
     <message>
-        <location filename="../gui/addnewtorrentdialog.cpp" line="637"/>
+        <location filename="../gui/addnewtorrentdialog.cpp" line="647"/>
         <source>Invalid metadata</source>
         <translation>Некорректные метаданные</translation>
     </message>
     <message>
-        <location filename="../gui/addnewtorrentdialog.cpp" line="644"/>
+        <location filename="../gui/addnewtorrentdialog.cpp" line="654"/>
         <source>Parsing metadata...</source>
         <translation>Анализ метаданных…</translation>
     </message>
     <message>
-        <location filename="../gui/addnewtorrentdialog.cpp" line="648"/>
+        <location filename="../gui/addnewtorrentdialog.cpp" line="658"/>
         <source>Metadata retrieval complete</source>
         <translation>Получение метаданных завершено</translation>
     </message>
     <message>
-        <location filename="../gui/addnewtorrentdialog.cpp" line="709"/>
+        <location filename="../gui/addnewtorrentdialog.cpp" line="718"/>
         <source>Download Error</source>
         <translation>Ошибка загрузки</translation>
     </message>
@@ -343,7 +348,7 @@
 <context>
     <name>AdvancedSettings</name>
     <message>
-        <location filename="../gui/advancedsettings.h" line="220"/>
+        <location filename="../gui/advancedsettings.h" line="219"/>
         <source>Disk write cache size</source>
         <translation>Кеш для записи на диск</translation>
     </message>
@@ -353,27 +358,27 @@
         <translation>МБ</translation>
     </message>
     <message>
-        <location filename="../gui/advancedsettings.h" line="240"/>
+        <location filename="../gui/advancedsettings.h" line="239"/>
         <source>Outgoing ports (Min) [0: Disabled]</source>
         <translation>Исходящие порты (Мин) [0: Отключено]</translation>
     </message>
     <message>
-        <location filename="../gui/advancedsettings.h" line="245"/>
+        <location filename="../gui/advancedsettings.h" line="244"/>
         <source>Outgoing ports (Max) [0: Disabled]</source>
         <translation>Исходящие порты (Макс) [0: Отключено]</translation>
     </message>
     <message>
-        <location filename="../gui/advancedsettings.h" line="248"/>
+        <location filename="../gui/advancedsettings.h" line="247"/>
         <source>Recheck torrents on completion</source>
         <translation>Перепроверить торрент по окончании</translation>
     </message>
     <message>
-        <location filename="../gui/advancedsettings.h" line="254"/>
+        <location filename="../gui/advancedsettings.h" line="253"/>
         <source>Transfer list refresh interval</source>
         <translation>Интервал обновления списка торрентов</translation>
     </message>
     <message>
-        <location filename="../gui/advancedsettings.h" line="253"/>
+        <location filename="../gui/advancedsettings.h" line="252"/>
         <source> ms</source>
         <comment> milliseconds</comment>
         <translation> мс</translation>
@@ -395,111 +400,115 @@
         <translation> (авто)</translation>
     </message>
     <message>
-        <location filename="../gui/advancedsettings.h" line="225"/>
+        <location filename="../gui/advancedsettings.h" line="224"/>
         <source> s</source>
         <comment> seconds</comment>
         <translation> с</translation>
     </message>
     <message>
-        <location filename="../gui/advancedsettings.h" line="226"/>
+        <location filename="../gui/advancedsettings.h" line="225"/>
         <source>Disk cache expiry interval</source>
         <translation>Интервал очистки дискового кеша</translation>
     </message>
     <message>
-        <location filename="../gui/advancedsettings.h" line="229"/>
+        <location filename="../gui/advancedsettings.h" line="228"/>
         <source>Enable OS cache</source>
         <translation>Разрешить кэш ОС</translation>
     </message>
     <message>
-        <location filename="../gui/advancedsettings.h" line="234"/>
+        <location filename="../gui/advancedsettings.h" line="233"/>
         <source> m</source>
         <comment> minutes</comment>
         <translation>мин</translation>
     </message>
     <message>
-        <location filename="../gui/advancedsettings.h" line="257"/>
+        <location filename="../gui/advancedsettings.h" line="256"/>
         <source>Resolve peer countries (GeoIP)</source>
         <translation>Определять страну пира (GeoIP)</translation>
     </message>
     <message>
-        <location filename="../gui/advancedsettings.h" line="260"/>
+        <location filename="../gui/advancedsettings.h" line="259"/>
         <source>Resolve peer host names</source>
         <translation>Определять имя хоста пира</translation>
     </message>
     <message>
-        <location filename="../gui/advancedsettings.h" line="265"/>
         <source>Maximum number of half-open connections [0: Disabled]</source>
-        <translation>Макс. кол-во полуоткрытых соединений [0: Откл.]</translation>
+        <translation type="obsolete">Макс. кол-во полуоткрытых соединений [0: Откл.]</translation>
     </message>
     <message>
-        <location filename="../gui/advancedsettings.h" line="268"/>
+        <location filename="../gui/advancedsettings.h" line="267"/>
         <source>Strict super seeding</source>
         <translation>Строгий суперсид</translation>
     </message>
     <message>
-        <location filename="../gui/advancedsettings.h" line="288"/>
+        <location filename="../gui/advancedsettings.h" line="287"/>
         <source>Network Interface (requires restart)</source>
         <translation>Сетевой интерфейс (требуется перезапуск)</translation>
     </message>
     <message>
-        <location filename="../gui/advancedsettings.h" line="291"/>
+        <location filename="../gui/advancedsettings.h" line="290"/>
         <source>Listen on IPv6 address (requires restart)</source>
         <translation>Слушать адрес IPv6 (требуется перезапуск)</translation>
     </message>
     <message>
-        <location filename="../gui/advancedsettings.h" line="316"/>
+        <location filename="../gui/advancedsettings.h" line="315"/>
         <source>Confirm torrent recheck</source>
         <translation>Подтверждать перепроверку торрента</translation>
     </message>
     <message>
-        <location filename="../gui/advancedsettings.h" line="319"/>
+        <location filename="../gui/advancedsettings.h" line="318"/>
         <source>Exchange trackers with other peers</source>
         <translation>Обмениваться трекерами с другими пирами</translation>
     </message>
     <message>
-        <location filename="../gui/advancedsettings.h" line="322"/>
+        <location filename="../gui/advancedsettings.h" line="321"/>
         <source>Always announce to all trackers</source>
         <translation>Всегда анонсировать на все трекеры</translation>
     </message>
     <message>
-        <location filename="../gui/advancedsettings.h" line="270"/>
+        <location filename="../gui/advancedsettings.h" line="269"/>
         <source>Any interface</source>
         <comment>i.e. Any network interface</comment>
         <translation>Любой интерфейс</translation>
     </message>
     <message>
-        <location filename="../gui/advancedsettings.h" line="235"/>
+        <location filename="../gui/advancedsettings.h" line="234"/>
         <source>Save resume data interval</source>
         <comment>How often the fastresume file is saved.</comment>
         <translation>Период сохранения данных о загрузках</translation>
     </message>
     <message>
-        <location filename="../gui/advancedsettings.h" line="294"/>
+        <location filename="../gui/advancedsettings.h" line="264"/>
+        <source>Maximum number of half-open connections [0: Unlimited]</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../gui/advancedsettings.h" line="293"/>
         <source>IP Address to report to trackers (requires restart)</source>
         <translation>IP для сообщения трекерам (требуется перезапуск)</translation>
     </message>
     <message>
-        <location filename="../gui/advancedsettings.h" line="297"/>
+        <location filename="../gui/advancedsettings.h" line="296"/>
         <source>Display program on-screen notifications</source>
         <translation>Показывать экранные уведомления</translation>
     </message>
     <message>
-        <location filename="../gui/advancedsettings.h" line="300"/>
+        <location filename="../gui/advancedsettings.h" line="299"/>
         <source>Enable embedded tracker</source>
         <translation>Включить встроенный трекер</translation>
     </message>
     <message>
-        <location filename="../gui/advancedsettings.h" line="305"/>
+        <location filename="../gui/advancedsettings.h" line="304"/>
         <source>Embedded tracker port</source>
         <translation>Порт встроенного трекера</translation>
     </message>
     <message>
-        <location filename="../gui/advancedsettings.h" line="308"/>
+        <location filename="../gui/advancedsettings.h" line="307"/>
         <source>Check for software updates</source>
         <translation>Проверять обновления</translation>
     </message>
     <message>
-        <location filename="../gui/advancedsettings.h" line="312"/>
+        <location filename="../gui/advancedsettings.h" line="311"/>
         <source>Use system icon theme</source>
         <translation>Использовать системные иконки</translation>
     </message>
@@ -513,32 +522,32 @@
         <translation>qBittorrent %1 запущен</translation>
     </message>
     <message>
-        <location filename="../app/application.cpp" line="263"/>
+        <location filename="../app/application.cpp" line="262"/>
         <source>Information</source>
         <translation>Информация</translation>
     </message>
     <message>
-        <location filename="../app/application.cpp" line="264"/>
+        <location filename="../app/application.cpp" line="263"/>
         <source>To control qBittorrent, access the Web UI at http://localhost:%1</source>
         <translation>Для управления qBittorrent откройте веб-интерфейс: http://localhost:%1</translation>
     </message>
     <message>
-        <location filename="../app/application.cpp" line="265"/>
+        <location filename="../app/application.cpp" line="264"/>
         <source>The Web UI administrator user name is: %1</source>
         <translation>Имя администратора веб-интерфейса: %1</translation>
     </message>
     <message>
-        <location filename="../app/application.cpp" line="268"/>
+        <location filename="../app/application.cpp" line="267"/>
         <source>The Web UI administrator password is still the default one: %1</source>
         <translation>Пароль администратора веб-интерфейса всё ещё стандартный: %1</translation>
     </message>
     <message>
-        <location filename="../app/application.cpp" line="269"/>
+        <location filename="../app/application.cpp" line="268"/>
         <source>This is a security risk, please consider changing your password from program preferences.</source>
         <translation>Это не безопасно, пожалуйста, измените ваш пароль в настройках программы.</translation>
     </message>
     <message>
-        <location filename="../app/application.cpp" line="443"/>
+        <location filename="../app/application.cpp" line="442"/>
         <source>Saving torrent progress...</source>
         <translation>Сохранение состояния торрента…</translation>
     </message>
@@ -546,311 +555,311 @@
 <context>
     <name>AutomatedRssDownloader</name>
     <message>
-        <location filename="../gui/rss/automatedrssdownloader.ui" line="14"/>
-        <source>Automated RSS Downloader</source>
-        <translation>Автоматический загрузчик RSS</translation>
-    </message>
-    <message>
-        <location filename="../gui/rss/automatedrssdownloader.ui" line="26"/>
-        <source>Enable the automated RSS downloader</source>
-        <translation>Включить автоматический загрузчик RSS</translation>
-    </message>
-    <message>
-        <location filename="../gui/rss/automatedrssdownloader.ui" line="48"/>
-        <source>Download rules</source>
-        <translation>Правила загрузки</translation>
-    </message>
-    <message>
-        <location filename="../gui/rss/automatedrssdownloader.ui" line="123"/>
-        <source>Rule definition</source>
-        <translation>Описание правила</translation>
-    </message>
-    <message>
-        <location filename="../gui/rss/automatedrssdownloader.ui" line="138"/>
-        <source>Must contain:</source>
-        <translation>Должно содержать:</translation>
-    </message>
-    <message>
-        <location filename="../gui/rss/automatedrssdownloader.ui" line="180"/>
-        <source>Must not contain:</source>
-        <translation>Не должно содержать:</translation>
-    </message>
-    <message>
-        <location filename="../gui/rss/automatedrssdownloader.ui" line="129"/>
-        <source>Use regular expressions</source>
-        <translation>Использовать регулярные выражения</translation>
-    </message>
-    <message>
-        <location filename="../gui/rss/automatedrssdownloader.ui" line="494"/>
-        <source>Import...</source>
-        <translation>Импорт…</translation>
-    </message>
-    <message>
-        <location filename="../gui/rss/automatedrssdownloader.ui" line="501"/>
-        <source>Export...</source>
-        <translation>Экспорт…</translation>
-    </message>
-    <message>
-        <location filename="../gui/rss/automatedrssdownloader.ui" line="272"/>
-        <source>Assign label:</source>
-        <translation>Присвоить метку:</translation>
-    </message>
-    <message>
-        <location filename="../gui/rss/automatedrssdownloader.ui" line="254"/>
-        <source>Episode filter:</source>
-        <translation>Фильтр эпизодов:</translation>
-    </message>
-    <message>
-        <location filename="../gui/rss/automatedrssdownloader.ui" line="291"/>
-        <source>Save to a different directory</source>
-        <translation>Сохранить в другую папку</translation>
-    </message>
-    <message>
-        <location filename="../gui/rss/automatedrssdownloader.ui" line="303"/>
+        <location filename="../gui/rss/automatedrssdownloader.ui" line="208"/>
         <source>Save to:</source>
         <translation>Сохранить в:</translation>
     </message>
     <message>
-        <location filename="../gui/rss/automatedrssdownloader.ui" line="338"/>
-        <source>Ignore subsequent matches for (0 to disable)</source>
+        <location filename="../gui/rss/automatedrssdownloader.ui" line="14"/>
+        <source>RSS Downloader</source>
+        <translation>Загрузчик RSS</translation>
+    </message>
+    <message>
+        <location filename="../gui/rss/automatedrssdownloader.ui" line="26"/>
+        <source>Enable Automated RSS Downloader</source>
+        <translation>Включить автоматический загрузчик RSS</translation>
+    </message>
+    <message>
+        <location filename="../gui/rss/automatedrssdownloader.ui" line="48"/>
+        <source>Download Rules</source>
+        <translation>Правила загрузки</translation>
+    </message>
+    <message>
+        <location filename="../gui/rss/automatedrssdownloader.ui" line="88"/>
+        <source>Rule Definition</source>
+        <translation>Описание правила</translation>
+    </message>
+    <message>
+        <location filename="../gui/rss/automatedrssdownloader.ui" line="94"/>
+        <source>Use Regular Expressions</source>
+        <translation>Использовать регулярные выражения</translation>
+    </message>
+    <message>
+        <location filename="../gui/rss/automatedrssdownloader.ui" line="103"/>
+        <source>Must Contain:</source>
+        <translation>Должно содержать</translation>
+    </message>
+    <message>
+        <location filename="../gui/rss/automatedrssdownloader.ui" line="110"/>
+        <source>Must Not Contain:</source>
+        <translation>Не должно содержать</translation>
+    </message>
+    <message>
+        <location filename="../gui/rss/automatedrssdownloader.ui" line="117"/>
+        <source>Episode Filter:</source>
+        <translation>Фильтр эпизодов</translation>
+    </message>
+    <message>
+        <location filename="../gui/rss/automatedrssdownloader.ui" line="180"/>
+        <source>Assign Label:</source>
+        <translation>Присвоить метку</translation>
+    </message>
+    <message>
+        <location filename="../gui/rss/automatedrssdownloader.ui" line="196"/>
+        <source>Save to a Different Directory</source>
+        <translation>Сохранить в другую папку</translation>
+    </message>
+    <message>
+        <location filename="../gui/rss/automatedrssdownloader.ui" line="236"/>
+        <source>Ignore Subsequent Matches for (0 to Disable)</source>
         <comment>... X days</comment>
         <translation>Игнорировать последующие совпадения для (0 - отключено)</translation>
     </message>
     <message>
-        <location filename="../gui/rss/automatedrssdownloader.ui" line="361"/>
+        <location filename="../gui/rss/automatedrssdownloader.ui" line="246"/>
         <source> days</source>
         <translation>дней</translation>
     </message>
     <message>
-        <location filename="../gui/rss/automatedrssdownloader.ui" line="402"/>
+        <location filename="../gui/rss/automatedrssdownloader.ui" line="276"/>
         <source>Add Paused:</source>
         <translation>Добавить приостановленные:</translation>
     </message>
     <message>
-        <location filename="../gui/rss/automatedrssdownloader.ui" line="416"/>
-        <source>Use global setting</source>
+        <location filename="../gui/rss/automatedrssdownloader.ui" line="284"/>
+        <source>Use global settings</source>
         <translation>Использовать глобальные настройки</translation>
     </message>
     <message>
-        <location filename="../gui/rss/automatedrssdownloader.ui" line="421"/>
-        <source>Always add paused</source>
-        <translation>Всегда добавлять приостановленным</translation>
+        <location filename="../gui/rss/automatedrssdownloader.ui" line="289"/>
+        <source>Always</source>
+        <translation>Всегда</translation>
     </message>
     <message>
-        <location filename="../gui/rss/automatedrssdownloader.ui" line="426"/>
-        <source>Never add paused</source>
-        <translation>Никогда не добавлять приостановленным</translation>
+        <location filename="../gui/rss/automatedrssdownloader.ui" line="294"/>
+        <source>Never</source>
+        <translation>Никогда</translation>
     </message>
     <message>
-        <location filename="../gui/rss/automatedrssdownloader.ui" line="447"/>
-        <source>Apply rule to feeds:</source>
+        <location filename="../gui/rss/automatedrssdownloader.ui" line="315"/>
+        <source>Apply Rule to Feeds:</source>
         <translation>Применить правило к каналам:</translation>
     </message>
     <message>
-        <location filename="../gui/rss/automatedrssdownloader.ui" line="469"/>
-        <source>Matching RSS articles</source>
+        <location filename="../gui/rss/automatedrssdownloader.ui" line="337"/>
+        <source>Matching RSS Articles</source>
         <translation>Подходящие RSS заголовки</translation>
     </message>
     <message>
-        <location filename="../gui/rss/automatedrssdownloader.cpp" line="76"/>
+        <location filename="../gui/rss/automatedrssdownloader.ui" line="362"/>
+        <source>&amp;Import...</source>
+        <translation>&amp;Импорт...</translation>
+    </message>
+    <message>
+        <location filename="../gui/rss/automatedrssdownloader.ui" line="369"/>
+        <source>&amp;Export...</source>
+        <translation>&amp;Экспорт...</translation>
+    </message>
+    <message>
+        <location filename="../gui/rss/automatedrssdownloader.cpp" line="77"/>
         <source>Matches articles based on episode filter.</source>
         <translation>Указывает на статьи, основанные на фильтре эпизодов</translation>
     </message>
     <message>
-        <location filename="../gui/rss/automatedrssdownloader.cpp" line="76"/>
+        <location filename="../gui/rss/automatedrssdownloader.cpp" line="77"/>
         <source>Example: </source>
         <translation>Пример:</translation>
     </message>
     <message>
-        <location filename="../gui/rss/automatedrssdownloader.cpp" line="77"/>
+        <location filename="../gui/rss/automatedrssdownloader.cpp" line="78"/>
         <source> will match 2, 5, 8 through 15, 30 and onward episodes of season one</source>
         <comment>example X will match</comment>
         <translation>указывает на 2, 5, 8-15, 30 и следующие эпизоды первого сезона</translation>
     </message>
     <message>
-        <location filename="../gui/rss/automatedrssdownloader.cpp" line="78"/>
+        <location filename="../gui/rss/automatedrssdownloader.cpp" line="79"/>
         <source>Episode filter rules: </source>
         <translation>Правила фильтрации эпизодов:</translation>
     </message>
     <message>
-        <location filename="../gui/rss/automatedrssdownloader.cpp" line="78"/>
+        <location filename="../gui/rss/automatedrssdownloader.cpp" line="79"/>
         <source>Season number is a mandatory non-zero value</source>
         <translation>Номер сезона должен иметь ненулевое значение</translation>
     </message>
     <message>
-        <location filename="../gui/rss/automatedrssdownloader.cpp" line="79"/>
+        <location filename="../gui/rss/automatedrssdownloader.cpp" line="80"/>
         <source>Episode number is a mandatory non-zero value</source>
         <translation>Номер эпизода должен быть ненулевым</translation>
     </message>
     <message>
-        <location filename="../gui/rss/automatedrssdownloader.cpp" line="80"/>
+        <location filename="../gui/rss/automatedrssdownloader.cpp" line="81"/>
         <source>Filter must end with semicolon</source>
         <translation>Фильтр должен заканчиваться точкой с запятой</translation>
     </message>
     <message>
-        <location filename="../gui/rss/automatedrssdownloader.cpp" line="81"/>
+        <location filename="../gui/rss/automatedrssdownloader.cpp" line="82"/>
         <source>Three range types for episodes are supported: </source>
         <translation>Поддерживается три типа диапазонов для эпизодов:</translation>
     </message>
     <message>
-        <location filename="../gui/rss/automatedrssdownloader.cpp" line="82"/>
+        <location filename="../gui/rss/automatedrssdownloader.cpp" line="83"/>
         <source>Single number: &lt;b&gt;1x25;&lt;/b&gt; matches episode 25 of season one</source>
         <translation>Одиночный номер: &lt;b&gt;1x25;&lt;/b&gt; означает 25-й эпизод первого сезона</translation>
     </message>
     <message>
-        <location filename="../gui/rss/automatedrssdownloader.cpp" line="83"/>
+        <location filename="../gui/rss/automatedrssdownloader.cpp" line="84"/>
         <source>Normal range: &lt;b&gt;1x25-40;&lt;/b&gt; matches episodes 25 through 40 of season one</source>
         <translation>Обычный диапазон: &lt;b&gt;1x25-40;&lt;/b&gt; указывает на эпизоды с 25-го по 40-й первого сезона</translation>
     </message>
     <message>
-        <location filename="../gui/rss/automatedrssdownloader.cpp" line="84"/>
+        <location filename="../gui/rss/automatedrssdownloader.cpp" line="85"/>
         <source>Infinite range: &lt;b&gt;1x25-;&lt;/b&gt; matches episodes 25 and upward of season one</source>
         <translation>Бесконечный диапазон: &lt;b&gt;1x25-;&lt;/b&gt; указывает на эпизоды с 25-го и выше первого сезона</translation>
     </message>
     <message>
-        <location filename="../gui/rss/automatedrssdownloader.cpp" line="358"/>
+        <location filename="../gui/rss/automatedrssdownloader.cpp" line="266"/>
+        <source>Last Match: %1 days ago</source>
+        <translation>Последнее совпадение: %1 дней назад</translation>
+    </message>
+    <message>
+        <location filename="../gui/rss/automatedrssdownloader.cpp" line="268"/>
+        <source>Last Match: Unknown</source>
+        <translation>Последнее совпадение: неизвестно</translation>
+    </message>
+    <message>
+        <location filename="../gui/rss/automatedrssdownloader.cpp" line="361"/>
         <source>New rule name</source>
         <translation>Новое правило</translation>
     </message>
     <message>
-        <location filename="../gui/rss/automatedrssdownloader.cpp" line="358"/>
+        <location filename="../gui/rss/automatedrssdownloader.cpp" line="361"/>
         <source>Please type the name of the new download rule.</source>
         <translation>Введите имя нового правила загрузки.</translation>
     </message>
     <message>
-        <location filename="../gui/rss/automatedrssdownloader.cpp" line="362"/>
-        <location filename="../gui/rss/automatedrssdownloader.cpp" line="480"/>
+        <location filename="../gui/rss/automatedrssdownloader.cpp" line="365"/>
+        <location filename="../gui/rss/automatedrssdownloader.cpp" line="483"/>
         <source>Rule name conflict</source>
         <translation>Конфликт имени правила</translation>
     </message>
     <message>
-        <location filename="../gui/rss/automatedrssdownloader.cpp" line="362"/>
-        <location filename="../gui/rss/automatedrssdownloader.cpp" line="480"/>
+        <location filename="../gui/rss/automatedrssdownloader.cpp" line="365"/>
+        <location filename="../gui/rss/automatedrssdownloader.cpp" line="483"/>
         <source>A rule with this name already exists, please choose another name.</source>
         <translation>Правило с таким именем уже существует. Пожалуйста, выберите другое.</translation>
     </message>
     <message>
-        <location filename="../gui/rss/automatedrssdownloader.cpp" line="263"/>
-        <source>Last match: %1 days ago</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../gui/rss/automatedrssdownloader.cpp" line="265"/>
-        <source>Last match: Unknown</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../gui/rss/automatedrssdownloader.cpp" line="380"/>
+        <location filename="../gui/rss/automatedrssdownloader.cpp" line="383"/>
         <source>Are you sure you want to remove the download rule named &apos;%1&apos;?</source>
-        <translation type="unfinished"></translation>
+        <translation>Вы уверены, что хотите удалить правило загрузки &apos;%1&apos;?</translation>
     </message>
     <message>
-        <location filename="../gui/rss/automatedrssdownloader.cpp" line="382"/>
+        <location filename="../gui/rss/automatedrssdownloader.cpp" line="385"/>
         <source>Are you sure you want to remove the selected download rules?</source>
         <translation>Вы уверены, что хотите удалить выбранные правила загрузки?</translation>
     </message>
     <message>
-        <location filename="../gui/rss/automatedrssdownloader.cpp" line="383"/>
+        <location filename="../gui/rss/automatedrssdownloader.cpp" line="386"/>
         <source>Rule deletion confirmation</source>
         <translation>Подтверждение удаления правила</translation>
     </message>
     <message>
-        <location filename="../gui/rss/automatedrssdownloader.cpp" line="399"/>
+        <location filename="../gui/rss/automatedrssdownloader.cpp" line="402"/>
         <source>Destination directory</source>
         <translation>Папка назначения</translation>
     </message>
     <message>
-        <location filename="../gui/rss/automatedrssdownloader.cpp" line="407"/>
+        <location filename="../gui/rss/automatedrssdownloader.cpp" line="410"/>
         <source>Invalid action</source>
         <translation>Неверное действие</translation>
     </message>
     <message>
-        <location filename="../gui/rss/automatedrssdownloader.cpp" line="407"/>
+        <location filename="../gui/rss/automatedrssdownloader.cpp" line="410"/>
         <source>The list is empty, there is nothing to export.</source>
         <translation>Список пуст, экспортировать нечего.</translation>
     </message>
     <message>
-        <location filename="../gui/rss/automatedrssdownloader.cpp" line="411"/>
+        <location filename="../gui/rss/automatedrssdownloader.cpp" line="414"/>
         <source>Where would you like to save the list?</source>
         <translation>Куда вы хотите сохранить список?</translation>
     </message>
     <message>
-        <location filename="../gui/rss/automatedrssdownloader.cpp" line="411"/>
+        <location filename="../gui/rss/automatedrssdownloader.cpp" line="414"/>
         <source>Rules list (*.rssrules)</source>
         <translation>Списки правил (*.rssrules)</translation>
     </message>
     <message>
-        <location filename="../gui/rss/automatedrssdownloader.cpp" line="416"/>
+        <location filename="../gui/rss/automatedrssdownloader.cpp" line="419"/>
         <source>I/O Error</source>
         <translation>Ошибка ввода/вывода</translation>
     </message>
     <message>
-        <location filename="../gui/rss/automatedrssdownloader.cpp" line="416"/>
+        <location filename="../gui/rss/automatedrssdownloader.cpp" line="419"/>
         <source>Failed to create the destination file</source>
         <translation>Не удалось создать целевой файл</translation>
     </message>
     <message>
-        <location filename="../gui/rss/automatedrssdownloader.cpp" line="424"/>
+        <location filename="../gui/rss/automatedrssdownloader.cpp" line="427"/>
         <source>Please point to the RSS download rules file</source>
         <translation>Укажите файл с правилами загрузки RSS</translation>
     </message>
     <message>
-        <location filename="../gui/rss/automatedrssdownloader.cpp" line="424"/>
+        <location filename="../gui/rss/automatedrssdownloader.cpp" line="427"/>
         <source>Rules list</source>
         <translation>Список правил</translation>
     </message>
     <message>
-        <location filename="../gui/rss/automatedrssdownloader.cpp" line="428"/>
+        <location filename="../gui/rss/automatedrssdownloader.cpp" line="431"/>
         <source>Import Error</source>
         <translation>Ошибка импорта</translation>
     </message>
     <message>
-        <location filename="../gui/rss/automatedrssdownloader.cpp" line="428"/>
+        <location filename="../gui/rss/automatedrssdownloader.cpp" line="431"/>
         <source>Failed to import the selected rules file</source>
         <translation>Ошибка импортирования выбранного файла правил</translation>
     </message>
     <message>
-        <location filename="../gui/rss/automatedrssdownloader.cpp" line="439"/>
+        <location filename="../gui/rss/automatedrssdownloader.cpp" line="442"/>
         <source>Add new rule...</source>
         <translation>Добавить правило…</translation>
     </message>
     <message>
-        <location filename="../gui/rss/automatedrssdownloader.cpp" line="445"/>
+        <location filename="../gui/rss/automatedrssdownloader.cpp" line="448"/>
         <source>Delete rule</source>
         <translation>Удалить правило</translation>
     </message>
     <message>
-        <location filename="../gui/rss/automatedrssdownloader.cpp" line="447"/>
+        <location filename="../gui/rss/automatedrssdownloader.cpp" line="450"/>
         <source>Rename rule...</source>
         <translation>Переименовать правило…</translation>
     </message>
     <message>
-        <location filename="../gui/rss/automatedrssdownloader.cpp" line="449"/>
+        <location filename="../gui/rss/automatedrssdownloader.cpp" line="452"/>
         <source>Delete selected rules</source>
         <translation>Удалить выбранные правила</translation>
     </message>
     <message>
-        <location filename="../gui/rss/automatedrssdownloader.cpp" line="476"/>
+        <location filename="../gui/rss/automatedrssdownloader.cpp" line="479"/>
         <source>Rule renaming</source>
         <translation>Переименование правила</translation>
     </message>
     <message>
-        <location filename="../gui/rss/automatedrssdownloader.cpp" line="476"/>
+        <location filename="../gui/rss/automatedrssdownloader.cpp" line="479"/>
         <source>Please type the new rule name</source>
         <translation>Введите новое имя правила</translation>
     </message>
     <message>
-        <location filename="../gui/rss/automatedrssdownloader.cpp" line="578"/>
+        <location filename="../gui/rss/automatedrssdownloader.cpp" line="581"/>
         <source>Regex mode: use Perl-like regular expressions</source>
         <translation>Режим Regex: использовать регулярные выражения в стиле Perl</translation>
     </message>
     <message>
-        <location filename="../gui/rss/automatedrssdownloader.cpp" line="582"/>
+        <location filename="../gui/rss/automatedrssdownloader.cpp" line="585"/>
         <source>Wildcard mode: you can use&lt;ul&gt;&lt;li&gt;? to match any single character&lt;/li&gt;&lt;li&gt;* to match zero or more of any characters&lt;/li&gt;&lt;li&gt;Whitespaces count as AND operators&lt;/li&gt;&lt;/ul&gt;</source>
         <translation>Режим Wildcard: можно использовать&lt;ul&gt;&lt;li&gt;? для замещения любого одного символа&lt;/li&gt;&lt;li&gt;* для замещения нуля и более любых символов&lt;/li&gt;&lt;li&gt;Пробелы действуют как операторы AND&lt;/li&gt;&lt;/ul&gt;</translation>
     </message>
     <message>
-        <location filename="../gui/rss/automatedrssdownloader.cpp" line="584"/>
+        <location filename="../gui/rss/automatedrssdownloader.cpp" line="587"/>
         <source>Wildcard mode: you can use&lt;ul&gt;&lt;li&gt;? to match any single character&lt;/li&gt;&lt;li&gt;* to match zero or more of any characters&lt;/li&gt;&lt;li&gt;| is used as OR operator&lt;/li&gt;&lt;/ul&gt;</source>
         <translation>Режим Wildcard: можно использовать&lt;ul&gt;&lt;li&gt;? для замещения любого одного символа&lt;/li&gt;&lt;li&gt;* для замещения нуля и более любых символов&lt;/li&gt;&lt;li&gt;| используется как оператор OR&lt;/li&gt;&lt;/ul&gt;</translation>
     </message>
@@ -858,307 +867,338 @@
 <context>
     <name>BitTorrent::Session</name>
     <message>
-        <location filename="../core/bittorrent/session.cpp" line="161"/>
+        <location filename="../base/bittorrent/session.cpp" line="173"/>
         <source>Peer ID: </source>
         <translation>ID пира:</translation>
     </message>
     <message>
-        <location filename="../core/bittorrent/session.cpp" line="355"/>
+        <location filename="../base/bittorrent/session.cpp" line="316"/>
         <source>HTTP User-Agent is &apos;%1&apos;</source>
-        <translation type="unfinished"></translation>
+        <translation>HTTP User-Agent: %1</translation>
     </message>
     <message>
-        <location filename="../core/bittorrent/session.cpp" line="382"/>
+        <location filename="../base/bittorrent/session.cpp" line="343"/>
         <source>Anonymous mode [ON]</source>
         <translation>Анонимный режим [Вкл]</translation>
     </message>
     <message>
-        <location filename="../core/bittorrent/session.cpp" line="384"/>
+        <location filename="../base/bittorrent/session.cpp" line="345"/>
         <source>Anonymous mode [OFF]</source>
         <translation>Анонимный режим [Выкл]</translation>
     </message>
     <message>
-        <location filename="../core/bittorrent/session.cpp" line="581"/>
+        <location filename="../base/bittorrent/session.cpp" line="536"/>
         <source>PeX support [ON]</source>
         <translation>Поддержка PeX [Вкл]</translation>
     </message>
     <message>
-        <location filename="../core/bittorrent/session.cpp" line="583"/>
+        <location filename="../base/bittorrent/session.cpp" line="538"/>
         <source>PeX support [OFF]</source>
         <translation>Поддержка PeX [Выкл]</translation>
     </message>
     <message>
-        <location filename="../core/bittorrent/session.cpp" line="585"/>
+        <location filename="../base/bittorrent/session.cpp" line="540"/>
         <source>Restart is required to toggle PeX support</source>
         <translation>Необходим перезапуск для включения поддержки PeX</translation>
     </message>
     <message>
-        <location filename="../core/bittorrent/session.cpp" line="590"/>
+        <location filename="../base/bittorrent/session.cpp" line="545"/>
         <source>Local Peer Discovery support [ON]</source>
         <translation>Обнаружение локальных пиров [Вкл]</translation>
     </message>
     <message>
-        <location filename="../core/bittorrent/session.cpp" line="594"/>
+        <location filename="../base/bittorrent/session.cpp" line="549"/>
         <source>Local Peer Discovery support [OFF]</source>
         <translation>Обнаружение локальных пиров [Выкл]</translation>
     </message>
     <message>
-        <location filename="../core/bittorrent/session.cpp" line="607"/>
+        <location filename="../base/bittorrent/session.cpp" line="562"/>
         <source>Encryption support [ON]</source>
         <translation>Поддержка шифрования [Вкл]</translation>
     </message>
     <message>
-        <location filename="../core/bittorrent/session.cpp" line="612"/>
+        <location filename="../base/bittorrent/session.cpp" line="567"/>
         <source>Encryption support [FORCED]</source>
         <translation>Поддержка шифрования [Принудительно]</translation>
     </message>
     <message>
-        <location filename="../core/bittorrent/session.cpp" line="617"/>
+        <location filename="../base/bittorrent/session.cpp" line="572"/>
         <source>Encryption support [OFF]</source>
         <translation>Поддержка шифрования [Выкл]</translation>
     </message>
     <message>
-        <location filename="../core/bittorrent/session.cpp" line="682"/>
+        <location filename="../base/bittorrent/session.cpp" line="650"/>
         <source>Embedded Tracker [ON]</source>
         <translation>Встроенный трекер [Вкл]</translation>
     </message>
     <message>
-        <location filename="../core/bittorrent/session.cpp" line="684"/>
+        <location filename="../base/bittorrent/session.cpp" line="652"/>
         <source>Failed to start the embedded tracker!</source>
         <translation>Не удалось запустить встроенный трекер!</translation>
     </message>
     <message>
-        <location filename="../core/bittorrent/session.cpp" line="687"/>
+        <location filename="../base/bittorrent/session.cpp" line="655"/>
         <source>Embedded Tracker [OFF]</source>
         <translation>Встроенный трекер [Выкл]</translation>
     </message>
     <message>
-        <location filename="../core/bittorrent/session.cpp" line="725"/>
+        <location filename="../base/bittorrent/session.cpp" line="693"/>
         <source>&apos;%1&apos; reached the maximum ratio you set. Removing...</source>
-        <translation type="unfinished"></translation>
+        <translation>&apos;%1&apos; достиг установленного вами максимального коэффициента. Удаление…</translation>
     </message>
     <message>
-        <location filename="../core/bittorrent/session.cpp" line="731"/>
+        <location filename="../base/bittorrent/session.cpp" line="699"/>
         <source>&apos;%1&apos; reached the maximum ratio you set. Pausing...</source>
-        <translation type="unfinished"></translation>
+        <translation>&apos;%1&apos; достиг установленного вами максимального коэффициента. Приостановка…</translation>
     </message>
     <message>
-        <location filename="../core/bittorrent/session.cpp" line="1216"/>
         <source>Error: Could not create torrent export directory: &apos;%1&apos;</source>
-        <translation type="unfinished"></translation>
+        <translation type="obsolete">Ошибка: Невозможно создать директорию экспорта торрента: &apos;%1&apos;</translation>
     </message>
     <message>
-        <location filename="../core/bittorrent/session.cpp" line="1244"/>
         <source>Error: could not export torrent &apos;%1&apos;, maybe it has not metadata yet.</source>
-        <translation type="unfinished"></translation>
+        <translation type="obsolete">Ошибка: не удалось экспортировать торрент &apos;%1&apos;, возможно, он пока не содержит метаданных.</translation>
     </message>
     <message>
-        <location filename="../core/bittorrent/session.cpp" line="1695"/>
+        <location filename="../base/bittorrent/session.cpp" line="1396"/>
+        <source>System network status changed to %1</source>
+        <comment>e.g: System network status changed to ONLINE</comment>
+        <translation>Системный сетевой статус сменился на %1</translation>
+    </message>
+    <message>
+        <location filename="../base/bittorrent/session.cpp" line="1396"/>
+        <source>ONLINE</source>
+        <translation>В СЕТИ</translation>
+    </message>
+    <message>
+        <location filename="../base/bittorrent/session.cpp" line="1396"/>
+        <source>OFFLINE</source>
+        <translation>НЕ В СЕТИ</translation>
+    </message>
+    <message>
+        <location filename="../base/bittorrent/session.cpp" line="1408"/>
+        <source>Network configuration of %1 has changed, refreshing session binding</source>
+        <comment>e.g: Network configuration of tun0 has changed, refreshing session binding</comment>
+        <translation>Настройки сети %1 изменились, обновление привязки сеанса</translation>
+    </message>
+    <message>
+        <location filename="../base/bittorrent/session.cpp" line="1692"/>
         <source>Unable to decode &apos;%1&apos; torrent file.</source>
-        <translation type="unfinished"></translation>
+        <translation>Не удалось декодировать торрент-файл &apos;%1&apos;.</translation>
     </message>
     <message>
-        <location filename="../core/bittorrent/session.cpp" line="1801"/>
+        <location filename="../base/bittorrent/session.cpp" line="1798"/>
         <source>Recursive download of file &apos;%1&apos; embedded in torrent &apos;%2&apos;</source>
         <comment>Recursive download of &apos;test.torrent&apos; embedded in torrent &apos;test2&apos;</comment>
-        <translation type="unfinished"></translation>
+        <translation>Рекурсивная загрузка файла &apos;%1&apos; встроена в торрент &apos;%2&apos;</translation>
     </message>
     <message>
-        <location filename="../core/bittorrent/session.cpp" line="2110"/>
+        <location filename="../base/bittorrent/session.cpp" line="2109"/>
         <source>Couldn&apos;t save &apos;%1.torrent&apos;</source>
-        <translation type="unfinished"></translation>
+        <translation>Не удалось сохранить &apos;%1.torrent&apos;</translation>
     </message>
     <message>
-        <location filename="../core/bittorrent/session.cpp" line="2206"/>
+        <location filename="../base/bittorrent/session.cpp" line="2214"/>
         <source>because %1 is disabled.</source>
         <comment>this peer was blocked because uTP is disabled.</comment>
-        <translation type="unfinished"></translation>
+        <translation>потому что %1 отключен.</translation>
     </message>
     <message>
-        <location filename="../core/bittorrent/session.cpp" line="2209"/>
+        <location filename="../base/bittorrent/session.cpp" line="2217"/>
         <source>because %1 is disabled.</source>
         <comment>this peer was blocked because TCP is disabled.</comment>
-        <translation type="unfinished"></translation>
+        <translation>because %1 is disabled.</translation>
     </message>
     <message>
-        <location filename="../core/bittorrent/session.cpp" line="2227"/>
+        <location filename="../base/bittorrent/session.cpp" line="2235"/>
         <source>URL seed lookup failed for URL: &apos;%1&apos;, message: %2</source>
-        <translation type="unfinished"></translation>
+        <translation>Поиск адреса раздающего не удался: &apos;%1&apos;, сообщение: &apos;%2&apos;</translation>
     </message>
     <message>
-        <location filename="../core/bittorrent/session.cpp" line="848"/>
+        <location filename="../base/bittorrent/session.cpp" line="812"/>
         <source>&apos;%1&apos; was removed from transfer list and hard disk.</source>
         <comment>&apos;xxx.avi&apos; was removed...</comment>
         <translation>&apos;%1&apos; был удалён из списка торрентов и с жёсткого диска.</translation>
     </message>
     <message>
-        <location filename="../core/bittorrent/session.cpp" line="850"/>
+        <location filename="../base/bittorrent/session.cpp" line="814"/>
         <source>&apos;%1&apos; was removed from transfer list.</source>
         <comment>&apos;xxx.avi&apos; was removed...</comment>
         <translation>&apos;%1&apos; был удалён из списка торрентов.</translation>
     </message>
     <message>
-        <location filename="../core/bittorrent/session.cpp" line="1004"/>
+        <location filename="../base/bittorrent/session.cpp" line="973"/>
         <source>Downloading &apos;%1&apos;, please wait...</source>
         <comment>e.g: Downloading &apos;xxx.torrent&apos;, please wait...</comment>
         <translation>Загружается &apos;%1&apos;, подождите…</translation>
     </message>
     <message>
-        <location filename="../core/bittorrent/session.cpp" line="1224"/>
         <source>Torrent Export: torrent is invalid, skipping...</source>
-        <translation>Экспорт торрента: торрент недоступен, пропуск…</translation>
+        <translation type="obsolete">Экспорт торрента: торрент недоступен, пропуск…</translation>
     </message>
     <message>
-        <location filename="../core/bittorrent/session.cpp" line="1317"/>
+        <location filename="../base/bittorrent/session.cpp" line="1242"/>
         <source>DHT support [ON]</source>
         <translation>Поддержка DHT [Вкл]</translation>
     </message>
     <message>
-        <location filename="../core/bittorrent/session.cpp" line="1322"/>
+        <location filename="../base/bittorrent/session.cpp" line="1247"/>
         <source>DHT support [OFF]. Reason: %1</source>
         <translation>Поддержка DHT [Выкл]. Причина: %1</translation>
     </message>
     <message>
-        <location filename="../core/bittorrent/session.cpp" line="1330"/>
+        <location filename="../base/bittorrent/session.cpp" line="1255"/>
         <source>DHT support [OFF]</source>
         <translation>Поддержка DHT [Выкл]</translation>
     </message>
     <message>
-        <location filename="../core/bittorrent/session.cpp" line="1476"/>
+        <location filename="../base/bittorrent/session.cpp" line="165"/>
+        <location filename="../base/bittorrent/session.cpp" line="1478"/>
         <source>qBittorrent is trying to listen on any interface port: %1</source>
         <comment>e.g: qBittorrent is trying to listen on any interface port: TCP/6881</comment>
         <translation>пытаемся использовать порт %1</translation>
     </message>
     <message>
-        <location filename="../core/bittorrent/session.cpp" line="1480"/>
         <source>qBittorrent failed to listen on any interface port: %1. Reason: %2</source>
         <comment>e.g: qBittorrent failed to listen on any interface port: TCP/6881. Reason: no such interface</comment>
-        <translation>попытка использования порта %1 провалилась. Причина: %2</translation>
+        <translation type="obsolete">попытка использования порта %1 провалилась. Причина: %2</translation>
     </message>
     <message>
-        <location filename="../core/bittorrent/session.cpp" line="1489"/>
+        <location filename="../base/bittorrent/session.cpp" line="1431"/>
         <source>The network interface defined is invalid: %1</source>
         <translation>Указанный сетевой интерфейс недоступен: %1</translation>
     </message>
     <message>
-        <location filename="../core/bittorrent/session.cpp" line="1504"/>
+        <location filename="../base/bittorrent/session.cpp" line="169"/>
+        <location filename="../base/bittorrent/session.cpp" line="1489"/>
         <source>qBittorrent is trying to listen on interface %1 port: %2</source>
         <comment>e.g: qBittorrent is trying to listen on interface 192.168.0.1 port: TCP/6881</comment>
         <translation>пытаемся использовать порт %2 на интерфейсе %1</translation>
     </message>
     <message>
-        <location filename="../core/bittorrent/session.cpp" line="1509"/>
+        <location filename="../base/bittorrent/session.cpp" line="1455"/>
         <source>qBittorrent didn&apos;t find an %1 local address to listen on</source>
         <comment>qBittorrent didn&apos;t find an IPv4 local address to listen on</comment>
         <translation>Адрес %1 не найден. Прослушивание недоступно для данного адреса.</translation>
     </message>
     <message>
-        <location filename="../core/bittorrent/session.cpp" line="1607"/>
+        <location filename="../base/bittorrent/session.cpp" line="1482"/>
+        <source>qBittorrent failed to listen on any interface port: %1. Reason: %2.</source>
+        <comment>e.g: qBittorrent failed to listen on any interface port: TCP/6881. Reason: no such interface</comment>
+        <translation type="unfinished">попытка использования порта %1 провалилась. Причина: %2. {1.?}</translation>
+    </message>
+    <message>
+        <location filename="../base/bittorrent/session.cpp" line="1603"/>
         <source>Tracker &apos;%1&apos; was added to torrent &apos;%2&apos;</source>
         <translation>Трекер &apos;%1&apos; добавлен в торрент &apos;%2&apos;</translation>
     </message>
     <message>
-        <location filename="../core/bittorrent/session.cpp" line="1617"/>
+        <location filename="../base/bittorrent/session.cpp" line="1613"/>
         <source>Tracker &apos;%1&apos; was deleted from torrent &apos;%2&apos;</source>
         <translation>Трекер &apos;%1&apos; удалён из торрента &apos;%2&apos;</translation>
     </message>
     <message>
-        <location filename="../core/bittorrent/session.cpp" line="1632"/>
+        <location filename="../base/bittorrent/session.cpp" line="1628"/>
         <source>URL seed &apos;%1&apos; was added to torrent &apos;%2&apos;</source>
         <translation>Адрес источника &apos;%1&apos; добавлен в торрент &apos;%2&apos;</translation>
     </message>
     <message>
-        <location filename="../core/bittorrent/session.cpp" line="1638"/>
+        <location filename="../base/bittorrent/session.cpp" line="1634"/>
         <source>URL seed &apos;%1&apos; was removed from torrent &apos;%2&apos;</source>
         <translation>Адрес источника &apos;%1&apos; удалён из торрента &apos;%2&apos;</translation>
     </message>
     <message>
-        <location filename="../core/bittorrent/session.cpp" line="1917"/>
+        <location filename="../base/bittorrent/session.cpp" line="1914"/>
         <source>Unable to resume torrent &apos;%1&apos;.</source>
         <comment>e.g: Unable to resume torrent &apos;hash&apos;.</comment>
         <translation>Неудалось возобновить торрент &apos;%1&apos;.</translation>
     </message>
     <message>
-        <location filename="../core/bittorrent/session.cpp" line="1940"/>
+        <location filename="../base/bittorrent/session.cpp" line="1937"/>
         <source>Successfully parsed the provided IP filter: %1 rules were applied.</source>
         <comment>%1 is a number</comment>
         <translation>Указанный фильтр IP был успешно разобран: %1 правил применено.</translation>
     </message>
     <message>
-        <location filename="../core/bittorrent/session.cpp" line="1946"/>
+        <location filename="../base/bittorrent/session.cpp" line="1943"/>
         <source>Error: Failed to parse the provided IP filter.</source>
         <translation>Ошибка: невозможно разобрать фильтр IP.</translation>
     </message>
     <message>
-        <location filename="../core/bittorrent/session.cpp" line="2072"/>
+        <location filename="../base/bittorrent/session.cpp" line="2071"/>
         <source>Couldn&apos;t add torrent. Reason: %1</source>
         <translation>Не удалось добавить торрент. Причина: %1</translation>
     </message>
     <message>
-        <location filename="../core/bittorrent/session.cpp" line="2093"/>
+        <location filename="../base/bittorrent/session.cpp" line="2092"/>
         <source>&apos;%1&apos; resumed. (fast resume)</source>
         <comment>&apos;torrent name&apos; was resumed. (fast resume)</comment>
         <translation>%1 возобновлен. (быстрое возобновление)</translation>
     </message>
     <message>
-        <location filename="../core/bittorrent/session.cpp" line="2121"/>
+        <location filename="../base/bittorrent/session.cpp" line="2123"/>
         <source>&apos;%1&apos; added to download list.</source>
         <comment>&apos;torrent name&apos; was added to download list.</comment>
         <translation>&apos;%1&apos; добавлен в список загрузок.</translation>
     </message>
     <message>
-        <location filename="../core/bittorrent/session.cpp" line="2170"/>
+        <location filename="../base/bittorrent/session.cpp" line="2178"/>
         <source>An I/O error occurred, &apos;%1&apos; paused. %2</source>
         <translation>Ошибка ввода/вывода, &apos;%1&apos; приостановлен. %2</translation>
     </message>
     <message>
-        <location filename="../core/bittorrent/session.cpp" line="2178"/>
+        <location filename="../base/bittorrent/session.cpp" line="2186"/>
         <source>UPnP/NAT-PMP: Port mapping failure, message: %1</source>
         <translation>Распределение портов UPnP/NAT-PMP не удалось с сообщением: %1</translation>
     </message>
     <message>
-        <location filename="../core/bittorrent/session.cpp" line="2184"/>
+        <location filename="../base/bittorrent/session.cpp" line="2192"/>
         <source>UPnP/NAT-PMP: Port mapping successful, message: %1</source>
         <translation>Распределение портов UPnP/NAT-PMP прошло успешно: %1</translation>
     </message>
     <message>
-        <location filename="../core/bittorrent/session.cpp" line="2194"/>
+        <location filename="../base/bittorrent/session.cpp" line="2202"/>
         <source>due to IP filter.</source>
         <comment>this peer was blocked due to ip filter.</comment>
         <translation>в соответствии с IP-фильтром.</translation>
     </message>
     <message>
-        <location filename="../core/bittorrent/session.cpp" line="2197"/>
+        <location filename="../base/bittorrent/session.cpp" line="2205"/>
         <source>due to port filter.</source>
         <comment>this peer was blocked due to port filter.</comment>
         <translation>в соответствии с фильтром портов.</translation>
     </message>
     <message>
-        <location filename="../core/bittorrent/session.cpp" line="2200"/>
+        <location filename="../base/bittorrent/session.cpp" line="2208"/>
         <source>due to i2p mixed mode restrictions.</source>
         <comment>this peer was blocked due to i2p mixed mode restrictions.</comment>
         <translation>согласно ограничениями смешанного режима i2p.</translation>
     </message>
     <message>
-        <location filename="../core/bittorrent/session.cpp" line="2203"/>
+        <location filename="../base/bittorrent/session.cpp" line="2211"/>
         <source>because it has a low port.</source>
         <comment>this peer was blocked because it has a low port.</comment>
         <translation>так как они имеют низкий порт.</translation>
     </message>
     <message>
-        <location filename="../core/bittorrent/session.cpp" line="2241"/>
+        <location filename="../base/bittorrent/session.cpp" line="2249"/>
         <source>qBittorrent is successfully listening on interface %1 port: %2/%3</source>
         <comment>e.g: qBittorrent is successfully listening on interface 192.168.0.1 port: TCP/6881</comment>
         <translation>порт %2/%3 на интерфейсе %1 успешно занят</translation>
     </message>
     <message>
-        <location filename="../core/bittorrent/session.cpp" line="2267"/>
-        <source>qBittorrent failed listening on interface %1 port: %2/%3. Reason: %4</source>
+        <location filename="../base/bittorrent/session.cpp" line="2275"/>
+        <source>qBittorrent failed listening on interface %1 port: %2/%3. Reason: %4.</source>
         <comment>e.g: qBittorrent failed listening on interface 192.168.0.1 port: TCP/6881. Reason: already in use</comment>
-        <translation>попытка использования порта %2/%3 на интерфейсе %1 провалилась. Причина: %4</translation>
+        <translation type="unfinished">попытка использования порта %2/%3 на интерфейсе %1 провалилась. Причина: %4. {1 ?} {2/%3.?}</translation>
     </message>
     <message>
-        <location filename="../core/bittorrent/session.cpp" line="2276"/>
+        <source>qBittorrent failed listening on interface %1 port: %2/%3. Reason: %4</source>
+        <comment>e.g: qBittorrent failed listening on interface 192.168.0.1 port: TCP/6881. Reason: already in use</comment>
+        <translation type="obsolete">попытка использования порта %2/%3 на интерфейсе %1 провалилась. Причина: %4</translation>
+    </message>
+    <message>
+        <location filename="../base/bittorrent/session.cpp" line="2284"/>
         <source>External IP: %1</source>
         <comment>e.g. External IP: 192.168.0.1</comment>
         <translation>Внешний IP: %1</translation>
@@ -1167,19 +1207,19 @@
 <context>
     <name>BitTorrent::TorrentHandle</name>
     <message>
-        <location filename="../core/bittorrent/torrenthandle.cpp" line="1355"/>
+        <location filename="../base/bittorrent/torrenthandle.cpp" line="1313"/>
         <source>Could not move torrent: &apos;%1&apos;. Reason: %2</source>
         <translation>Не удалось переместить торрент: &apos;%1&apos;. Причина: %2</translation>
     </message>
     <message>
-        <location filename="../core/bittorrent/torrenthandle.cpp" line="1494"/>
+        <location filename="../base/bittorrent/torrenthandle.cpp" line="1454"/>
         <source>File sizes mismatch for torrent &apos;%1&apos;, pausing it.</source>
-        <translation type="unfinished"></translation>
+        <translation>Несовпадение размеров файлов для торрента &apos;%1&apos;, приостановка.</translation>
     </message>
     <message>
-        <location filename="../core/bittorrent/torrenthandle.cpp" line="1500"/>
+        <location filename="../base/bittorrent/torrenthandle.cpp" line="1460"/>
         <source>Fast resume data was rejected for torrent &apos;%1&apos;. Reason: %2. Checking again...</source>
-        <translation type="unfinished"></translation>
+        <translation>Быстрое восстановление данных для торрента &apos;%1&apos; было отклонено. Причина: %2. Повтор проверки…</translation>
     </message>
 </context>
 <context>
@@ -1215,13 +1255,31 @@ You should get this information from your Web browser preferences.</source>
         <location filename="../gui/deletionconfirmationdlg.h" line="48"/>
         <source>Are you sure you want to delete &apos;%1&apos; from the transfer list?</source>
         <comment>Are you sure you want to delete &apos;ubuntu-linux-iso&apos; from the transfer list?</comment>
-        <translation type="unfinished"></translation>
+        <translation>Вы уверены, что хотите удалить &apos;%1&apos; из списка торрентов?</translation>
     </message>
     <message>
         <location filename="../gui/deletionconfirmationdlg.h" line="50"/>
         <source>Are you sure you want to delete these %1 torrents from the transfer list?</source>
         <comment>Are you sure you want to delete these 5 torrents from the transfer list?</comment>
         <translation>Вы уверены, что хотите удалить %1 торрентов из списка торрентов?</translation>
+    </message>
+</context>
+<context>
+    <name>DownloadedPiecesBar</name>
+    <message>
+        <location filename="../gui/properties/downloadedpiecesbar.cpp" line="37"/>
+        <source>White: Missing pieces</source>
+        <translation>Белый: Отсутствуют файлы</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/downloadedpiecesbar.cpp" line="37"/>
+        <source>Green: Partial pieces</source>
+        <translation>Зелёный: Отдельные части</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/downloadedpiecesbar.cpp" line="37"/>
+        <source>Blue: Completed pieces</source>
+        <translation>Синий: Все части</translation>
     </message>
 </context>
 <context>
@@ -1265,20 +1323,20 @@ You should get this information from your Web browser preferences.</source>
 <context>
     <name>FilterParserThread</name>
     <message>
-        <location filename="../core/bittorrent/private/filterparserthread.cpp" line="65"/>
-        <location filename="../core/bittorrent/private/filterparserthread.cpp" line="159"/>
-        <location filename="../core/bittorrent/private/filterparserthread.cpp" line="267"/>
+        <location filename="../base/bittorrent/private/filterparserthread.cpp" line="65"/>
+        <location filename="../base/bittorrent/private/filterparserthread.cpp" line="159"/>
+        <location filename="../base/bittorrent/private/filterparserthread.cpp" line="267"/>
         <source>I/O Error: Could not open ip filter file in read mode.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ошибка ввода-вывода: Не удалось открыть файл фильтра IP в режиме чтения.</translation>
     </message>
     <message>
-        <location filename="../core/bittorrent/private/filterparserthread.cpp" line="278"/>
-        <location filename="../core/bittorrent/private/filterparserthread.cpp" line="290"/>
-        <location filename="../core/bittorrent/private/filterparserthread.cpp" line="311"/>
-        <location filename="../core/bittorrent/private/filterparserthread.cpp" line="320"/>
-        <location filename="../core/bittorrent/private/filterparserthread.cpp" line="330"/>
-        <location filename="../core/bittorrent/private/filterparserthread.cpp" line="340"/>
-        <location filename="../core/bittorrent/private/filterparserthread.cpp" line="360"/>
+        <location filename="../base/bittorrent/private/filterparserthread.cpp" line="278"/>
+        <location filename="../base/bittorrent/private/filterparserthread.cpp" line="290"/>
+        <location filename="../base/bittorrent/private/filterparserthread.cpp" line="311"/>
+        <location filename="../base/bittorrent/private/filterparserthread.cpp" line="320"/>
+        <location filename="../base/bittorrent/private/filterparserthread.cpp" line="330"/>
+        <location filename="../base/bittorrent/private/filterparserthread.cpp" line="340"/>
+        <location filename="../base/bittorrent/private/filterparserthread.cpp" line="360"/>
         <source>Parsing Error: The filter file is not a valid PeerGuardian P2B file.</source>
         <translation>Ошибка разбора: Файл фильтра не является рабочим файлом PeerGuardian P2B.</translation>
     </message>
@@ -1286,55 +1344,45 @@ You should get this information from your Web browser preferences.</source>
 <context>
     <name>GeoIPDatabase</name>
     <message>
-        <location filename="../core/net/private/geoipdatabase.cpp" line="243"/>
-        <location filename="../core/net/private/geoipdatabase.cpp" line="271"/>
+        <location filename="../base/net/private/geoipdatabase.cpp" line="101"/>
+        <location filename="../base/net/private/geoipdatabase.cpp" line="131"/>
         <source>Unsupported database file size.</source>
         <translation>Неподдерживаемый размер файла данных.</translation>
     </message>
     <message>
-        <location filename="../core/net/private/geoipdatabase.cpp" line="311"/>
+        <location filename="../base/net/private/geoipdatabase.cpp" line="236"/>
         <source>Metadata error: &apos;%1&apos; entry not found.</source>
         <translation>Ошибка метаданных: запись &apos;%1&apos; не найдена.</translation>
     </message>
     <message>
-        <location filename="../core/net/private/geoipdatabase.cpp" line="312"/>
+        <location filename="../base/net/private/geoipdatabase.cpp" line="237"/>
         <source>Metadata error: &apos;%1&apos; entry has invalid type.</source>
         <translation>Ошибка метаданных: запись &apos;%1&apos; имеет неверный тип.</translation>
     </message>
     <message>
-        <location filename="../core/net/private/geoipdatabase.cpp" line="321"/>
+        <location filename="../base/net/private/geoipdatabase.cpp" line="246"/>
         <source>Unsupported database version: %1.%2</source>
         <translation>Неподдерживаемая версия базы данных: %1.%2</translation>
     </message>
     <message>
-        <location filename="../core/net/private/geoipdatabase.cpp" line="328"/>
+        <location filename="../base/net/private/geoipdatabase.cpp" line="253"/>
         <source>Unsupported IP version: %1</source>
         <translation>Неподдерживаемая версия IP: %1</translation>
     </message>
     <message>
-        <location filename="../core/net/private/geoipdatabase.cpp" line="335"/>
+        <location filename="../base/net/private/geoipdatabase.cpp" line="260"/>
         <source>Unsupported record size: %1</source>
         <translation>Неподдерживаемый размер записи: %1</translation>
     </message>
     <message>
-        <location filename="../core/net/private/geoipdatabase.cpp" line="345"/>
+        <location filename="../base/net/private/geoipdatabase.cpp" line="273"/>
         <source>Invalid database type: %1</source>
         <translation>Неверный тип базы данных: %1</translation>
     </message>
     <message>
-        <location filename="../core/net/private/geoipdatabase.cpp" line="366"/>
+        <location filename="../base/net/private/geoipdatabase.cpp" line="294"/>
         <source>Database corrupted: no data section found.</source>
         <translation>База данных повреждена: не найден раздел данных.</translation>
-    </message>
-    <message>
-        <location filename="../core/net/private/geoipdatabase.cpp" line="391"/>
-        <source>Database corrupted: invalid data type at DATA@%1</source>
-        <translation>База данных повреждена: неверный тип данных в DATA@%1</translation>
-    </message>
-    <message>
-        <location filename="../core/net/private/geoipdatabase.cpp" line="395"/>
-        <source>Invalid database: unsupported data type at DATA@%1</source>
-        <translation>Неверная база данных: неподдерживаемый тип данных в DATA@%1</translation>
     </message>
 </context>
 <context>
@@ -1365,9 +1413,8 @@ You should get this information from your Web browser preferences.</source>
         <translation>Только одна ссылка в строке</translation>
     </message>
     <message>
-        <location filename="../webui/extra_translations.h" line="42"/>
         <source>Download local torrent</source>
-        <translation>Загрузить локальный торрент</translation>
+        <translation type="obsolete">Загрузить локальный торрент</translation>
     </message>
     <message>
         <location filename="../webui/extra_translations.h" line="43"/>
@@ -1387,12 +1434,12 @@ You should get this information from your Web browser preferences.</source>
     <message>
         <location filename="../webui/extra_translations.h" line="47"/>
         <source>Alternative upload rate limit must be greater than 0 or disabled.</source>
-        <translation>Альтернативное ограничение соотношения раздачи должно быть больше 0 или отключено.</translation>
+        <translation>Иное ограничение соотношения раздачи должно быть больше 0 или отключено.</translation>
     </message>
     <message>
         <location filename="../webui/extra_translations.h" line="48"/>
         <source>Alternative download rate limit must be greater than 0 or disabled.</source>
-        <translation>Альтернативное ограничение соотношения скачивания должно быть больше 0 или отключено.</translation>
+        <translation>Иное ограничение соотношения скачивания должно быть больше 0 или отключено.</translation>
     </message>
     <message>
         <location filename="../webui/extra_translations.h" line="49"/>
@@ -1540,7 +1587,22 @@ You should get this information from your Web browser preferences.</source>
         <translation>Неактивны</translation>
     </message>
     <message>
-        <location filename="../webui/extra_translations.h" line="90"/>
+        <location filename="../webui/extra_translations.h" line="87"/>
+        <source>Save files to location:</source>
+        <translation type="unfinished">Путь сохранения по умолчанию:</translation>
+    </message>
+    <message>
+        <location filename="../webui/extra_translations.h" line="88"/>
+        <source>Label:</source>
+        <translation type="unfinished">Метка:</translation>
+    </message>
+    <message>
+        <location filename="../webui/extra_translations.h" line="89"/>
+        <source>Cookie:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../webui/extra_translations.h" line="93"/>
         <source>Downloaded</source>
         <comment>Is the file downloaded or not?</comment>
         <translation>Загружен</translation>
@@ -1549,6 +1611,11 @@ You should get this information from your Web browser preferences.</source>
         <location filename="../webui/extra_translations.h" line="39"/>
         <source>Logout</source>
         <translation>Выйти</translation>
+    </message>
+    <message>
+        <location filename="../webui/extra_translations.h" line="42"/>
+        <source>Upload local torrent</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../webui/extra_translations.h" line="44"/>
@@ -1604,85 +1671,85 @@ You should get this information from your Web browser preferences.</source>
 <context>
     <name>LabelFiltersList</name>
     <message>
-        <location filename="../gui/transferlistfilterswidget.cpp" line="185"/>
+        <location filename="../gui/transferlistfilterswidget.cpp" line="189"/>
         <source>All (0)</source>
         <comment>this is for the label filter</comment>
         <translation>Все (0)</translation>
     </message>
     <message>
-        <location filename="../gui/transferlistfilterswidget.cpp" line="188"/>
+        <location filename="../gui/transferlistfilterswidget.cpp" line="192"/>
         <source>Unlabeled (0)</source>
         <translation>Без метки (0)</translation>
     </message>
     <message>
-        <location filename="../gui/transferlistfilterswidget.cpp" line="210"/>
-        <location filename="../gui/transferlistfilterswidget.cpp" line="256"/>
+        <location filename="../gui/transferlistfilterswidget.cpp" line="214"/>
+        <location filename="../gui/transferlistfilterswidget.cpp" line="260"/>
         <source>All (%1)</source>
         <comment>this is for the label filter</comment>
         <translation>Все (%1)</translation>
     </message>
     <message>
-        <location filename="../gui/transferlistfilterswidget.cpp" line="213"/>
-        <location filename="../gui/transferlistfilterswidget.cpp" line="231"/>
-        <location filename="../gui/transferlistfilterswidget.cpp" line="259"/>
-        <location filename="../gui/transferlistfilterswidget.cpp" line="264"/>
+        <location filename="../gui/transferlistfilterswidget.cpp" line="217"/>
+        <location filename="../gui/transferlistfilterswidget.cpp" line="235"/>
+        <location filename="../gui/transferlistfilterswidget.cpp" line="263"/>
+        <location filename="../gui/transferlistfilterswidget.cpp" line="268"/>
         <source>Unlabeled (%1)</source>
         <translation>Без метки (%1)</translation>
     </message>
     <message>
-        <location filename="../gui/transferlistfilterswidget.cpp" line="235"/>
-        <location filename="../gui/transferlistfilterswidget.cpp" line="272"/>
+        <location filename="../gui/transferlistfilterswidget.cpp" line="239"/>
+        <location filename="../gui/transferlistfilterswidget.cpp" line="276"/>
         <source>%1 (%2)</source>
         <comment>label_name (10)</comment>
         <translation>%1 (%2)</translation>
     </message>
     <message>
-        <location filename="../gui/transferlistfilterswidget.cpp" line="326"/>
+        <location filename="../gui/transferlistfilterswidget.cpp" line="330"/>
         <source>Add label...</source>
         <translation>Добавить метку…</translation>
     </message>
     <message>
-        <location filename="../gui/transferlistfilterswidget.cpp" line="330"/>
+        <location filename="../gui/transferlistfilterswidget.cpp" line="334"/>
         <source>Remove label</source>
         <translation>Удалить метку</translation>
     </message>
     <message>
-        <location filename="../gui/transferlistfilterswidget.cpp" line="331"/>
+        <location filename="../gui/transferlistfilterswidget.cpp" line="335"/>
         <source>Remove unused labels</source>
         <translation>Удалить неиспользуемые метки</translation>
     </message>
     <message>
-        <location filename="../gui/transferlistfilterswidget.cpp" line="333"/>
+        <location filename="../gui/transferlistfilterswidget.cpp" line="337"/>
         <source>Resume torrents</source>
         <translation>Возобновить</translation>
     </message>
     <message>
-        <location filename="../gui/transferlistfilterswidget.cpp" line="334"/>
+        <location filename="../gui/transferlistfilterswidget.cpp" line="338"/>
         <source>Pause torrents</source>
         <translation>Приостановить</translation>
     </message>
     <message>
-        <location filename="../gui/transferlistfilterswidget.cpp" line="335"/>
+        <location filename="../gui/transferlistfilterswidget.cpp" line="339"/>
         <source>Delete torrents</source>
         <translation>Удалить</translation>
     </message>
     <message>
-        <location filename="../gui/transferlistfilterswidget.cpp" line="362"/>
+        <location filename="../gui/transferlistfilterswidget.cpp" line="366"/>
         <source>New Label</source>
         <translation>Новая</translation>
     </message>
     <message>
-        <location filename="../gui/transferlistfilterswidget.cpp" line="362"/>
+        <location filename="../gui/transferlistfilterswidget.cpp" line="366"/>
         <source>Label:</source>
         <translation>Метка:</translation>
     </message>
     <message>
-        <location filename="../gui/transferlistfilterswidget.cpp" line="368"/>
+        <location filename="../gui/transferlistfilterswidget.cpp" line="372"/>
         <source>Invalid label name</source>
         <translation>Неправильное имя метки</translation>
     </message>
     <message>
-        <location filename="../gui/transferlistfilterswidget.cpp" line="368"/>
+        <location filename="../gui/transferlistfilterswidget.cpp" line="372"/>
         <source>Please don&apos;t use any special characters in the label name.</source>
         <translation>Пожалуйста, не используйте специальные символы в названии метки.</translation>
     </message>
@@ -1690,7 +1757,7 @@ You should get this information from your Web browser preferences.</source>
 <context>
     <name>LineEdit</name>
     <message>
-        <location filename="../gui/lineedit/src/lineedit.cpp" line="30"/>
+        <location filename="../gui/lineedit/src/lineedit.cpp" line="37"/>
         <source>Clear the text</source>
         <translation>Очистить текст</translation>
     </message>
@@ -1711,37 +1778,37 @@ You should get this information from your Web browser preferences.</source>
 <context>
     <name>MainWindow</name>
     <message>
-        <location filename="../gui/mainwindow.ui" line="37"/>
+        <location filename="../gui/mainwindow.ui" line="43"/>
         <source>&amp;Edit</source>
         <translation>П&amp;равка</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.ui" line="60"/>
+        <location filename="../gui/mainwindow.ui" line="66"/>
         <source>&amp;Tools</source>
         <translation>Инс&amp;трументы</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.ui" line="80"/>
+        <location filename="../gui/mainwindow.ui" line="86"/>
         <source>&amp;File</source>
         <translation>&amp;Файл</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.ui" line="50"/>
+        <location filename="../gui/mainwindow.ui" line="56"/>
         <source>&amp;Help</source>
         <translation>&amp;Помощь</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.ui" line="64"/>
+        <location filename="../gui/mainwindow.ui" line="70"/>
         <source>On Downloads &amp;Done</source>
         <translation>По &amp;окончании загрузок</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.ui" line="90"/>
+        <location filename="../gui/mainwindow.ui" line="96"/>
         <source>&amp;View</source>
         <translation>&amp;Вид</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.ui" line="161"/>
+        <location filename="../gui/mainwindow.ui" line="164"/>
         <source>&amp;Options...</source>
         <translation>&amp;Настройки…</translation>
     </message>
@@ -1751,153 +1818,153 @@ You should get this information from your Web browser preferences.</source>
         <translation>&amp;Возобновить</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.ui" line="206"/>
+        <location filename="../gui/mainwindow.ui" line="197"/>
         <source>Torrent &amp;Creator</source>
         <translation>&amp;Создать торрент</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.ui" line="211"/>
+        <location filename="../gui/mainwindow.ui" line="202"/>
         <source>Set Upload Limit...</source>
         <translation>Установить ограничение отдачи…</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.ui" line="216"/>
+        <location filename="../gui/mainwindow.ui" line="207"/>
         <source>Set Download Limit...</source>
         <translation>Установить ограничение загрузки…</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.ui" line="226"/>
+        <location filename="../gui/mainwindow.ui" line="217"/>
         <source>Set Global Download Limit...</source>
         <translation>Установить ограничение загрузки…</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.ui" line="231"/>
+        <location filename="../gui/mainwindow.ui" line="222"/>
         <source>Set Global Upload Limit...</source>
         <translation>Установить ограничение отдачи…</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.ui" line="236"/>
+        <location filename="../gui/mainwindow.ui" line="227"/>
         <source>Minimum Priority</source>
         <translation>Низший приоритет</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.ui" line="244"/>
+        <location filename="../gui/mainwindow.ui" line="235"/>
         <source>Top Priority</source>
         <translation>Высший приоритет</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.ui" line="252"/>
+        <location filename="../gui/mainwindow.ui" line="243"/>
         <source>Decrease Priority</source>
         <translation>Понизить приоритет</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.ui" line="260"/>
+        <location filename="../gui/mainwindow.ui" line="251"/>
         <source>Increase Priority</source>
         <translation>Повысить приоритет</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.ui" line="271"/>
-        <location filename="../gui/mainwindow.ui" line="274"/>
+        <location filename="../gui/mainwindow.ui" line="262"/>
+        <location filename="../gui/mainwindow.ui" line="265"/>
         <source>Alternative Speed Limits</source>
-        <translation>Альтернативные ограничения скорости</translation>
+        <translation>Иные ограничения скорости</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.ui" line="282"/>
+        <location filename="../gui/mainwindow.ui" line="273"/>
         <source>&amp;Top Toolbar</source>
         <translation>Панель &amp;инструментов</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.ui" line="285"/>
+        <location filename="../gui/mainwindow.ui" line="276"/>
         <source>Display Top Toolbar</source>
         <translation>Показывать панель инструментов</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.ui" line="293"/>
+        <location filename="../gui/mainwindow.ui" line="284"/>
         <source>S&amp;peed in Title Bar</source>
         <translation>&amp;Скорость в заголовке</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.ui" line="296"/>
+        <location filename="../gui/mainwindow.ui" line="287"/>
         <source>Show Transfer Speed in Title Bar</source>
         <translation>Отображать текущую скорость в заголовке окна</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.ui" line="304"/>
+        <location filename="../gui/mainwindow.ui" line="295"/>
         <source>&amp;RSS Reader</source>
         <translation>&amp;RSS менеджер</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.ui" line="312"/>
+        <location filename="../gui/mainwindow.ui" line="303"/>
         <source>Search &amp;Engine</source>
         <translation>Поисковый движок</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.ui" line="317"/>
+        <location filename="../gui/mainwindow.ui" line="308"/>
         <source>L&amp;ock qBittorrent</source>
         <translation>&amp;Заблокировать qBittorrent</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.ui" line="331"/>
+        <location filename="../gui/mainwindow.ui" line="319"/>
         <source>&amp;Import Existing Torrent...</source>
         <translation>&amp;Импортировать торрент…</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.ui" line="334"/>
+        <location filename="../gui/mainwindow.ui" line="322"/>
         <source>Import Torrent...</source>
         <translation>Импортировать торрент…</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.ui" line="339"/>
+        <location filename="../gui/mainwindow.ui" line="327"/>
         <source>Do&amp;nate!</source>
         <translation>Пожертвовать!</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.ui" line="347"/>
+        <location filename="../gui/mainwindow.ui" line="335"/>
         <source>R&amp;esume All</source>
         <translation>Воз&amp;обновить все</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.ui" line="360"/>
+        <location filename="../gui/mainwindow.ui" line="348"/>
         <source>&amp;Log</source>
         <translation>&amp;Журнал</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.ui" line="371"/>
+        <location filename="../gui/mainwindow.ui" line="359"/>
         <source>&amp;Exit qBittorrent</source>
         <translation>&amp;Выйти из qBittorrent</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.ui" line="379"/>
+        <location filename="../gui/mainwindow.ui" line="367"/>
         <source>&amp;Suspend System</source>
         <translation>&amp;Перейти в ждущий режим</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.ui" line="387"/>
+        <location filename="../gui/mainwindow.ui" line="375"/>
         <source>&amp;Hibernate System</source>
         <translation>&amp;Перейти в спящий режим</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.ui" line="395"/>
+        <location filename="../gui/mainwindow.ui" line="383"/>
         <source>S&amp;hutdown System</source>
         <translation>&amp;Выключить компьютер</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.ui" line="403"/>
+        <location filename="../gui/mainwindow.ui" line="391"/>
         <source>&amp;Disabled</source>
         <translation>&amp;Ничего не делать</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.ui" line="418"/>
+        <location filename="../gui/mainwindow.ui" line="406"/>
         <source>&amp;Statistics</source>
         <translation>&amp;Статистика</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.ui" line="423"/>
+        <location filename="../gui/mainwindow.ui" line="411"/>
         <source>Check for Updates</source>
         <translation>Проверить обновления</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.ui" line="426"/>
+        <location filename="../gui/mainwindow.ui" line="414"/>
         <source>Check for Program Updates</source>
         <translation>Проверить наличие обновлений</translation>
     </message>
@@ -1907,109 +1974,103 @@ You should get this information from your Web browser preferences.</source>
         <translation>&amp;О qBittorrent</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.ui" line="156"/>
         <source>Exit</source>
-        <translation>Выход</translation>
+        <translation type="obsolete">Выход</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.ui" line="182"/>
+        <location filename="../gui/mainwindow.ui" line="179"/>
         <source>&amp;Pause</source>
         <translation>&amp;Приостановить</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.ui" line="190"/>
+        <location filename="../gui/mainwindow.ui" line="184"/>
         <source>&amp;Delete</source>
         <translation>&amp;Удалить</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.ui" line="352"/>
+        <location filename="../gui/mainwindow.ui" line="340"/>
         <source>P&amp;ause All</source>
         <translation>П&amp;риостановить все</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.ui" line="145"/>
+        <location filename="../gui/mainwindow.ui" line="151"/>
         <source>&amp;Add Torrent File...</source>
         <translation>&amp;Добавить торрент-файл…</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.ui" line="148"/>
+        <location filename="../gui/mainwindow.ui" line="154"/>
         <source>Open</source>
         <translation>Открыть</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.ui" line="153"/>
+        <location filename="../gui/mainwindow.ui" line="159"/>
         <source>E&amp;xit</source>
         <translation>&amp;Выход</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.ui" line="164"/>
         <source>Options</source>
-        <translation>Настройки</translation>
+        <translation type="obsolete">Настройки</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.ui" line="177"/>
         <source>Resume</source>
-        <translation>Возобновить</translation>
+        <translation type="obsolete">Возобновить</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.ui" line="185"/>
         <source>Pause</source>
-        <translation>Приостановить</translation>
+        <translation type="obsolete">Приостановить</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.ui" line="193"/>
         <source>Delete</source>
-        <translation>Удалить</translation>
+        <translation type="obsolete">Удалить</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.ui" line="201"/>
+        <location filename="../gui/mainwindow.ui" line="192"/>
         <source>Open URL</source>
         <translation>Открыть ссылку</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.ui" line="221"/>
+        <location filename="../gui/mainwindow.ui" line="212"/>
         <source>&amp;Documentation</source>
         <translation>&amp;Документация</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.ui" line="320"/>
+        <location filename="../gui/mainwindow.ui" line="311"/>
         <source>Lock</source>
         <translation>Заблокировать</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.ui" line="408"/>
-        <location filename="../gui/mainwindow.cpp" line="1292"/>
+        <location filename="../gui/mainwindow.ui" line="396"/>
+        <location filename="../gui/mainwindow.cpp" line="1293"/>
         <source>Show</source>
         <translation>Показать</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.cpp" line="1479"/>
+        <location filename="../gui/mainwindow.cpp" line="1480"/>
         <source>Check for program updates</source>
         <translation>Проверить наличие обновлений</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.ui" line="323"/>
         <source>Lock qBittorrent</source>
-        <translation>Заблокировать qBittorrent</translation>
+        <translation type="obsolete">Заблокировать qBittorrent</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.ui" line="198"/>
+        <location filename="../gui/mainwindow.ui" line="189"/>
         <source>Add Torrent &amp;Link...</source>
         <translation>Добавить &amp;ссылку на торрент…</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.ui" line="342"/>
+        <location filename="../gui/mainwindow.ui" line="330"/>
         <source>If you like qBittorrent, please donate!</source>
         <translation>Если вам нравится qBittorrent, пожалуйста, пожертвуйте!</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.ui" line="363"/>
-        <location filename="../gui/mainwindow.cpp" line="1507"/>
+        <location filename="../gui/mainwindow.ui" line="351"/>
+        <location filename="../gui/mainwindow.cpp" line="1508"/>
         <source>Execution Log</source>
         <translation>Лог выполнения</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.cpp" line="477"/>
+        <location filename="../gui/mainwindow.cpp" line="478"/>
         <source>Clear the password</source>
         <translation>Удалить пароль</translation>
     </message>
@@ -2029,351 +2090,352 @@ You should get this information from your Web browser preferences.</source>
         <translation>&amp;Удалить пароль</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.cpp" line="204"/>
+        <location filename="../gui/mainwindow.cpp" line="205"/>
         <source>Transfers</source>
         <translation>Передачи</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.cpp" line="342"/>
+        <location filename="../gui/mainwindow.cpp" line="343"/>
         <source>Torrent file association</source>
         <translation>Ассоциации торрент-файлов</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.cpp" line="343"/>
+        <location filename="../gui/mainwindow.cpp" line="344"/>
         <source>qBittorrent is not the default application to open torrent files or Magnet links.
 Do you want to associate qBittorrent to torrent files and Magnet links?</source>
         <translation>qBittorrent сейчас не является приложением по умолчанию для открытия торрент-файлов или magnet-ссылок.
 Хотите ли вы открывать торрент-файлы и magnet-ссылки с помощью qBittorrent?</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.cpp" line="374"/>
+        <location filename="../gui/mainwindow.cpp" line="375"/>
         <source>Icons Only</source>
         <translation>Только значки</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.cpp" line="376"/>
+        <location filename="../gui/mainwindow.cpp" line="377"/>
         <source>Text Only</source>
         <translation>Только текст</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.cpp" line="378"/>
+        <location filename="../gui/mainwindow.cpp" line="379"/>
         <source>Text Alongside Icons</source>
         <translation>Текст рядом со значками</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.cpp" line="380"/>
+        <location filename="../gui/mainwindow.cpp" line="381"/>
         <source>Text Under Icons</source>
         <translation>Текст под значками</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.cpp" line="382"/>
+        <location filename="../gui/mainwindow.cpp" line="383"/>
         <source>Follow System Style</source>
         <translation>Использовать стиль ОС</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.cpp" line="462"/>
-        <location filename="../gui/mainwindow.cpp" line="489"/>
-        <location filename="../gui/mainwindow.cpp" line="791"/>
+        <location filename="../gui/mainwindow.cpp" line="463"/>
+        <location filename="../gui/mainwindow.cpp" line="490"/>
+        <location filename="../gui/mainwindow.cpp" line="792"/>
         <source>UI lock password</source>
         <translation>Пароль блокировки интерфейса</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.cpp" line="462"/>
-        <location filename="../gui/mainwindow.cpp" line="489"/>
-        <location filename="../gui/mainwindow.cpp" line="791"/>
+        <location filename="../gui/mainwindow.cpp" line="463"/>
+        <location filename="../gui/mainwindow.cpp" line="490"/>
+        <location filename="../gui/mainwindow.cpp" line="792"/>
         <source>Please type the UI lock password:</source>
         <translation>Пожалуйста, введите пароль блокировки интерфейса:</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.cpp" line="466"/>
+        <location filename="../gui/mainwindow.cpp" line="467"/>
         <source>The password should contain at least 3 characters</source>
         <translation>Пароль должен содержать минимум 3 символа</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.cpp" line="471"/>
+        <location filename="../gui/mainwindow.cpp" line="472"/>
         <source>Password update</source>
         <translation>Обновить пароль</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.cpp" line="471"/>
+        <location filename="../gui/mainwindow.cpp" line="472"/>
         <source>The UI lock password has been successfully updated</source>
         <translation>Пароль блокировки интерфейса был успешно обновлен</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.cpp" line="477"/>
+        <location filename="../gui/mainwindow.cpp" line="478"/>
         <source>Are you sure you want to clear the password?</source>
         <translation>Вы уверены, что хотите удалить пароль?</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.cpp" line="529"/>
+        <location filename="../gui/mainwindow.cpp" line="530"/>
         <source>Search</source>
         <translation>Поиск</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.cpp" line="540"/>
+        <location filename="../gui/mainwindow.cpp" line="541"/>
         <source>Transfers (%1)</source>
         <translation>Передачи (%1)</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.cpp" line="631"/>
+        <location filename="../gui/mainwindow.cpp" line="632"/>
         <source>Error</source>
         <translation>Ошибка</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.cpp" line="631"/>
+        <location filename="../gui/mainwindow.cpp" line="632"/>
         <source>Failed to add torrent: %1</source>
         <translation>Не удалось добавить торрент: %1</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.cpp" line="637"/>
+        <location filename="../gui/mainwindow.cpp" line="638"/>
         <source>Download completion</source>
         <translation>Завершение загрузок</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.cpp" line="643"/>
+        <location filename="../gui/mainwindow.cpp" line="644"/>
         <source>I/O Error</source>
         <comment>i.e: Input/Output Error</comment>
         <translation>Ошибка ввода/вывода</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.cpp" line="704"/>
+        <location filename="../gui/mainwindow.cpp" line="705"/>
         <source>Recursive download confirmation</source>
         <translation>Подтверждение рекурсивной загрузки</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.cpp" line="705"/>
+        <location filename="../gui/mainwindow.cpp" line="706"/>
         <source>Yes</source>
         <translation>Да</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.cpp" line="706"/>
+        <location filename="../gui/mainwindow.cpp" line="707"/>
         <source>No</source>
         <translation>Нет</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.cpp" line="707"/>
+        <location filename="../gui/mainwindow.cpp" line="708"/>
         <source>Never</source>
         <translation>Никогда</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.cpp" line="727"/>
+        <location filename="../gui/mainwindow.cpp" line="728"/>
         <source>Global Upload Speed Limit</source>
         <translation>Общее ограничение скорости отдачи</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.cpp" line="743"/>
+        <location filename="../gui/mainwindow.cpp" line="744"/>
         <source>Global Download Speed Limit</source>
         <translation>Общее ограничение скорости загрузки</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.cpp" line="893"/>
+        <location filename="../gui/mainwindow.cpp" line="894"/>
         <source>&amp;No</source>
         <translation>&amp;Нет</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.cpp" line="894"/>
+        <location filename="../gui/mainwindow.cpp" line="895"/>
         <source>&amp;Yes</source>
         <translation>&amp;Да</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.cpp" line="895"/>
+        <location filename="../gui/mainwindow.cpp" line="896"/>
         <source>&amp;Always Yes</source>
         <translation>&amp;Всегда да</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.cpp" line="1378"/>
+        <location filename="../gui/mainwindow.cpp" line="1379"/>
         <source>Python found in %1</source>
         <translation>Python найден в %1</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.cpp" line="1393"/>
+        <location filename="../gui/mainwindow.cpp" line="1394"/>
         <source>Old Python Interpreter</source>
         <translation>Старый интерпретатор Python</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.cpp" line="1463"/>
+        <location filename="../gui/mainwindow.cpp" line="1464"/>
         <source>qBittorrent Update Available</source>
         <translation>Доступно обновление qBittorrent</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.cpp" line="1473"/>
+        <location filename="../gui/mainwindow.cpp" line="1474"/>
         <source>Already Using the Latest qBittorrent Version</source>
         <translation>Используется последняя версия qBittorrent</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.cpp" line="1403"/>
+        <location filename="../gui/mainwindow.cpp" line="1404"/>
         <source>Undetermined Python version</source>
         <translation>Версия Python не определена</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.cpp" line="637"/>
+        <location filename="../gui/mainwindow.cpp" line="638"/>
         <source>&apos;%1&apos; has finished downloading.</source>
         <comment>e.g: xxx.avi has finished downloading.</comment>
-        <translation type="unfinished"></translation>
+        <translation>Загрузка &apos;%1&apos; завершена.</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.cpp" line="643"/>
+        <location filename="../gui/mainwindow.cpp" line="644"/>
         <source>An I/O error occurred for torrent &apos;%1&apos;.
  Reason: %2</source>
         <comment>e.g: An error occurred for torrent &apos;xxx.avi&apos;.
  Reason: disk is full.</comment>
-        <translation type="unfinished"></translation>
+        <translation>Произошла ошибка ввода/вывода для торрента &apos;%1&apos;.
+Причина: %2</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.cpp" line="704"/>
+        <location filename="../gui/mainwindow.cpp" line="705"/>
         <source>The torrent &apos;%1&apos; contains torrent files, do you want to proceed with their download?</source>
-        <translation type="unfinished"></translation>
+        <translation>Торрент &apos;%1&apos; содержит торрент-файлы, хотите ли вы приступить к их загрузке?</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.cpp" line="719"/>
+        <location filename="../gui/mainwindow.cpp" line="720"/>
         <source>Couldn&apos;t download file at URL &apos;%1&apos;, reason: %2.</source>
-        <translation type="unfinished"></translation>
+        <translation>Не удалось загрузить файл по ссылке: &apos;%1&apos;, причина: %2.</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.cpp" line="1393"/>
+        <location filename="../gui/mainwindow.cpp" line="1394"/>
         <source>Your Python version %1 is outdated. Please upgrade to latest version for search engines to work. Minimum requirement: 2.7.0/3.3.0.</source>
         <translation>Ваша версия Python %1 устарела. Пожалуйста, обновитесь до последней версии для использования поисковых движков. Требуются как минимум 2.7.0 или 3.3.0.</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.cpp" line="1403"/>
+        <location filename="../gui/mainwindow.cpp" line="1404"/>
         <source>Couldn&apos;t determine your Python version (%1). Search engine disabled.</source>
         <translation>Не удалось определить вашу версию Python (%1). Поисковый движок выключен.</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.cpp" line="1414"/>
-        <location filename="../gui/mainwindow.cpp" line="1426"/>
+        <location filename="../gui/mainwindow.cpp" line="1415"/>
+        <location filename="../gui/mainwindow.cpp" line="1427"/>
         <source>Missing Python Interpreter</source>
         <translation>Отсутствует интерпретатор Python</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.cpp" line="1415"/>
+        <location filename="../gui/mainwindow.cpp" line="1416"/>
         <source>Python is required to use the search engine but it does not seem to be installed.
 Do you want to install it now?</source>
         <translation>Для использования поискового движка требуется Python, но, видимо, он не установлен.
-Хотите установить его сечас?</translation>
+Хотите установить его сейчас?</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.cpp" line="1426"/>
+        <location filename="../gui/mainwindow.cpp" line="1427"/>
         <source>Python is required to use the search engine but it does not seem to be installed.</source>
         <translation>Для использования поискового движка требуется Python, но он, видимо, не установлен.</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.cpp" line="1464"/>
+        <location filename="../gui/mainwindow.cpp" line="1465"/>
         <source>A new version is available.
 Update to version %1?</source>
         <translation>Доступна новая версия.
 Обновиться до версии %1?</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.cpp" line="1474"/>
+        <location filename="../gui/mainwindow.cpp" line="1475"/>
         <source>No updates available.
 You are already using the latest version.</source>
         <translation>Обновлений нет.
 У вас уже установлена последняя версия.</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.cpp" line="1478"/>
+        <location filename="../gui/mainwindow.cpp" line="1479"/>
         <source>&amp;Check for Updates</source>
         <translation>&amp;Проверить обновления</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.cpp" line="1576"/>
+        <location filename="../gui/mainwindow.cpp" line="1577"/>
         <source>Checking for Updates...</source>
         <translation>Проверка обновление…</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.cpp" line="1577"/>
+        <location filename="../gui/mainwindow.cpp" line="1578"/>
         <source>Already checking for program updates in the background</source>
         <translation>Проверка обновлений уже выполняется</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.cpp" line="1592"/>
+        <location filename="../gui/mainwindow.cpp" line="1593"/>
         <source>Python found in &apos;%1&apos;</source>
-        <translation type="unfinished"></translation>
+        <translation>Python найден в &apos;%1&apos;</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.cpp" line="1645"/>
+        <location filename="../gui/mainwindow.cpp" line="1646"/>
         <source>Download error</source>
         <translation>Ошибка при загрузке</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.cpp" line="1645"/>
+        <location filename="../gui/mainwindow.cpp" line="1646"/>
         <source>Python setup could not be downloaded, reason: %1.
 Please install it manually.</source>
         <translation>Установщик Python не может быть загружен по причине: %1.
 Пожалуйста, установите его вручную.</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.cpp" line="466"/>
-        <location filename="../gui/mainwindow.cpp" line="805"/>
+        <location filename="../gui/mainwindow.cpp" line="467"/>
+        <location filename="../gui/mainwindow.cpp" line="806"/>
         <source>Invalid password</source>
         <translation>Неверный пароль</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.cpp" line="507"/>
-        <location filename="../gui/mainwindow.cpp" line="519"/>
+        <location filename="../gui/mainwindow.cpp" line="508"/>
+        <location filename="../gui/mainwindow.cpp" line="520"/>
         <source>RSS (%1)</source>
         <translation>RSS (%1)</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.cpp" line="719"/>
+        <location filename="../gui/mainwindow.cpp" line="720"/>
         <source>URL download error</source>
         <translation>Ошибка при загрузке ссылки</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.cpp" line="805"/>
+        <location filename="../gui/mainwindow.cpp" line="806"/>
         <source>The password is invalid</source>
         <translation>Неверный пароль</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.cpp" line="1187"/>
-        <location filename="../gui/mainwindow.cpp" line="1194"/>
+        <location filename="../gui/mainwindow.cpp" line="1188"/>
+        <location filename="../gui/mainwindow.cpp" line="1195"/>
         <source>DL speed: %1</source>
         <comment>e.g: Download speed: 10 KiB/s</comment>
         <translation>Загрузка: %1</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.cpp" line="1190"/>
-        <location filename="../gui/mainwindow.cpp" line="1196"/>
+        <location filename="../gui/mainwindow.cpp" line="1191"/>
+        <location filename="../gui/mainwindow.cpp" line="1197"/>
         <source>UP speed: %1</source>
         <comment>e.g: Upload speed: 10 KiB/s</comment>
         <translation>Отдача: %1</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.cpp" line="1201"/>
+        <location filename="../gui/mainwindow.cpp" line="1202"/>
         <source>[D: %1, U: %2] qBittorrent %3</source>
         <comment>D = Download; U = Upload; %3 is qBittorrent version</comment>
         <translation>[З: %1, О: %2] qBittorrent %3</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.cpp" line="1292"/>
+        <location filename="../gui/mainwindow.cpp" line="1293"/>
         <source>Hide</source>
         <translation>Скрыть</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.cpp" line="890"/>
+        <location filename="../gui/mainwindow.cpp" line="891"/>
         <source>Exiting qBittorrent</source>
         <translation>Завершение работы qBittorrent</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.cpp" line="891"/>
+        <location filename="../gui/mainwindow.cpp" line="892"/>
         <source>Some files are currently transferring.
 Are you sure you want to quit qBittorrent?</source>
         <translation>Некоторые передачи сейчас активны.
 Вы уверены, что хотите выйти из qBittorrent?</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.cpp" line="1032"/>
+        <location filename="../gui/mainwindow.cpp" line="1033"/>
         <source>Open Torrent Files</source>
         <translation>Открыть торрент-файлы</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.cpp" line="1033"/>
+        <location filename="../gui/mainwindow.cpp" line="1034"/>
         <source>Torrent Files</source>
         <translation>Торрент-файлы</translation>
     </message>
     <message>
-        <location filename="../gui/mainwindow.cpp" line="1068"/>
+        <location filename="../gui/mainwindow.cpp" line="1069"/>
         <source>Options were saved successfully.</source>
         <translation>Настройки были успешно сохранены.</translation>
     </message>
@@ -2381,52 +2443,52 @@ Are you sure you want to quit qBittorrent?</source>
 <context>
     <name>Net::DNSUpdater</name>
     <message>
-        <location filename="../core/net/dnsupdater.cpp" line="200"/>
+        <location filename="../base/net/dnsupdater.cpp" line="200"/>
         <source>Your dynamic DNS was successfully updated.</source>
         <translation>Ваш динамический DNS был успешно обновлён.</translation>
     </message>
     <message>
-        <location filename="../core/net/dnsupdater.cpp" line="204"/>
+        <location filename="../base/net/dnsupdater.cpp" line="204"/>
         <source>Dynamic DNS error: The service is temporarily unavailable, it will be retried in 30 minutes.</source>
         <translation>Ошибка динамического DNS: служба временно недоступна. Повтор попытки соединения через 30 минут.</translation>
     </message>
     <message>
-        <location filename="../core/net/dnsupdater.cpp" line="213"/>
+        <location filename="../base/net/dnsupdater.cpp" line="213"/>
         <source>Dynamic DNS error: hostname supplied does not exist under specified account.</source>
         <translation>Ошибка динамического DNS: предоставленное имя хоста не существует в указанной учётной записи.</translation>
     </message>
     <message>
-        <location filename="../core/net/dnsupdater.cpp" line="218"/>
+        <location filename="../base/net/dnsupdater.cpp" line="218"/>
         <source>Dynamic DNS error: Invalid username/password.</source>
         <translation>Ошибка динамического DNS: неверный логин или пароль.</translation>
     </message>
     <message>
-        <location filename="../core/net/dnsupdater.cpp" line="223"/>
+        <location filename="../base/net/dnsupdater.cpp" line="223"/>
         <source>Dynamic DNS error: qBittorrent was blacklisted by the service, please report a bug at http://bugs.qbittorrent.org.</source>
         <translation>Ошибка динамического DNS: qBittorrent внесён службой в чёрный список. Пожалуйста, сообщите об ошибке на  http://bugs.qbittorrent.org.</translation>
     </message>
     <message>
-        <location filename="../core/net/dnsupdater.cpp" line="229"/>
+        <location filename="../base/net/dnsupdater.cpp" line="229"/>
         <source>Dynamic DNS error: %1 was returned by the service, please report a bug at http://bugs.qbittorrent.org.</source>
         <translation>Ошибка динамического DNS: служба вернула %1. Пожалуйста, сообщите об ошибке на  http://bugs.qbittorrent.org.</translation>
     </message>
     <message>
-        <location filename="../core/net/dnsupdater.cpp" line="235"/>
+        <location filename="../base/net/dnsupdater.cpp" line="235"/>
         <source>Dynamic DNS error: Your username was blocked due to abuse.</source>
         <translation>Ошибка динамического DNS: ваш аккаунт был заблокирован из-за злоупотребления.</translation>
     </message>
     <message>
-        <location filename="../core/net/dnsupdater.cpp" line="256"/>
+        <location filename="../base/net/dnsupdater.cpp" line="256"/>
         <source>Dynamic DNS error: supplied domain name is invalid.</source>
         <translation>Ошибка динамического DNS: предоставленное доменное имя неверное.</translation>
     </message>
     <message>
-        <location filename="../core/net/dnsupdater.cpp" line="267"/>
+        <location filename="../base/net/dnsupdater.cpp" line="267"/>
         <source>Dynamic DNS error: supplied username is too short.</source>
         <translation>Ошибка динамического DNS: предоставленное имя пользователя слишком короткое.</translation>
     </message>
     <message>
-        <location filename="../core/net/dnsupdater.cpp" line="278"/>
+        <location filename="../base/net/dnsupdater.cpp" line="278"/>
         <source>Dynamic DNS error: supplied password is too short.</source>
         <translation>Ошибка динамического DNS: предоставленный пароль слишком короткий.</translation>
     </message>
@@ -2434,17 +2496,17 @@ Are you sure you want to quit qBittorrent?</source>
 <context>
     <name>Net::DownloadHandler</name>
     <message>
-        <location filename="../core/net/downloadhandler.cpp" line="104"/>
+        <location filename="../base/net/downloadhandler.cpp" line="104"/>
         <source>I/O Error</source>
         <translation>Ошибка ввода/вывода</translation>
     </message>
     <message>
-        <location filename="../core/net/downloadhandler.cpp" line="117"/>
+        <location filename="../base/net/downloadhandler.cpp" line="117"/>
         <source>The file size is %1. It exceeds the download limit of %2.</source>
         <translation>Размер файла - %1, что превышает ограничение загрузки %2.</translation>
     </message>
     <message>
-        <location filename="../core/net/downloadhandler.cpp" line="186"/>
+        <location filename="../base/net/downloadhandler.cpp" line="186"/>
         <source>Unexpected redirect to magnet URI.</source>
         <translation>Неожиданная переадресация к magnet-ссылке.</translation>
     </message>
@@ -2452,1300 +2514,1300 @@ Are you sure you want to quit qBittorrent?</source>
 <context>
     <name>Net::GeoIPManager</name>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="105"/>
-        <location filename="../core/net/geoipmanager.cpp" line="435"/>
+        <location filename="../base/net/geoipmanager.cpp" line="104"/>
+        <location filename="../base/net/geoipmanager.cpp" line="432"/>
         <source>GeoIP database loaded. Type: %1. Build time: %2.</source>
         <translation>База данных GeoIP загружена. Тип: %1. Время построения: %2.</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="109"/>
-        <location filename="../core/net/geoipmanager.cpp" line="456"/>
+        <location filename="../base/net/geoipmanager.cpp" line="108"/>
+        <location filename="../base/net/geoipmanager.cpp" line="453"/>
         <source>Couldn&apos;t load GeoIP database. Reason: %1</source>
         <translation>Не удалось загрузить базу данных GeoIP. Причина: %1</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="149"/>
-        <location filename="../core/net/geoipmanager.cpp" line="406"/>
+        <location filename="../base/net/geoipmanager.cpp" line="141"/>
+        <location filename="../base/net/geoipmanager.cpp" line="398"/>
         <source>N/A</source>
-        <translation type="unfinished"></translation>
+        <translation>Н/Д</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="150"/>
+        <location filename="../base/net/geoipmanager.cpp" line="142"/>
         <source>Asia/Pacific Region</source>
-        <translation type="unfinished"></translation>
+        <translation>Азиатско-Тихоокеанский регион</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="151"/>
+        <location filename="../base/net/geoipmanager.cpp" line="143"/>
         <source>Europe</source>
-        <translation type="unfinished"></translation>
+        <translation>Европа</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="152"/>
+        <location filename="../base/net/geoipmanager.cpp" line="144"/>
         <source>Andorra</source>
-        <translation type="unfinished"></translation>
+        <translation>Андорра</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="153"/>
+        <location filename="../base/net/geoipmanager.cpp" line="145"/>
         <source>United Arab Emirates</source>
-        <translation type="unfinished"></translation>
+        <translation>Объединенные Арабские Эмираты</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="154"/>
+        <location filename="../base/net/geoipmanager.cpp" line="146"/>
         <source>Afghanistan</source>
-        <translation type="unfinished"></translation>
+        <translation>Афганистан</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="155"/>
+        <location filename="../base/net/geoipmanager.cpp" line="147"/>
         <source>Antigua and Barbuda</source>
-        <translation type="unfinished"></translation>
+        <translation>Антигуа и Барбуда</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="156"/>
+        <location filename="../base/net/geoipmanager.cpp" line="148"/>
         <source>Anguilla</source>
-        <translation type="unfinished"></translation>
+        <translation>Ангилья</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="157"/>
+        <location filename="../base/net/geoipmanager.cpp" line="149"/>
         <source>Albania</source>
-        <translation type="unfinished"></translation>
+        <translation>Албания</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="158"/>
+        <location filename="../base/net/geoipmanager.cpp" line="150"/>
         <source>Armenia</source>
-        <translation type="unfinished"></translation>
+        <translation>Армения</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="159"/>
+        <location filename="../base/net/geoipmanager.cpp" line="151"/>
         <source>Netherlands Antilles</source>
-        <translation type="unfinished"></translation>
+        <translation>Нидерландские Антильские острова</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="160"/>
+        <location filename="../base/net/geoipmanager.cpp" line="152"/>
         <source>Angola</source>
-        <translation type="unfinished"></translation>
+        <translation>Ангола</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="161"/>
+        <location filename="../base/net/geoipmanager.cpp" line="153"/>
         <source>Antarctica</source>
-        <translation type="unfinished"></translation>
+        <translation>Антарктида</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="162"/>
+        <location filename="../base/net/geoipmanager.cpp" line="154"/>
         <source>Argentina</source>
-        <translation type="unfinished"></translation>
+        <translation>Аргентина</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="163"/>
+        <location filename="../base/net/geoipmanager.cpp" line="155"/>
         <source>American Samoa</source>
-        <translation type="unfinished"></translation>
+        <translation>Американское Самоа</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="164"/>
+        <location filename="../base/net/geoipmanager.cpp" line="156"/>
         <source>Austria</source>
-        <translation type="unfinished"></translation>
+        <translation>Австрия</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="165"/>
+        <location filename="../base/net/geoipmanager.cpp" line="157"/>
         <source>Australia</source>
-        <translation type="unfinished"></translation>
+        <translation>Австралия</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="166"/>
+        <location filename="../base/net/geoipmanager.cpp" line="158"/>
         <source>Aruba</source>
-        <translation type="unfinished"></translation>
+        <translation>Аруба</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="167"/>
+        <location filename="../base/net/geoipmanager.cpp" line="159"/>
         <source>Azerbaijan</source>
-        <translation type="unfinished"></translation>
+        <translation>Азербайджан</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="168"/>
+        <location filename="../base/net/geoipmanager.cpp" line="160"/>
         <source>Bosnia and Herzegovina</source>
-        <translation type="unfinished"></translation>
+        <translation>Босния и Герцеговина</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="169"/>
+        <location filename="../base/net/geoipmanager.cpp" line="161"/>
         <source>Barbados</source>
-        <translation type="unfinished"></translation>
+        <translation>Барбадос</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="170"/>
+        <location filename="../base/net/geoipmanager.cpp" line="162"/>
         <source>Bangladesh</source>
-        <translation type="unfinished"></translation>
+        <translation>Бангладеш</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="171"/>
+        <location filename="../base/net/geoipmanager.cpp" line="163"/>
         <source>Belgium</source>
-        <translation type="unfinished"></translation>
+        <translation>Бельгия</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="172"/>
+        <location filename="../base/net/geoipmanager.cpp" line="164"/>
         <source>Burkina Faso</source>
-        <translation type="unfinished"></translation>
+        <translation>Буркина-Фасо</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="173"/>
+        <location filename="../base/net/geoipmanager.cpp" line="165"/>
         <source>Bulgaria</source>
-        <translation type="unfinished"></translation>
+        <translation>Болгария</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="174"/>
+        <location filename="../base/net/geoipmanager.cpp" line="166"/>
         <source>Bahrain</source>
-        <translation type="unfinished"></translation>
+        <translation>Бахрейн</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="175"/>
+        <location filename="../base/net/geoipmanager.cpp" line="167"/>
         <source>Burundi</source>
-        <translation type="unfinished"></translation>
+        <translation>Бурунди</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="176"/>
+        <location filename="../base/net/geoipmanager.cpp" line="168"/>
         <source>Benin</source>
-        <translation type="unfinished"></translation>
+        <translation>Бенин</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="177"/>
+        <location filename="../base/net/geoipmanager.cpp" line="169"/>
         <source>Bermuda</source>
-        <translation type="unfinished"></translation>
+        <translation>Бермудские острова</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="178"/>
+        <location filename="../base/net/geoipmanager.cpp" line="170"/>
         <source>Brunei Darussalam</source>
-        <translation type="unfinished"></translation>
+        <translation>Бруней-Даруссалам</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="179"/>
+        <location filename="../base/net/geoipmanager.cpp" line="171"/>
         <source>Bolivia</source>
-        <translation type="unfinished"></translation>
+        <translation>Боливия</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="180"/>
+        <location filename="../base/net/geoipmanager.cpp" line="172"/>
         <source>Brazil</source>
-        <translation type="unfinished"></translation>
+        <translation>Бразилия</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="181"/>
+        <location filename="../base/net/geoipmanager.cpp" line="173"/>
         <source>Bahamas</source>
-        <translation type="unfinished"></translation>
+        <translation>Багамские Острова</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="182"/>
+        <location filename="../base/net/geoipmanager.cpp" line="174"/>
         <source>Bhutan</source>
-        <translation type="unfinished"></translation>
+        <translation>Бутан</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="183"/>
+        <location filename="../base/net/geoipmanager.cpp" line="175"/>
         <source>Bouvet Island</source>
-        <translation type="unfinished"></translation>
+        <translation>Остров Буве</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="184"/>
+        <location filename="../base/net/geoipmanager.cpp" line="176"/>
         <source>Botswana</source>
-        <translation type="unfinished"></translation>
+        <translation>Ботсвана</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="185"/>
+        <location filename="../base/net/geoipmanager.cpp" line="177"/>
         <source>Belarus</source>
-        <translation type="unfinished"></translation>
+        <translation>Беларусь</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="186"/>
+        <location filename="../base/net/geoipmanager.cpp" line="178"/>
         <source>Belize</source>
-        <translation type="unfinished"></translation>
+        <translation>Белиз</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="187"/>
+        <location filename="../base/net/geoipmanager.cpp" line="179"/>
         <source>Canada</source>
-        <translation type="unfinished"></translation>
+        <translation>Канада</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="188"/>
+        <location filename="../base/net/geoipmanager.cpp" line="180"/>
         <source>Cocos (Keeling) Islands</source>
-        <translation type="unfinished"></translation>
+        <translation>Кокосовые острова</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="189"/>
+        <location filename="../base/net/geoipmanager.cpp" line="181"/>
         <source>Congo, The Democratic Republic of the</source>
-        <translation type="unfinished"></translation>
+        <translation>Демократическая Республика Конго</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="190"/>
+        <location filename="../base/net/geoipmanager.cpp" line="182"/>
         <source>Central African Republic</source>
-        <translation type="unfinished"></translation>
+        <translation>Центральноафриканская Республика</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="191"/>
+        <location filename="../base/net/geoipmanager.cpp" line="183"/>
         <source>Congo</source>
-        <translation type="unfinished"></translation>
+        <translation>Республика Конго</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="192"/>
+        <location filename="../base/net/geoipmanager.cpp" line="184"/>
         <source>Switzerland</source>
-        <translation type="unfinished"></translation>
+        <translation>Швейцария</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="193"/>
+        <location filename="../base/net/geoipmanager.cpp" line="185"/>
         <source>Cote D&apos;Ivoire</source>
-        <translation type="unfinished"></translation>
+        <translation>Кот-д&apos;Ивуар</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="194"/>
+        <location filename="../base/net/geoipmanager.cpp" line="186"/>
         <source>Cook Islands</source>
-        <translation type="unfinished"></translation>
+        <translation>Острова Кука</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="195"/>
+        <location filename="../base/net/geoipmanager.cpp" line="187"/>
         <source>Chile</source>
-        <translation type="unfinished"></translation>
+        <translation>Чили</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="196"/>
+        <location filename="../base/net/geoipmanager.cpp" line="188"/>
         <source>Cameroon</source>
-        <translation type="unfinished"></translation>
+        <translation>Камерун</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="197"/>
+        <location filename="../base/net/geoipmanager.cpp" line="189"/>
         <source>China</source>
-        <translation type="unfinished"></translation>
+        <translation>Китай</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="198"/>
+        <location filename="../base/net/geoipmanager.cpp" line="190"/>
         <source>Colombia</source>
-        <translation type="unfinished"></translation>
+        <translation>Колумбия</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="199"/>
+        <location filename="../base/net/geoipmanager.cpp" line="191"/>
         <source>Costa Rica</source>
-        <translation type="unfinished"></translation>
+        <translation>Коста-Рика</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="200"/>
+        <location filename="../base/net/geoipmanager.cpp" line="192"/>
         <source>Cuba</source>
-        <translation type="unfinished"></translation>
+        <translation>Куба</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="201"/>
+        <location filename="../base/net/geoipmanager.cpp" line="193"/>
         <source>Cape Verde</source>
-        <translation type="unfinished"></translation>
+        <translation>Кабо-Верде</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="202"/>
+        <location filename="../base/net/geoipmanager.cpp" line="194"/>
         <source>Christmas Island</source>
-        <translation type="unfinished"></translation>
+        <translation>Остров Рождества</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="203"/>
+        <location filename="../base/net/geoipmanager.cpp" line="195"/>
         <source>Cyprus</source>
-        <translation type="unfinished"></translation>
+        <translation>Кипр</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="204"/>
+        <location filename="../base/net/geoipmanager.cpp" line="196"/>
         <source>Czech Republic</source>
-        <translation type="unfinished"></translation>
+        <translation>Чехия</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="205"/>
+        <location filename="../base/net/geoipmanager.cpp" line="197"/>
         <source>Germany</source>
-        <translation type="unfinished"></translation>
+        <translation>Германия</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="206"/>
+        <location filename="../base/net/geoipmanager.cpp" line="198"/>
         <source>Djibouti</source>
-        <translation type="unfinished"></translation>
+        <translation>Джибути</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="207"/>
+        <location filename="../base/net/geoipmanager.cpp" line="199"/>
         <source>Denmark</source>
-        <translation type="unfinished"></translation>
+        <translation>Дания</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="208"/>
+        <location filename="../base/net/geoipmanager.cpp" line="200"/>
         <source>Dominica</source>
-        <translation type="unfinished"></translation>
+        <translation>Доминика</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="209"/>
+        <location filename="../base/net/geoipmanager.cpp" line="201"/>
         <source>Dominican Republic</source>
-        <translation type="unfinished"></translation>
+        <translation>Доминиканская Республика</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="210"/>
+        <location filename="../base/net/geoipmanager.cpp" line="202"/>
         <source>Algeria</source>
-        <translation type="unfinished"></translation>
+        <translation>Алжир</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="211"/>
+        <location filename="../base/net/geoipmanager.cpp" line="203"/>
         <source>Ecuador</source>
-        <translation type="unfinished"></translation>
+        <translation>Эквадор</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="212"/>
+        <location filename="../base/net/geoipmanager.cpp" line="204"/>
         <source>Estonia</source>
-        <translation type="unfinished"></translation>
+        <translation>Эстония</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="213"/>
+        <location filename="../base/net/geoipmanager.cpp" line="205"/>
         <source>Egypt</source>
-        <translation type="unfinished"></translation>
+        <translation>Египет</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="214"/>
+        <location filename="../base/net/geoipmanager.cpp" line="206"/>
         <source>Western Sahara</source>
-        <translation type="unfinished"></translation>
+        <translation>Западная Сахара</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="215"/>
+        <location filename="../base/net/geoipmanager.cpp" line="207"/>
         <source>Eritrea</source>
-        <translation type="unfinished"></translation>
+        <translation>Эритрея</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="216"/>
+        <location filename="../base/net/geoipmanager.cpp" line="208"/>
         <source>Spain</source>
-        <translation type="unfinished"></translation>
+        <translation>Испания</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="217"/>
+        <location filename="../base/net/geoipmanager.cpp" line="209"/>
         <source>Ethiopia</source>
-        <translation type="unfinished"></translation>
+        <translation>Эфиопия</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="218"/>
+        <location filename="../base/net/geoipmanager.cpp" line="210"/>
         <source>Finland</source>
-        <translation type="unfinished"></translation>
+        <translation>Финляндия</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="219"/>
+        <location filename="../base/net/geoipmanager.cpp" line="211"/>
         <source>Fiji</source>
-        <translation type="unfinished"></translation>
+        <translation>Фиджи</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="220"/>
+        <location filename="../base/net/geoipmanager.cpp" line="212"/>
         <source>Falkland Islands (Malvinas)</source>
-        <translation type="unfinished"></translation>
+        <translation>Фолклендские острова</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="221"/>
+        <location filename="../base/net/geoipmanager.cpp" line="213"/>
         <source>Micronesia, Federated States of</source>
-        <translation type="unfinished"></translation>
+        <translation>Федеративные Штаты Микронезии</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="222"/>
+        <location filename="../base/net/geoipmanager.cpp" line="214"/>
         <source>Faroe Islands</source>
-        <translation type="unfinished"></translation>
+        <translation>Фарерские острова</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="223"/>
+        <location filename="../base/net/geoipmanager.cpp" line="215"/>
         <source>France</source>
-        <translation type="unfinished">Франция</translation>
+        <translation>Франция</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="224"/>
+        <location filename="../base/net/geoipmanager.cpp" line="216"/>
         <source>France, Metropolitan</source>
-        <translation type="unfinished"></translation>
+        <translation>Метрополия Франции</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="225"/>
+        <location filename="../base/net/geoipmanager.cpp" line="217"/>
         <source>Gabon</source>
-        <translation type="unfinished"></translation>
+        <translation>Габон</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="226"/>
+        <location filename="../base/net/geoipmanager.cpp" line="218"/>
         <source>United Kingdom</source>
-        <translation type="unfinished"></translation>
+        <translation>Великобритания</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="227"/>
+        <location filename="../base/net/geoipmanager.cpp" line="219"/>
         <source>Grenada</source>
-        <translation type="unfinished"></translation>
+        <translation>Гренада</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="228"/>
+        <location filename="../base/net/geoipmanager.cpp" line="220"/>
         <source>Georgia</source>
-        <translation type="unfinished"></translation>
+        <translation>Грузия</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="229"/>
+        <location filename="../base/net/geoipmanager.cpp" line="221"/>
         <source>French Guiana</source>
-        <translation type="unfinished"></translation>
+        <translation>Французская Гвиана</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="230"/>
+        <location filename="../base/net/geoipmanager.cpp" line="222"/>
         <source>Ghana</source>
-        <translation type="unfinished"></translation>
+        <translation>Гана</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="231"/>
+        <location filename="../base/net/geoipmanager.cpp" line="223"/>
         <source>Gibraltar</source>
-        <translation type="unfinished"></translation>
+        <translation>Гибралтар</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="232"/>
+        <location filename="../base/net/geoipmanager.cpp" line="224"/>
         <source>Greenland</source>
-        <translation type="unfinished"></translation>
+        <translation>Гренландия</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="233"/>
+        <location filename="../base/net/geoipmanager.cpp" line="225"/>
         <source>Gambia</source>
-        <translation type="unfinished"></translation>
+        <translation>Гамбия</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="234"/>
+        <location filename="../base/net/geoipmanager.cpp" line="226"/>
         <source>Guinea</source>
-        <translation type="unfinished"></translation>
+        <translation>Гвинея</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="235"/>
+        <location filename="../base/net/geoipmanager.cpp" line="227"/>
         <source>Guadeloupe</source>
-        <translation type="unfinished"></translation>
+        <translation>Гваделупа</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="236"/>
+        <location filename="../base/net/geoipmanager.cpp" line="228"/>
         <source>Equatorial Guinea</source>
-        <translation type="unfinished"></translation>
+        <translation>Экваториальная Гвинея</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="237"/>
+        <location filename="../base/net/geoipmanager.cpp" line="229"/>
         <source>Greece</source>
-        <translation type="unfinished">Греция</translation>
+        <translation>Греция</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="238"/>
+        <location filename="../base/net/geoipmanager.cpp" line="230"/>
         <source>South Georgia and the South Sandwich Islands</source>
-        <translation type="unfinished"></translation>
+        <translation>Южная Георгия и Южные Сандвичевы Острова</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="239"/>
+        <location filename="../base/net/geoipmanager.cpp" line="231"/>
         <source>Guatemala</source>
-        <translation type="unfinished"></translation>
+        <translation>Гватемала</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="240"/>
+        <location filename="../base/net/geoipmanager.cpp" line="232"/>
         <source>Guam</source>
-        <translation type="unfinished"></translation>
+        <translation>Гуам</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="241"/>
+        <location filename="../base/net/geoipmanager.cpp" line="233"/>
         <source>Guinea-Bissau</source>
-        <translation type="unfinished"></translation>
+        <translation>Гвинея-Бисау</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="242"/>
+        <location filename="../base/net/geoipmanager.cpp" line="234"/>
         <source>Guyana</source>
-        <translation type="unfinished"></translation>
+        <translation>Гайана</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="243"/>
+        <location filename="../base/net/geoipmanager.cpp" line="235"/>
         <source>Hong Kong</source>
-        <translation type="unfinished"></translation>
+        <translation>Гонконг</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="244"/>
+        <location filename="../base/net/geoipmanager.cpp" line="236"/>
         <source>Heard Island and McDonald Islands</source>
-        <translation type="unfinished"></translation>
+        <translation>Остров Херд и острова Макдональд</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="245"/>
+        <location filename="../base/net/geoipmanager.cpp" line="237"/>
         <source>Honduras</source>
-        <translation type="unfinished"></translation>
+        <translation>Гондурас</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="246"/>
+        <location filename="../base/net/geoipmanager.cpp" line="238"/>
         <source>Croatia</source>
-        <translation type="unfinished"></translation>
+        <translation>Хорватия</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="247"/>
+        <location filename="../base/net/geoipmanager.cpp" line="239"/>
         <source>Haiti</source>
-        <translation type="unfinished"></translation>
+        <translation>Гаити</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="248"/>
+        <location filename="../base/net/geoipmanager.cpp" line="240"/>
         <source>Hungary</source>
-        <translation type="unfinished"></translation>
+        <translation>Венгрия</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="249"/>
+        <location filename="../base/net/geoipmanager.cpp" line="241"/>
         <source>Indonesia</source>
-        <translation type="unfinished"></translation>
+        <translation>Индонезия</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="250"/>
+        <location filename="../base/net/geoipmanager.cpp" line="242"/>
         <source>Ireland</source>
-        <translation type="unfinished"></translation>
+        <translation>Ирландия</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="251"/>
+        <location filename="../base/net/geoipmanager.cpp" line="243"/>
         <source>Israel</source>
-        <translation type="unfinished"></translation>
+        <translation>Израиль</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="252"/>
+        <location filename="../base/net/geoipmanager.cpp" line="244"/>
         <source>India</source>
-        <translation type="unfinished"></translation>
+        <translation>Индия</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="253"/>
+        <location filename="../base/net/geoipmanager.cpp" line="245"/>
         <source>British Indian Ocean Territory</source>
-        <translation type="unfinished"></translation>
+        <translation>Британская территория в Индийском океане</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="254"/>
+        <location filename="../base/net/geoipmanager.cpp" line="246"/>
         <source>Iraq</source>
-        <translation type="unfinished"></translation>
+        <translation>Ирак</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="255"/>
+        <location filename="../base/net/geoipmanager.cpp" line="247"/>
         <source>Iran, Islamic Republic of</source>
-        <translation type="unfinished"></translation>
+        <translation>Иран</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="256"/>
+        <location filename="../base/net/geoipmanager.cpp" line="248"/>
         <source>Iceland</source>
-        <translation type="unfinished"></translation>
+        <translation>Исландия</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="257"/>
+        <location filename="../base/net/geoipmanager.cpp" line="249"/>
         <source>Italy</source>
-        <translation type="unfinished"></translation>
+        <translation>Италия</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="258"/>
+        <location filename="../base/net/geoipmanager.cpp" line="250"/>
         <source>Jamaica</source>
-        <translation type="unfinished"></translation>
+        <translation>Ямайка</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="259"/>
+        <location filename="../base/net/geoipmanager.cpp" line="251"/>
         <source>Jordan</source>
-        <translation type="unfinished"></translation>
+        <translation>Иордания</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="260"/>
+        <location filename="../base/net/geoipmanager.cpp" line="252"/>
         <source>Japan</source>
-        <translation type="unfinished"></translation>
+        <translation>Япония</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="261"/>
+        <location filename="../base/net/geoipmanager.cpp" line="253"/>
         <source>Kenya</source>
-        <translation type="unfinished"></translation>
+        <translation>Кения</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="262"/>
+        <location filename="../base/net/geoipmanager.cpp" line="254"/>
         <source>Kyrgyzstan</source>
-        <translation type="unfinished"></translation>
+        <translation>Киргизия</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="263"/>
+        <location filename="../base/net/geoipmanager.cpp" line="255"/>
         <source>Cambodia</source>
-        <translation type="unfinished"></translation>
+        <translation>Камбоджа</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="264"/>
+        <location filename="../base/net/geoipmanager.cpp" line="256"/>
         <source>Kiribati</source>
-        <translation type="unfinished"></translation>
+        <translation>Кирибати</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="265"/>
+        <location filename="../base/net/geoipmanager.cpp" line="257"/>
         <source>Comoros</source>
-        <translation type="unfinished"></translation>
+        <translation>Коморы</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="266"/>
+        <location filename="../base/net/geoipmanager.cpp" line="258"/>
         <source>Saint Kitts and Nevis</source>
-        <translation type="unfinished"></translation>
+        <translation>Сент-Китс и Невис</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="267"/>
+        <location filename="../base/net/geoipmanager.cpp" line="259"/>
         <source>Korea, Democratic People&apos;s Republic of</source>
-        <translation type="unfinished"></translation>
+        <translation>Корейская Народно-Демократическая Республика</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="268"/>
+        <location filename="../base/net/geoipmanager.cpp" line="260"/>
         <source>Korea, Republic of</source>
-        <translation type="unfinished"></translation>
+        <translation>Республика Корея</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="269"/>
+        <location filename="../base/net/geoipmanager.cpp" line="261"/>
         <source>Kuwait</source>
-        <translation type="unfinished"></translation>
+        <translation>Кувейт</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="270"/>
+        <location filename="../base/net/geoipmanager.cpp" line="262"/>
         <source>Cayman Islands</source>
-        <translation type="unfinished"></translation>
+        <translation>Острова Кайман</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="271"/>
+        <location filename="../base/net/geoipmanager.cpp" line="263"/>
         <source>Kazakhstan</source>
-        <translation type="unfinished"></translation>
+        <translation>Казахстан</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="272"/>
+        <location filename="../base/net/geoipmanager.cpp" line="264"/>
         <source>Lao People&apos;s Democratic Republic</source>
-        <translation type="unfinished"></translation>
+        <translation>Лаос</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="273"/>
+        <location filename="../base/net/geoipmanager.cpp" line="265"/>
         <source>Lebanon</source>
-        <translation type="unfinished"></translation>
+        <translation>Ливан</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="274"/>
+        <location filename="../base/net/geoipmanager.cpp" line="266"/>
         <source>Saint Lucia</source>
-        <translation type="unfinished"></translation>
+        <translation>Сент-Люсия</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="275"/>
+        <location filename="../base/net/geoipmanager.cpp" line="267"/>
         <source>Liechtenstein</source>
-        <translation type="unfinished"></translation>
+        <translation>Лихтенштейн</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="276"/>
+        <location filename="../base/net/geoipmanager.cpp" line="268"/>
         <source>Sri Lanka</source>
-        <translation type="unfinished"></translation>
+        <translation>Шри-Ланка</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="277"/>
+        <location filename="../base/net/geoipmanager.cpp" line="269"/>
         <source>Liberia</source>
-        <translation type="unfinished"></translation>
+        <translation>Либерия</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="278"/>
+        <location filename="../base/net/geoipmanager.cpp" line="270"/>
         <source>Lesotho</source>
-        <translation type="unfinished"></translation>
+        <translation>Лесото</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="279"/>
+        <location filename="../base/net/geoipmanager.cpp" line="271"/>
         <source>Lithuania</source>
-        <translation type="unfinished"></translation>
+        <translation>Литва</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="280"/>
+        <location filename="../base/net/geoipmanager.cpp" line="272"/>
         <source>Luxembourg</source>
-        <translation type="unfinished"></translation>
+        <translation>Люксембург</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="281"/>
+        <location filename="../base/net/geoipmanager.cpp" line="273"/>
         <source>Latvia</source>
-        <translation type="unfinished"></translation>
+        <translation>Латвия</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="282"/>
+        <location filename="../base/net/geoipmanager.cpp" line="274"/>
         <source>Libyan Arab Jamahiriya</source>
-        <translation type="unfinished"></translation>
+        <translation>Ливия</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="283"/>
+        <location filename="../base/net/geoipmanager.cpp" line="275"/>
         <source>Morocco</source>
-        <translation type="unfinished"></translation>
+        <translation>Марокко</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="284"/>
+        <location filename="../base/net/geoipmanager.cpp" line="276"/>
         <source>Monaco</source>
-        <translation type="unfinished"></translation>
+        <translation>Монако</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="285"/>
+        <location filename="../base/net/geoipmanager.cpp" line="277"/>
         <source>Moldova, Republic of</source>
-        <translation type="unfinished"></translation>
+        <translation>Молдавия</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="286"/>
+        <location filename="../base/net/geoipmanager.cpp" line="278"/>
         <source>Madagascar</source>
-        <translation type="unfinished"></translation>
+        <translation>Мадагаскар</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="287"/>
+        <location filename="../base/net/geoipmanager.cpp" line="279"/>
         <source>Marshall Islands</source>
-        <translation type="unfinished"></translation>
+        <translation>Маршалловы Острова</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="288"/>
+        <location filename="../base/net/geoipmanager.cpp" line="280"/>
         <source>Macedonia</source>
-        <translation type="unfinished"></translation>
+        <translation>Македония</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="289"/>
+        <location filename="../base/net/geoipmanager.cpp" line="281"/>
         <source>Mali</source>
-        <translation type="unfinished"></translation>
+        <translation>Мали</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="290"/>
+        <location filename="../base/net/geoipmanager.cpp" line="282"/>
         <source>Myanmar</source>
-        <translation type="unfinished"></translation>
+        <translation>Мьянма</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="291"/>
+        <location filename="../base/net/geoipmanager.cpp" line="283"/>
         <source>Mongolia</source>
-        <translation type="unfinished"></translation>
+        <translation>Монголия</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="292"/>
+        <location filename="../base/net/geoipmanager.cpp" line="284"/>
         <source>Macau</source>
-        <translation type="unfinished"></translation>
+        <translation>Макао</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="293"/>
+        <location filename="../base/net/geoipmanager.cpp" line="285"/>
         <source>Northern Mariana Islands</source>
-        <translation type="unfinished"></translation>
+        <translation>Северные Марианские острова</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="294"/>
+        <location filename="../base/net/geoipmanager.cpp" line="286"/>
         <source>Martinique</source>
-        <translation type="unfinished"></translation>
+        <translation>Мартиника</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="295"/>
+        <location filename="../base/net/geoipmanager.cpp" line="287"/>
         <source>Mauritania</source>
-        <translation type="unfinished"></translation>
+        <translation>Мавритания</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="296"/>
+        <location filename="../base/net/geoipmanager.cpp" line="288"/>
         <source>Montserrat</source>
-        <translation type="unfinished"></translation>
+        <translation>Монтсеррат</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="297"/>
+        <location filename="../base/net/geoipmanager.cpp" line="289"/>
         <source>Malta</source>
-        <translation type="unfinished"></translation>
+        <translation>Мальта</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="298"/>
+        <location filename="../base/net/geoipmanager.cpp" line="290"/>
         <source>Mauritius</source>
-        <translation type="unfinished"></translation>
+        <translation>Маврикий</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="299"/>
+        <location filename="../base/net/geoipmanager.cpp" line="291"/>
         <source>Maldives</source>
-        <translation type="unfinished"></translation>
+        <translation>Мальдивы</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="300"/>
+        <location filename="../base/net/geoipmanager.cpp" line="292"/>
         <source>Malawi</source>
-        <translation type="unfinished"></translation>
+        <translation>Малави</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="301"/>
+        <location filename="../base/net/geoipmanager.cpp" line="293"/>
         <source>Mexico</source>
-        <translation type="unfinished"></translation>
+        <translation>Мексика</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="302"/>
+        <location filename="../base/net/geoipmanager.cpp" line="294"/>
         <source>Malaysia</source>
-        <translation type="unfinished"></translation>
+        <translation>Малайзия</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="303"/>
+        <location filename="../base/net/geoipmanager.cpp" line="295"/>
         <source>Mozambique</source>
-        <translation type="unfinished"></translation>
+        <translation>Мозамбик</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="304"/>
+        <location filename="../base/net/geoipmanager.cpp" line="296"/>
         <source>Namibia</source>
-        <translation type="unfinished"></translation>
+        <translation>Намибия</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="305"/>
+        <location filename="../base/net/geoipmanager.cpp" line="297"/>
         <source>New Caledonia</source>
-        <translation type="unfinished"></translation>
+        <translation>Новая Каледония</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="306"/>
+        <location filename="../base/net/geoipmanager.cpp" line="298"/>
         <source>Niger</source>
-        <translation type="unfinished"></translation>
+        <translation>Нигер</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="307"/>
+        <location filename="../base/net/geoipmanager.cpp" line="299"/>
         <source>Norfolk Island</source>
-        <translation type="unfinished"></translation>
+        <translation>Норфолк</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="308"/>
+        <location filename="../base/net/geoipmanager.cpp" line="300"/>
         <source>Nigeria</source>
-        <translation type="unfinished"></translation>
+        <translation>Нигерия</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="309"/>
+        <location filename="../base/net/geoipmanager.cpp" line="301"/>
         <source>Nicaragua</source>
-        <translation type="unfinished"></translation>
+        <translation>Никарагуа</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="310"/>
+        <location filename="../base/net/geoipmanager.cpp" line="302"/>
         <source>Netherlands</source>
-        <translation type="unfinished"></translation>
+        <translation>Нидерланды</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="311"/>
+        <location filename="../base/net/geoipmanager.cpp" line="303"/>
         <source>Norway</source>
-        <translation type="unfinished"></translation>
+        <translation>Норвегия</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="312"/>
+        <location filename="../base/net/geoipmanager.cpp" line="304"/>
         <source>Nepal</source>
-        <translation type="unfinished"></translation>
+        <translation>Непал</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="313"/>
+        <location filename="../base/net/geoipmanager.cpp" line="305"/>
         <source>Nauru</source>
-        <translation type="unfinished"></translation>
+        <translation>Науру</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="314"/>
+        <location filename="../base/net/geoipmanager.cpp" line="306"/>
         <source>Niue</source>
-        <translation type="unfinished"></translation>
+        <translation>Ниуэ</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="315"/>
+        <location filename="../base/net/geoipmanager.cpp" line="307"/>
         <source>New Zealand</source>
-        <translation type="unfinished"></translation>
+        <translation>Новая Зеландия</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="316"/>
+        <location filename="../base/net/geoipmanager.cpp" line="308"/>
         <source>Oman</source>
-        <translation type="unfinished"></translation>
+        <translation>Оман</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="317"/>
+        <location filename="../base/net/geoipmanager.cpp" line="309"/>
         <source>Panama</source>
-        <translation type="unfinished"></translation>
+        <translation>Панама</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="318"/>
+        <location filename="../base/net/geoipmanager.cpp" line="310"/>
         <source>Peru</source>
-        <translation type="unfinished"></translation>
+        <translation>Перу</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="319"/>
+        <location filename="../base/net/geoipmanager.cpp" line="311"/>
         <source>French Polynesia</source>
-        <translation type="unfinished"></translation>
+        <translation>Французская Полинезия</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="320"/>
+        <location filename="../base/net/geoipmanager.cpp" line="312"/>
         <source>Papua New Guinea</source>
-        <translation type="unfinished"></translation>
+        <translation>Папуа — Новая Гвинея</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="321"/>
+        <location filename="../base/net/geoipmanager.cpp" line="313"/>
         <source>Philippines</source>
-        <translation type="unfinished"></translation>
+        <translation>Филиппины</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="322"/>
+        <location filename="../base/net/geoipmanager.cpp" line="314"/>
         <source>Pakistan</source>
-        <translation type="unfinished"></translation>
+        <translation>Пакистан</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="323"/>
+        <location filename="../base/net/geoipmanager.cpp" line="315"/>
         <source>Poland</source>
-        <translation type="unfinished"></translation>
+        <translation>Польша</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="324"/>
+        <location filename="../base/net/geoipmanager.cpp" line="316"/>
         <source>Saint Pierre and Miquelon</source>
-        <translation type="unfinished"></translation>
+        <translation>Сен-Пьер и Микелон</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="325"/>
+        <location filename="../base/net/geoipmanager.cpp" line="317"/>
         <source>Pitcairn Islands</source>
-        <translation type="unfinished"></translation>
+        <translation>Острова Питкэрн</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="326"/>
+        <location filename="../base/net/geoipmanager.cpp" line="318"/>
         <source>Puerto Rico</source>
-        <translation type="unfinished"></translation>
+        <translation>Пуэрто-Рико</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="327"/>
+        <location filename="../base/net/geoipmanager.cpp" line="319"/>
         <source>Palestinian Territory</source>
-        <translation type="unfinished"></translation>
+        <translation>Палестина</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="328"/>
+        <location filename="../base/net/geoipmanager.cpp" line="320"/>
         <source>Portugal</source>
-        <translation type="unfinished"></translation>
+        <translation>Португалия</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="329"/>
+        <location filename="../base/net/geoipmanager.cpp" line="321"/>
         <source>Palau</source>
-        <translation type="unfinished"></translation>
+        <translation>Палау</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="330"/>
+        <location filename="../base/net/geoipmanager.cpp" line="322"/>
         <source>Paraguay</source>
-        <translation type="unfinished"></translation>
+        <translation>Парагвай</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="331"/>
+        <location filename="../base/net/geoipmanager.cpp" line="323"/>
         <source>Qatar</source>
-        <translation type="unfinished"></translation>
+        <translation>Катар</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="332"/>
+        <location filename="../base/net/geoipmanager.cpp" line="324"/>
         <source>Reunion</source>
-        <translation type="unfinished"></translation>
+        <translation>Реюньон</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="333"/>
+        <location filename="../base/net/geoipmanager.cpp" line="325"/>
         <source>Romania</source>
-        <translation type="unfinished"></translation>
+        <translation>Румыния</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="334"/>
+        <location filename="../base/net/geoipmanager.cpp" line="326"/>
         <source>Russian Federation</source>
-        <translation type="unfinished"></translation>
+        <translation>Российская Федерация</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="335"/>
+        <location filename="../base/net/geoipmanager.cpp" line="327"/>
         <source>Rwanda</source>
-        <translation type="unfinished"></translation>
+        <translation>Руанда</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="336"/>
+        <location filename="../base/net/geoipmanager.cpp" line="328"/>
         <source>Saudi Arabia</source>
-        <translation type="unfinished"></translation>
+        <translation>Саудовская Аравия</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="337"/>
+        <location filename="../base/net/geoipmanager.cpp" line="329"/>
         <source>Solomon Islands</source>
-        <translation type="unfinished"></translation>
+        <translation>Соломоновы Острова</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="338"/>
+        <location filename="../base/net/geoipmanager.cpp" line="330"/>
         <source>Seychelles</source>
-        <translation type="unfinished"></translation>
+        <translation>Сейшельские Острова</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="339"/>
+        <location filename="../base/net/geoipmanager.cpp" line="331"/>
         <source>Sudan</source>
-        <translation type="unfinished"></translation>
+        <translation>Судан</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="340"/>
+        <location filename="../base/net/geoipmanager.cpp" line="332"/>
         <source>Sweden</source>
-        <translation type="unfinished"></translation>
+        <translation>Швеция</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="341"/>
+        <location filename="../base/net/geoipmanager.cpp" line="333"/>
         <source>Singapore</source>
-        <translation type="unfinished"></translation>
+        <translation>Сингапур</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="342"/>
+        <location filename="../base/net/geoipmanager.cpp" line="334"/>
         <source>Saint Helena</source>
-        <translation type="unfinished"></translation>
+        <translation>Остров Святой Елены</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="343"/>
+        <location filename="../base/net/geoipmanager.cpp" line="335"/>
         <source>Slovenia</source>
-        <translation type="unfinished"></translation>
+        <translation>Словения</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="344"/>
+        <location filename="../base/net/geoipmanager.cpp" line="336"/>
         <source>Svalbard and Jan Mayen</source>
-        <translation type="unfinished"></translation>
+        <translation>Шпицберген и Ян-Майен</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="345"/>
+        <location filename="../base/net/geoipmanager.cpp" line="337"/>
         <source>Slovakia</source>
-        <translation type="unfinished"></translation>
+        <translation>Словакия</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="346"/>
+        <location filename="../base/net/geoipmanager.cpp" line="338"/>
         <source>Sierra Leone</source>
-        <translation type="unfinished"></translation>
+        <translation>Сьерра-Леоне</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="347"/>
+        <location filename="../base/net/geoipmanager.cpp" line="339"/>
         <source>San Marino</source>
-        <translation type="unfinished"></translation>
+        <translation>Сан-Марино</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="348"/>
+        <location filename="../base/net/geoipmanager.cpp" line="340"/>
         <source>Senegal</source>
-        <translation type="unfinished"></translation>
+        <translation>Сенегал</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="349"/>
+        <location filename="../base/net/geoipmanager.cpp" line="341"/>
         <source>Somalia</source>
-        <translation type="unfinished"></translation>
+        <translation>Сомали</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="350"/>
+        <location filename="../base/net/geoipmanager.cpp" line="342"/>
         <source>Suriname</source>
-        <translation type="unfinished"></translation>
+        <translation>Суринам</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="351"/>
+        <location filename="../base/net/geoipmanager.cpp" line="343"/>
         <source>Sao Tome and Principe</source>
-        <translation type="unfinished"></translation>
+        <translation>Сан-Томе и Принсипи</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="352"/>
+        <location filename="../base/net/geoipmanager.cpp" line="344"/>
         <source>El Salvador</source>
-        <translation type="unfinished"></translation>
+        <translation>Сальвадор</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="353"/>
+        <location filename="../base/net/geoipmanager.cpp" line="345"/>
         <source>Syrian Arab Republic</source>
-        <translation type="unfinished"></translation>
+        <translation>Сирия</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="354"/>
+        <location filename="../base/net/geoipmanager.cpp" line="346"/>
         <source>Swaziland</source>
-        <translation type="unfinished"></translation>
+        <translation>Свазиленд</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="355"/>
+        <location filename="../base/net/geoipmanager.cpp" line="347"/>
         <source>Turks and Caicos Islands</source>
-        <translation type="unfinished"></translation>
+        <translation>Теркс и Кайкос</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="356"/>
+        <location filename="../base/net/geoipmanager.cpp" line="348"/>
         <source>Chad</source>
-        <translation type="unfinished"></translation>
+        <translation>Чад</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="357"/>
+        <location filename="../base/net/geoipmanager.cpp" line="349"/>
         <source>French Southern Territories</source>
-        <translation type="unfinished"></translation>
+        <translation>Французские Южные и Антарктические территории</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="358"/>
+        <location filename="../base/net/geoipmanager.cpp" line="350"/>
         <source>Togo</source>
-        <translation type="unfinished"></translation>
+        <translation>Того</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="359"/>
+        <location filename="../base/net/geoipmanager.cpp" line="351"/>
         <source>Thailand</source>
-        <translation type="unfinished"></translation>
+        <translation>Thailand</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="360"/>
+        <location filename="../base/net/geoipmanager.cpp" line="352"/>
         <source>Tajikistan</source>
-        <translation type="unfinished"></translation>
+        <translation>Таджикистан</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="361"/>
+        <location filename="../base/net/geoipmanager.cpp" line="353"/>
         <source>Tokelau</source>
-        <translation type="unfinished"></translation>
+        <translation>Токелау</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="362"/>
+        <location filename="../base/net/geoipmanager.cpp" line="354"/>
         <source>Turkmenistan</source>
-        <translation type="unfinished"></translation>
+        <translation>Туркмения</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="363"/>
+        <location filename="../base/net/geoipmanager.cpp" line="355"/>
         <source>Tunisia</source>
-        <translation type="unfinished"></translation>
+        <translation>Тунис</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="364"/>
+        <location filename="../base/net/geoipmanager.cpp" line="356"/>
         <source>Tonga</source>
-        <translation type="unfinished"></translation>
+        <translation>Тонга</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="365"/>
+        <location filename="../base/net/geoipmanager.cpp" line="357"/>
         <source>Timor-Leste</source>
-        <translation type="unfinished"></translation>
+        <translation>Восточный Тимор</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="366"/>
+        <location filename="../base/net/geoipmanager.cpp" line="358"/>
         <source>Turkey</source>
-        <translation type="unfinished"></translation>
+        <translation>Турция</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="367"/>
+        <location filename="../base/net/geoipmanager.cpp" line="359"/>
         <source>Trinidad and Tobago</source>
-        <translation type="unfinished"></translation>
+        <translation>Тринидад и Тобаго</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="368"/>
+        <location filename="../base/net/geoipmanager.cpp" line="360"/>
         <source>Tuvalu</source>
-        <translation type="unfinished"></translation>
+        <translation>Тувалу</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="369"/>
+        <location filename="../base/net/geoipmanager.cpp" line="361"/>
         <source>Taiwan</source>
-        <translation type="unfinished"></translation>
+        <translation>Тайвань</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="370"/>
+        <location filename="../base/net/geoipmanager.cpp" line="362"/>
         <source>Tanzania, United Republic of</source>
-        <translation type="unfinished"></translation>
+        <translation>Танзания</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="371"/>
+        <location filename="../base/net/geoipmanager.cpp" line="363"/>
         <source>Ukraine</source>
-        <translation type="unfinished"></translation>
+        <translation>Украина</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="372"/>
+        <location filename="../base/net/geoipmanager.cpp" line="364"/>
         <source>Uganda</source>
-        <translation type="unfinished"></translation>
+        <translation>Уганда</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="373"/>
+        <location filename="../base/net/geoipmanager.cpp" line="365"/>
         <source>United States Minor Outlying Islands</source>
-        <translation type="unfinished"></translation>
+        <translation>Внешние малые острова США</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="374"/>
+        <location filename="../base/net/geoipmanager.cpp" line="366"/>
         <source>United States</source>
-        <translation type="unfinished"></translation>
+        <translation>Соединённые Штаты Америки</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="375"/>
+        <location filename="../base/net/geoipmanager.cpp" line="367"/>
         <source>Uruguay</source>
-        <translation type="unfinished"></translation>
+        <translation>Уругвай</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="376"/>
+        <location filename="../base/net/geoipmanager.cpp" line="368"/>
         <source>Uzbekistan</source>
-        <translation type="unfinished"></translation>
+        <translation>Узбекистан</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="377"/>
+        <location filename="../base/net/geoipmanager.cpp" line="369"/>
         <source>Holy See (Vatican City State)</source>
-        <translation type="unfinished"></translation>
+        <translation>Ватикан</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="378"/>
+        <location filename="../base/net/geoipmanager.cpp" line="370"/>
         <source>Saint Vincent and the Grenadines</source>
-        <translation type="unfinished"></translation>
+        <translation>Сент-Винсент и Гренадины</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="379"/>
+        <location filename="../base/net/geoipmanager.cpp" line="371"/>
         <source>Venezuela</source>
-        <translation type="unfinished"></translation>
+        <translation>Венесуэла</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="380"/>
+        <location filename="../base/net/geoipmanager.cpp" line="372"/>
         <source>Virgin Islands, British</source>
-        <translation type="unfinished"></translation>
+        <translation>Британские Виргинские острова</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="381"/>
+        <location filename="../base/net/geoipmanager.cpp" line="373"/>
         <source>Virgin Islands, U.S.</source>
-        <translation type="unfinished"></translation>
+        <translation>Виргинские Острова</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="382"/>
+        <location filename="../base/net/geoipmanager.cpp" line="374"/>
         <source>Vietnam</source>
-        <translation type="unfinished"></translation>
+        <translation>Вьетнам</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="383"/>
+        <location filename="../base/net/geoipmanager.cpp" line="375"/>
         <source>Vanuatu</source>
-        <translation type="unfinished"></translation>
+        <translation>Вануату</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="384"/>
+        <location filename="../base/net/geoipmanager.cpp" line="376"/>
         <source>Wallis and Futuna</source>
-        <translation type="unfinished"></translation>
+        <translation>Уоллис и Футуна</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="385"/>
+        <location filename="../base/net/geoipmanager.cpp" line="377"/>
         <source>Samoa</source>
-        <translation type="unfinished"></translation>
+        <translation>Самоа</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="386"/>
+        <location filename="../base/net/geoipmanager.cpp" line="378"/>
         <source>Yemen</source>
-        <translation type="unfinished"></translation>
+        <translation>Йемен</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="387"/>
+        <location filename="../base/net/geoipmanager.cpp" line="379"/>
         <source>Mayotte</source>
-        <translation type="unfinished"></translation>
+        <translation>Майотта</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="388"/>
+        <location filename="../base/net/geoipmanager.cpp" line="380"/>
         <source>Serbia</source>
-        <translation type="unfinished"></translation>
+        <translation>Сербия</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="389"/>
+        <location filename="../base/net/geoipmanager.cpp" line="381"/>
         <source>South Africa</source>
-        <translation type="unfinished"></translation>
+        <translation>Южно-Африканская Республика</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="390"/>
+        <location filename="../base/net/geoipmanager.cpp" line="382"/>
         <source>Zambia</source>
-        <translation type="unfinished"></translation>
+        <translation>Замбия</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="391"/>
+        <location filename="../base/net/geoipmanager.cpp" line="383"/>
         <source>Montenegro</source>
-        <translation type="unfinished"></translation>
+        <translation>Черногория</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="392"/>
+        <location filename="../base/net/geoipmanager.cpp" line="384"/>
         <source>Zimbabwe</source>
-        <translation type="unfinished"></translation>
+        <translation>Зимбабве</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="393"/>
+        <location filename="../base/net/geoipmanager.cpp" line="385"/>
         <source>Anonymous Proxy</source>
-        <translation type="unfinished"></translation>
+        <translation>Анонимный прокси</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="394"/>
+        <location filename="../base/net/geoipmanager.cpp" line="386"/>
         <source>Satellite Provider</source>
-        <translation type="unfinished"></translation>
+        <translation>Спутниковый провайдер</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="395"/>
+        <location filename="../base/net/geoipmanager.cpp" line="387"/>
         <source>Other</source>
-        <translation type="unfinished"></translation>
+        <translation>Другое</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="396"/>
+        <location filename="../base/net/geoipmanager.cpp" line="388"/>
         <source>Aland Islands</source>
-        <translation type="unfinished"></translation>
+        <translation>Аландские острова</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="397"/>
+        <location filename="../base/net/geoipmanager.cpp" line="389"/>
         <source>Guernsey</source>
-        <translation type="unfinished"></translation>
+        <translation>Гернси</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="398"/>
+        <location filename="../base/net/geoipmanager.cpp" line="390"/>
         <source>Isle of Man</source>
-        <translation type="unfinished"></translation>
+        <translation>Остров Мэн</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="399"/>
+        <location filename="../base/net/geoipmanager.cpp" line="391"/>
         <source>Jersey</source>
-        <translation type="unfinished"></translation>
+        <translation>Джерси</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="400"/>
+        <location filename="../base/net/geoipmanager.cpp" line="392"/>
         <source>Saint Barthelemy</source>
-        <translation type="unfinished"></translation>
+        <translation>Сен-Бартелеми</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="401"/>
+        <location filename="../base/net/geoipmanager.cpp" line="393"/>
         <source>Saint Martin</source>
-        <translation type="unfinished"></translation>
+        <translation>Сен-Мартен</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="424"/>
+        <location filename="../base/net/geoipmanager.cpp" line="421"/>
         <source>Could not uncompress GeoIP database file.</source>
         <translation>Не удалось распаковать файл базы данных GeoIP.</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="445"/>
+        <location filename="../base/net/geoipmanager.cpp" line="442"/>
         <source>Couldn&apos;t save downloaded GeoIP database file.</source>
         <translation>Не удалось сохранить загруженный файл базы данных GeoIP.</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="448"/>
+        <location filename="../base/net/geoipmanager.cpp" line="445"/>
         <source>Successfully updated GeoIP database.</source>
         <translation>База данных GeoIP успешно обновлена.</translation>
     </message>
     <message>
-        <location filename="../core/net/geoipmanager.cpp" line="463"/>
+        <location filename="../base/net/geoipmanager.cpp" line="460"/>
         <source>Couldn&apos;t download GeoIP database file. Reason: %1</source>
         <translation>Не удалось загрузить файл базы данных GeoIP. Причина: %1</translation>
     </message>
@@ -3753,12 +3815,12 @@ Are you sure you want to quit qBittorrent?</source>
 <context>
     <name>Net::PortForwarder</name>
     <message>
-        <location filename="../core/net/portforwarder.cpp" line="110"/>
+        <location filename="../base/net/portforwarder.cpp" line="110"/>
         <source>UPnP / NAT-PMP support [ON]</source>
         <translation>Поддержка UPnP / NAT-PMP [Вкл]</translation>
     </message>
     <message>
-        <location filename="../core/net/portforwarder.cpp" line="119"/>
+        <location filename="../base/net/portforwarder.cpp" line="119"/>
         <source>UPnP / NAT-PMP support [OFF]</source>
         <translation>Поддержка UPnP / NAT-PMP [Выкл]</translation>
     </message>
@@ -3766,206 +3828,265 @@ Are you sure you want to quit qBittorrent?</source>
 <context>
     <name>Net::Smtp</name>
     <message>
-        <location filename="../core/net/smtp.cpp" line="501"/>
+        <location filename="../base/net/smtp.cpp" line="501"/>
         <source>Email Notification Error:</source>
         <translation>Ошибка оповещения по e-mail:</translation>
     </message>
 </context>
 <context>
+    <name>PeerInfo</name>
+    <message>
+        <location filename="../base/bittorrent/peerinfo.cpp" line="293"/>
+        <source>interested(local) and choked(peer)</source>
+        <translation type="unfinished">заинтересованный (клиент) и блокированный (пир)</translation>
+    </message>
+    <message>
+        <location filename="../base/bittorrent/peerinfo.cpp" line="299"/>
+        <source>interested(local) and unchoked(peer)</source>
+        <translation type="unfinished">заинтересованный (клиент) и разблокированный (пир)</translation>
+    </message>
+    <message>
+        <location filename="../base/bittorrent/peerinfo.cpp" line="308"/>
+        <source>interested(peer) and choked(local)</source>
+        <translation type="unfinished">заинтересованный (пир) и блокированный (клиент)</translation>
+    </message>
+    <message>
+        <location filename="../base/bittorrent/peerinfo.cpp" line="314"/>
+        <source>interested(peer) and unchoked(local)</source>
+        <translation type="unfinished">заинтересованный (пир) и разблокированный (клиент)</translation>
+    </message>
+    <message>
+        <location filename="../base/bittorrent/peerinfo.cpp" line="322"/>
+        <source>optimistic unchoke</source>
+        <translation type="unfinished">оптимистичная разблокировка</translation>
+    </message>
+    <message>
+        <location filename="../base/bittorrent/peerinfo.cpp" line="329"/>
+        <source>peer snubbed</source>
+        <translation type="unfinished">застопоренный пир</translation>
+    </message>
+    <message>
+        <location filename="../base/bittorrent/peerinfo.cpp" line="336"/>
+        <source>incoming connection</source>
+        <translation type="unfinished">входящее соединение</translation>
+    </message>
+    <message>
+        <location filename="../base/bittorrent/peerinfo.cpp" line="343"/>
+        <source>not interested(local) and unchoked(peer)</source>
+        <translation type="unfinished">незаинтересованный (клиент) и разблокированный (пир)</translation>
+    </message>
+    <message>
+        <location filename="../base/bittorrent/peerinfo.cpp" line="350"/>
+        <source>not interested(peer) and unchoked(local)</source>
+        <translation type="unfinished">незаинтересованный (пир) и разблокированный (клиент)</translation>
+    </message>
+    <message>
+        <location filename="../base/bittorrent/peerinfo.cpp" line="357"/>
+        <source>peer from PEX</source>
+        <translation type="unfinished">пир из PEX</translation>
+    </message>
+    <message>
+        <location filename="../base/bittorrent/peerinfo.cpp" line="364"/>
+        <source>peer from DHT</source>
+        <translation type="unfinished">пир из DHT</translation>
+    </message>
+    <message>
+        <location filename="../base/bittorrent/peerinfo.cpp" line="371"/>
+        <source>encrypted traffic</source>
+        <translation type="unfinished">шифрованное соединение</translation>
+    </message>
+    <message>
+        <location filename="../base/bittorrent/peerinfo.cpp" line="378"/>
+        <source>encrypted handshake</source>
+        <translation type="unfinished">шифрованное &quot;рукопожатие&quot;</translation>
+    </message>
+    <message>
+        <location filename="../base/bittorrent/peerinfo.cpp" line="393"/>
+        <source>peer from LSD</source>
+        <translation type="unfinished">пир из LSD</translation>
+    </message>
+</context>
+<context>
     <name>PeerListWidget</name>
     <message>
-        <location filename="../gui/properties/peerlistwidget.cpp" line="68"/>
+        <location filename="../gui/properties/peerlistwidget.cpp" line="70"/>
         <source>IP</source>
         <translation>IP</translation>
     </message>
     <message>
-        <location filename="../gui/properties/peerlistwidget.cpp" line="69"/>
+        <location filename="../gui/properties/peerlistwidget.cpp" line="71"/>
         <source>Port</source>
         <translation>Порт</translation>
     </message>
     <message>
-        <location filename="../gui/properties/peerlistwidget.cpp" line="70"/>
+        <location filename="../gui/properties/peerlistwidget.cpp" line="72"/>
         <source>Flags</source>
         <translation>Флаги</translation>
     </message>
     <message>
-        <location filename="../gui/properties/peerlistwidget.cpp" line="71"/>
+        <location filename="../gui/properties/peerlistwidget.cpp" line="73"/>
         <source>Connection</source>
         <translation>Соединение</translation>
     </message>
     <message>
-        <location filename="../gui/properties/peerlistwidget.cpp" line="72"/>
+        <location filename="../gui/properties/peerlistwidget.cpp" line="74"/>
         <source>Client</source>
         <comment>i.e.: Client application</comment>
         <translation>Клиент</translation>
     </message>
     <message>
-        <location filename="../gui/properties/peerlistwidget.cpp" line="73"/>
+        <location filename="../gui/properties/peerlistwidget.cpp" line="75"/>
         <source>Progress</source>
         <comment>i.e: % downloaded</comment>
         <translation>Прогресс</translation>
     </message>
     <message>
-        <location filename="../gui/properties/peerlistwidget.cpp" line="74"/>
+        <location filename="../gui/properties/peerlistwidget.cpp" line="76"/>
         <source>Down Speed</source>
         <comment>i.e: Download speed</comment>
         <translation>Скорость загрузки</translation>
     </message>
     <message>
-        <location filename="../gui/properties/peerlistwidget.cpp" line="75"/>
+        <location filename="../gui/properties/peerlistwidget.cpp" line="77"/>
         <source>Up Speed</source>
         <comment>i.e: Upload speed</comment>
         <translation>Скорость отдачи</translation>
     </message>
     <message>
-        <location filename="../gui/properties/peerlistwidget.cpp" line="76"/>
+        <location filename="../gui/properties/peerlistwidget.cpp" line="78"/>
         <source>Downloaded</source>
         <comment>i.e: total data downloaded</comment>
         <translation>Загружено</translation>
     </message>
     <message>
-        <location filename="../gui/properties/peerlistwidget.cpp" line="77"/>
+        <location filename="../gui/properties/peerlistwidget.cpp" line="79"/>
         <source>Uploaded</source>
         <comment>i.e: total data uploaded</comment>
         <translation>Отдано</translation>
     </message>
     <message>
-        <location filename="../gui/properties/peerlistwidget.cpp" line="78"/>
+        <location filename="../gui/properties/peerlistwidget.cpp" line="80"/>
         <source>Relevance</source>
         <comment>i.e: How relevant this peer is to us. How many pieces it has that we don&apos;t.</comment>
         <translation>Релевантность</translation>
     </message>
     <message>
-        <location filename="../gui/properties/peerlistwidget.cpp" line="166"/>
+        <location filename="../gui/properties/peerlistwidget.cpp" line="168"/>
         <source>Add a new peer...</source>
         <translation>Добавить нового пира…</translation>
     </message>
     <message>
-        <location filename="../gui/properties/peerlistwidget.cpp" line="172"/>
+        <location filename="../gui/properties/peerlistwidget.cpp" line="174"/>
         <source>Copy selected</source>
         <translation>Копировать выделенное</translation>
     </message>
     <message>
-        <location filename="../gui/properties/peerlistwidget.cpp" line="174"/>
-        <location filename="../gui/properties/peerlistwidget.cpp" line="212"/>
+        <location filename="../gui/properties/peerlistwidget.cpp" line="176"/>
+        <location filename="../gui/properties/peerlistwidget.cpp" line="214"/>
         <source>Ban peer permanently</source>
         <translation>Заблокировать пира навсегда</translation>
     </message>
     <message>
-        <location filename="../gui/properties/peerlistwidget.cpp" line="186"/>
+        <location filename="../gui/properties/peerlistwidget.cpp" line="188"/>
         <source>Manually adding peer &apos;%1&apos;...</source>
-        <translation type="unfinished"></translation>
+        <translation>Ручное добавление пира &apos;%1&apos;…</translation>
     </message>
     <message>
-        <location filename="../gui/properties/peerlistwidget.cpp" line="190"/>
+        <location filename="../gui/properties/peerlistwidget.cpp" line="192"/>
         <source>The peer &apos;%1&apos; could not be added to this torrent.</source>
-        <translation type="unfinished"></translation>
+        <translation>Пир &apos;%1&apos; не может быть добавлен к этому торренту.</translation>
     </message>
     <message>
-        <location filename="../gui/properties/peerlistwidget.cpp" line="223"/>
+        <location filename="../gui/properties/peerlistwidget.cpp" line="225"/>
         <source>Manually banning peer &apos;%1&apos;...</source>
-        <translation type="unfinished"></translation>
+        <translation>Ручкая блокировка пира &apos;%1&apos;...</translation>
     </message>
     <message>
-        <location filename="../gui/properties/peerlistwidget.cpp" line="194"/>
         <location filename="../gui/properties/peerlistwidget.cpp" line="196"/>
+        <location filename="../gui/properties/peerlistwidget.cpp" line="198"/>
         <source>Peer addition</source>
         <translation>Добавление пира</translation>
     </message>
     <message>
-        <location filename="../gui/properties/peerlistwidget.cpp" line="194"/>
+        <location filename="../gui/properties/peerlistwidget.cpp" line="196"/>
         <source>Some peers could not be added. Check the Log for details.</source>
         <translation>Некоторые пиры не могут быть добавлены. Смотрите лог для деталей.</translation>
     </message>
     <message>
-        <location filename="../gui/properties/peerlistwidget.cpp" line="196"/>
+        <location filename="../gui/properties/peerlistwidget.cpp" line="198"/>
         <source>The peers were added to this torrent.</source>
         <translation>Пиры были добавлен к этому торренту.</translation>
     </message>
     <message>
-        <location filename="../gui/properties/peerlistwidget.cpp" line="212"/>
+        <location filename="../gui/properties/peerlistwidget.cpp" line="214"/>
         <source>Are you sure you want to ban permanently the selected peers?</source>
         <translation>Вы уверены, что хотите навсегда заблокировать выделенных пиров?</translation>
     </message>
     <message>
-        <location filename="../gui/properties/peerlistwidget.cpp" line="213"/>
+        <location filename="../gui/properties/peerlistwidget.cpp" line="215"/>
         <source>&amp;Yes</source>
         <translation>&amp;Да</translation>
     </message>
     <message>
-        <location filename="../gui/properties/peerlistwidget.cpp" line="213"/>
+        <location filename="../gui/properties/peerlistwidget.cpp" line="215"/>
         <source>&amp;No</source>
         <translation>&amp;Нет</translation>
     </message>
     <message>
-        <location filename="../gui/properties/peerlistwidget.cpp" line="388"/>
         <source>interested(local) and choked(peer)</source>
-        <translation>заинтересованный (клиент) и блокированный (пир)</translation>
+        <translation type="obsolete">заинтересованный (клиент) и блокированный (пир)</translation>
     </message>
     <message>
-        <location filename="../gui/properties/peerlistwidget.cpp" line="394"/>
         <source>interested(local) and unchoked(peer)</source>
-        <translation>заинтересованный (клиент) и разблокированный (пир)</translation>
+        <translation type="obsolete">заинтересованный (клиент) и разблокированный (пир)</translation>
     </message>
     <message>
-        <location filename="../gui/properties/peerlistwidget.cpp" line="403"/>
         <source>interested(peer) and choked(local)</source>
-        <translation>заинтересованный (пир) и блокированный (клиент)</translation>
+        <translation type="obsolete">заинтересованный (пир) и блокированный (клиент)</translation>
     </message>
     <message>
-        <location filename="../gui/properties/peerlistwidget.cpp" line="409"/>
         <source>interested(peer) and unchoked(local)</source>
-        <translation>заинтересованный (пир) и разблокированный (клиент)</translation>
+        <translation type="obsolete">заинтересованный (пир) и разблокированный (клиент)</translation>
     </message>
     <message>
-        <location filename="../gui/properties/peerlistwidget.cpp" line="417"/>
         <source>optimistic unchoke</source>
-        <translation>оптимистичная разблокировка</translation>
+        <translation type="obsolete">оптимистичная разблокировка</translation>
     </message>
     <message>
-        <location filename="../gui/properties/peerlistwidget.cpp" line="424"/>
         <source>peer snubbed</source>
-        <translation>застопоренный пир</translation>
+        <translation type="obsolete">застопоренный пир</translation>
     </message>
     <message>
-        <location filename="../gui/properties/peerlistwidget.cpp" line="431"/>
         <source>incoming connection</source>
-        <translation>входящее соединение</translation>
+        <translation type="obsolete">входящее соединение</translation>
     </message>
     <message>
-        <location filename="../gui/properties/peerlistwidget.cpp" line="438"/>
         <source>not interested(local) and unchoked(peer)</source>
-        <translation>незаинтересованный (клиент) и разблокированный (пир)</translation>
+        <translation type="obsolete">незаинтересованный (клиент) и разблокированный (пир)</translation>
     </message>
     <message>
-        <location filename="../gui/properties/peerlistwidget.cpp" line="445"/>
         <source>not interested(peer) and unchoked(local)</source>
-        <translation>незаинтересованный (пир) и разблокированный (клиент)</translation>
+        <translation type="obsolete">незаинтересованный (пир) и разблокированный (клиент)</translation>
     </message>
     <message>
-        <location filename="../gui/properties/peerlistwidget.cpp" line="452"/>
         <source>peer from PEX</source>
-        <translation>пир из PEX</translation>
+        <translation type="obsolete">пир из PEX</translation>
     </message>
     <message>
-        <location filename="../gui/properties/peerlistwidget.cpp" line="459"/>
         <source>peer from DHT</source>
-        <translation>пир из DHT</translation>
+        <translation type="obsolete">пир из DHT</translation>
     </message>
     <message>
-        <location filename="../gui/properties/peerlistwidget.cpp" line="466"/>
         <source>encrypted traffic</source>
-        <translation>шифрованное соединение</translation>
+        <translation type="obsolete">шифрованное соединение</translation>
     </message>
     <message>
-        <location filename="../gui/properties/peerlistwidget.cpp" line="473"/>
         <source>encrypted handshake</source>
-        <translation>шифрованное &quot;рукопожатие&quot;</translation>
+        <translation type="obsolete">шифрованное &quot;рукопожатие&quot;</translation>
     </message>
     <message>
-        <location filename="../gui/properties/peerlistwidget.cpp" line="488"/>
         <source>peer from LSD</source>
-        <translation>пир из LSD</translation>
+        <translation type="obsolete">пир из LSD</translation>
     </message>
 </context>
 <context>
@@ -3988,66 +4109,79 @@ Are you sure you want to quit qBittorrent?</source>
     <message>
         <location filename="../gui/properties/peersadditiondlg.cpp" line="70"/>
         <source>The peer &apos;%1&apos; is invalid.</source>
-        <translation type="unfinished"></translation>
+        <translation>Пир &apos;%1&apos; некорректен.</translation>
+    </message>
+</context>
+<context>
+    <name>PieceAvailabilityBar</name>
+    <message>
+        <location filename="../gui/properties/pieceavailabilitybar.cpp" line="39"/>
+        <source>White: Unavailable pieces</source>
+        <translation>Белый: Отсутствуют части</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/pieceavailabilitybar.cpp" line="39"/>
+        <source>Blue: Available pieces</source>
+        <translation>Синий: Части доступны</translation>
     </message>
 </context>
 <context>
     <name>Preferences</name>
     <message>
-        <location filename="../gui/options.ui" line="96"/>
+        <location filename="../gui/options.ui" line="69"/>
         <source>Downloads</source>
         <translation>Загрузки</translation>
     </message>
     <message>
-        <location filename="../gui/options.ui" line="107"/>
+        <location filename="../gui/options.ui" line="80"/>
         <source>Connection</source>
         <translation>Соединение</translation>
     </message>
     <message>
-        <location filename="../gui/options.ui" line="118"/>
+        <location filename="../gui/options.ui" line="91"/>
         <source>Speed</source>
         <translation>Скорость</translation>
     </message>
     <message>
-        <location filename="../gui/options.ui" line="140"/>
+        <location filename="../gui/options.ui" line="113"/>
         <source>Web UI</source>
         <translation>Веб-интерфейс</translation>
     </message>
     <message>
-        <location filename="../gui/options.ui" line="151"/>
+        <location filename="../gui/options.ui" line="124"/>
         <source>Advanced</source>
         <translation>Дополнительно</translation>
     </message>
     <message>
-        <location filename="../gui/options.ui" line="227"/>
+        <location filename="../gui/options.ui" line="209"/>
         <source>(Requires restart)</source>
         <translation>(требуется перезапуск)</translation>
     </message>
     <message>
-        <location filename="../gui/options.ui" line="271"/>
+        <location filename="../gui/options.ui" line="253"/>
         <source>Use alternating row colors</source>
         <extracomment>In transfer list, one every two rows will have grey background.</extracomment>
         <translation>Использовать альтернативные цвета строк</translation>
     </message>
     <message>
-        <location filename="../gui/options.ui" line="313"/>
-        <location filename="../gui/options.ui" line="339"/>
+        <location filename="../gui/options.ui" line="295"/>
+        <location filename="../gui/options.ui" line="321"/>
         <source>Start / Stop Torrent</source>
         <translation>Запустить / Остановить торрент</translation>
     </message>
     <message>
-        <location filename="../gui/options.ui" line="323"/>
-        <location filename="../gui/options.ui" line="349"/>
+        <location filename="../gui/options.ui" line="305"/>
+        <location filename="../gui/options.ui" line="331"/>
         <source>No action</source>
         <translation>Нет действия</translation>
     </message>
     <message>
-        <location filename="../gui/options.ui" line="710"/>
+        <location filename="../gui/options.ui" line="701"/>
         <source>Append .!qB extension to incomplete files</source>
         <translation>Добавить расширение .!qB к незавершённым файлам</translation>
     </message>
     <message>
-        <location filename="../gui/options.ui" line="813"/>
+        <location filename="../gui/options.ui" line="804"/>
         <source>Copy .torrent files to:</source>
         <translation>Скопировать .torrent файл в:</translation>
     </message>
@@ -4062,97 +4196,99 @@ Are you sure you want to quit qBittorrent?</source>
         <translation>Прокси-сервер</translation>
     </message>
     <message>
-        <location filename="../gui/options.ui" line="1568"/>
+        <location filename="../gui/options.ui" line="1577"/>
         <source>Global Rate Limits</source>
         <translation>Общие ограничения скорости</translation>
     </message>
     <message>
-        <location filename="../gui/options.ui" line="1683"/>
-        <source>Apply rate limit to uTP connections</source>
-        <translation>Применять ограничения скорости к uTP-соединениям</translation>
-    </message>
-    <message>
-        <location filename="../gui/options.ui" line="1690"/>
+        <location filename="../gui/options.ui" line="1879"/>
         <source>Apply rate limit to transport overhead</source>
-        <translation>Применять ограничения скорости к служебному траффику</translation>
+        <translation>Применять ограничения скорости к служебному трафику</translation>
     </message>
     <message>
-        <location filename="../gui/options.ui" line="1710"/>
-        <source>Alternative Global Rate Limits</source>
-        <translation>Альтернативные ограничения скорости</translation>
-    </message>
-    <message>
-        <location filename="../gui/options.ui" line="1822"/>
+        <location filename="../gui/options.ui" line="1672"/>
         <source>Schedule the use of alternative rate limits</source>
-        <translation>Запланировать использование альтернативных ограничений скорости</translation>
+        <translation>Запланировать использование иныхограничений скорости</translation>
     </message>
     <message>
-        <location filename="../gui/options.ui" line="2028"/>
+        <location filename="../gui/options.ui" line="1684"/>
+        <source>From:</source>
+        <extracomment>from (time1 to time2)</extracomment>
+        <translation>Из:</translation>
+    </message>
+    <message>
+        <location filename="../gui/options.ui" line="1708"/>
+        <source>To:</source>
+        <extracomment>time1 to time2</extracomment>
+        <translation>В:</translation>
+    </message>
+    <message>
+        <location filename="../gui/options.ui" line="1993"/>
         <source>Enable Local Peer Discovery to find more peers</source>
         <translation>Включить обнаружение локальных пиров, чтобы найти больше пиров</translation>
     </message>
     <message>
-        <location filename="../gui/options.ui" line="2040"/>
+        <location filename="../gui/options.ui" line="2005"/>
         <source>Encryption mode:</source>
         <translation>Режим шифрования:</translation>
     </message>
     <message>
-        <location filename="../gui/options.ui" line="2048"/>
+        <location filename="../gui/options.ui" line="2013"/>
         <source>Prefer encryption</source>
         <translation>Предпочитать шифрование</translation>
     </message>
     <message>
-        <location filename="../gui/options.ui" line="2053"/>
+        <location filename="../gui/options.ui" line="2018"/>
         <source>Require encryption</source>
         <translation>Требовать шифрование</translation>
     </message>
     <message>
-        <location filename="../gui/options.ui" line="2058"/>
+        <location filename="../gui/options.ui" line="2023"/>
         <source>Disable encryption</source>
         <translation>Отключить шифрование</translation>
     </message>
     <message>
-        <location filename="../gui/options.ui" line="2093"/>
+        <location filename="../gui/options.ui" line="2058"/>
         <source> (&lt;a href=&quot;http://github.com/qbittorrent/qBittorrent/wiki/Anonymous-Mode&quot;&gt;More information&lt;/a&gt;)</source>
         <translation> (&lt;a href=&quot;http://github.com/qbittorrent/qBittorrent/wiki/Anonymous-Mode&quot;&gt;Подробнее&lt;/a&gt;)</translation>
     </message>
     <message>
-        <location filename="../gui/options.ui" line="2136"/>
+        <location filename="../gui/options.ui" line="2101"/>
         <source>Maximum active downloads:</source>
         <translation>Максимальное число активных загрузок:</translation>
     </message>
     <message>
-        <location filename="../gui/options.ui" line="2156"/>
+        <location filename="../gui/options.ui" line="2121"/>
         <source>Maximum active uploads:</source>
         <translation>Максимальное число активных раздач:</translation>
     </message>
     <message>
-        <location filename="../gui/options.ui" line="2176"/>
+        <location filename="../gui/options.ui" line="2141"/>
         <source>Maximum active torrents:</source>
         <translation>Максимальное число активных торрентов:</translation>
     </message>
     <message>
-        <location filename="../gui/options.ui" line="546"/>
+        <location filename="../gui/options.ui" line="537"/>
         <source>When adding a torrent</source>
         <translation>При добавлении торрента</translation>
     </message>
     <message>
-        <location filename="../gui/options.ui" line="85"/>
+        <location filename="../gui/options.ui" line="58"/>
         <source>Behavior</source>
         <translation>Поведение</translation>
     </message>
     <message>
-        <location filename="../gui/options.ui" line="191"/>
+        <location filename="../gui/options.ui" line="173"/>
         <source>Language</source>
         <translation>Язык</translation>
     </message>
     <message>
-        <location filename="../gui/options.ui" line="562"/>
+        <location filename="../gui/options.ui" line="553"/>
         <source>Display torrent content and some options</source>
         <translation>Отображать содержимое торрента и дополнительные настройки</translation>
     </message>
     <message>
-        <location filename="../gui/options.ui" line="1003"/>
+        <location filename="../gui/options.ui" line="994"/>
         <source>Run external program on torrent completion</source>
         <translation>Запустить внешнюю программу по окончании загрузки торрента</translation>
     </message>
@@ -4182,53 +4318,37 @@ Are you sure you want to quit qBittorrent?</source>
         <translation>Максимальное число слотов отдачи на торрент:</translation>
     </message>
     <message>
-        <location filename="../gui/options.ui" line="1586"/>
-        <location filename="../gui/options.ui" line="1788"/>
+        <location filename="../gui/options.ui" line="1599"/>
+        <location filename="../gui/options.ui" line="1790"/>
         <source>Upload:</source>
         <translation>Отдача:</translation>
     </message>
     <message>
-        <location filename="../gui/options.ui" line="1619"/>
-        <location filename="../gui/options.ui" line="1798"/>
+        <location filename="../gui/options.ui" line="1643"/>
+        <location filename="../gui/options.ui" line="1797"/>
         <source>Download:</source>
         <translation>Загрузка:</translation>
     </message>
     <message>
-        <location filename="../gui/options.ui" line="1612"/>
-        <location filename="../gui/options.ui" line="1645"/>
-        <location filename="../gui/options.ui" line="1758"/>
-        <location filename="../gui/options.ui" line="1781"/>
+        <location filename="../gui/options.ui" line="1606"/>
+        <location filename="../gui/options.ui" line="1629"/>
+        <location filename="../gui/options.ui" line="1836"/>
+        <location filename="../gui/options.ui" line="1843"/>
         <source>KiB/s</source>
         <translation>КБ/с</translation>
     </message>
     <message>
-        <location filename="../gui/options.ui" line="780"/>
+        <location filename="../gui/options.ui" line="771"/>
         <source>Remove folder</source>
         <translation>Удалить папку</translation>
     </message>
     <message>
-        <location filename="../gui/options.ui" line="1866"/>
-        <source>to</source>
-        <extracomment>time1 to time2</extracomment>
-        <translation>до</translation>
-    </message>
-    <message>
-        <location filename="../gui/options.ui" line="1921"/>
+        <location filename="../gui/options.ui" line="1749"/>
         <source>Every day</source>
         <translation>Каждый день</translation>
     </message>
-    <message>
-        <location filename="../gui/options.ui" line="1926"/>
-        <source>Week days</source>
-        <translation>Каждый будний день</translation>
-    </message>
-    <message>
-        <location filename="../gui/options.ui" line="1931"/>
-        <source>Week ends</source>
-        <translation>Каждый выходной</translation>
-    </message>
     <message utf8="true">
-        <location filename="../gui/options.ui" line="2012"/>
+        <location filename="../gui/options.ui" line="1977"/>
         <source>Exchange peers with compatible Bittorrent clients (µTorrent, Vuze, ...)</source>
         <translation>Обмен пирами с совместимыми клиентами BitTorrent (µTorrent, Vuze, …)</translation>
     </message>
@@ -4248,201 +4368,200 @@ Are you sure you want to quit qBittorrent?</source>
         <translation>Тип:</translation>
     </message>
     <message>
-        <location filename="../gui/options.ui" line="20"/>
-        <location filename="../gui/options.ui" line="1667"/>
+        <location filename="../gui/options.ui" line="14"/>
         <source>Options</source>
         <translation>Настройки</translation>
     </message>
     <message>
-        <location filename="../gui/options.ui" line="287"/>
+        <location filename="../gui/options.ui" line="269"/>
         <source>Action on double-click</source>
         <translation>Действие по двойному щелчку</translation>
     </message>
     <message>
-        <location filename="../gui/options.ui" line="296"/>
+        <location filename="../gui/options.ui" line="278"/>
         <source>Downloading torrents:</source>
         <translation>Загружаемые торренты:</translation>
     </message>
     <message>
-        <location filename="../gui/options.ui" line="318"/>
-        <location filename="../gui/options.ui" line="344"/>
+        <location filename="../gui/options.ui" line="300"/>
+        <location filename="../gui/options.ui" line="326"/>
         <source>Open destination folder</source>
         <translation>Открыть папку назначения</translation>
     </message>
     <message>
-        <location filename="../gui/options.ui" line="331"/>
+        <location filename="../gui/options.ui" line="313"/>
         <source>Completed torrents:</source>
         <translation>Завершённые торренты:</translation>
     </message>
     <message>
-        <location filename="../gui/options.ui" line="363"/>
+        <location filename="../gui/options.ui" line="345"/>
         <source>Desktop</source>
         <translation>Настройки интерфейса</translation>
     </message>
     <message>
-        <location filename="../gui/options.ui" line="376"/>
+        <location filename="../gui/options.ui" line="358"/>
         <source>Show splash screen on start up</source>
         <translation>Показать заставку при загрузке</translation>
     </message>
     <message>
-        <location filename="../gui/options.ui" line="386"/>
+        <location filename="../gui/options.ui" line="368"/>
         <source>Start qBittorrent minimized</source>
         <translation>Запускать qBittorrent свёрнутым</translation>
     </message>
     <message>
-        <location filename="../gui/options.ui" line="412"/>
+        <location filename="../gui/options.ui" line="394"/>
         <source>Minimize qBittorrent to notification area</source>
         <translation>Сворачивать qBittorrent в область уведомлений</translation>
     </message>
     <message>
-        <location filename="../gui/options.ui" line="422"/>
+        <location filename="../gui/options.ui" line="404"/>
         <source>Close qBittorrent to notification area</source>
         <comment>i.e: The systray tray icon will still be visible when closing the main window.</comment>
         <translation>Закрывать qBittorrent в область уведомлений</translation>
     </message>
     <message>
-        <location filename="../gui/options.ui" line="431"/>
+        <location filename="../gui/options.ui" line="413"/>
         <source>Tray icon style:</source>
         <translation>Стиль иконки в трее:</translation>
     </message>
     <message>
-        <location filename="../gui/options.ui" line="439"/>
+        <location filename="../gui/options.ui" line="421"/>
         <source>Normal</source>
         <translation>Обычная</translation>
     </message>
     <message>
-        <location filename="../gui/options.ui" line="444"/>
+        <location filename="../gui/options.ui" line="426"/>
         <source>Monochrome (Dark theme)</source>
         <translation>Монохромная (тёмная тема)</translation>
     </message>
     <message>
-        <location filename="../gui/options.ui" line="449"/>
+        <location filename="../gui/options.ui" line="431"/>
         <source>Monochrome (Light theme)</source>
         <translation>Монохромная (светлая тема)</translation>
     </message>
     <message>
-        <location filename="../gui/options.ui" line="199"/>
+        <location filename="../gui/options.ui" line="181"/>
         <source>User Interface Language:</source>
         <translation>Язык пользовательского интерфейса:</translation>
     </message>
     <message>
-        <location filename="../gui/options.ui" line="255"/>
+        <location filename="../gui/options.ui" line="237"/>
         <source>Transfer List</source>
         <translation>Список торрентов</translation>
     </message>
     <message>
-        <location filename="../gui/options.ui" line="261"/>
+        <location filename="../gui/options.ui" line="243"/>
         <source>Confirm when deleting torrents</source>
-        <translation type="unfinished"></translation>
+        <translation>Подтверждать удаление торрентов</translation>
     </message>
     <message>
-        <location filename="../gui/options.ui" line="369"/>
+        <location filename="../gui/options.ui" line="351"/>
         <source>Start qBittorrent on Windows start up</source>
         <translation>Запускать qBittorrent вместе с Windows</translation>
     </message>
     <message>
-        <location filename="../gui/options.ui" line="393"/>
+        <location filename="../gui/options.ui" line="375"/>
         <source>Confirmation on exit when torrents are active</source>
         <translation>Подтверждать выход при наличии активных торрентов</translation>
     </message>
     <message>
-        <location filename="../gui/options.ui" line="403"/>
+        <location filename="../gui/options.ui" line="385"/>
         <source>Show qBittorrent in notification area</source>
         <translation>Показывать qBittorrent в области уведомлений</translation>
     </message>
     <message>
-        <location filename="../gui/options.ui" line="462"/>
+        <location filename="../gui/options.ui" line="444"/>
         <source>File association</source>
         <translation>Ассоциации файлов</translation>
     </message>
     <message>
-        <location filename="../gui/options.ui" line="468"/>
+        <location filename="../gui/options.ui" line="450"/>
         <source>Use qBittorrent for .torrent files</source>
         <translation>Использовать qBittorrent для .torrent файлов</translation>
     </message>
     <message>
-        <location filename="../gui/options.ui" line="475"/>
+        <location filename="../gui/options.ui" line="457"/>
         <source>Use qBittorrent for magnet links</source>
         <translation>Использовать qBittorrent для magnet-ссылок</translation>
     </message>
     <message>
-        <location filename="../gui/options.ui" line="488"/>
+        <location filename="../gui/options.ui" line="470"/>
         <source>Power Management</source>
         <translation>Управление питанием</translation>
     </message>
     <message>
-        <location filename="../gui/options.ui" line="494"/>
+        <location filename="../gui/options.ui" line="476"/>
         <source>Inhibit system sleep when torrents are active</source>
         <translation>Запретить спящий режим при наличии активных торрентов</translation>
     </message>
     <message>
-        <location filename="../gui/options.ui" line="555"/>
+        <location filename="../gui/options.ui" line="546"/>
         <source>Do not start the download automatically</source>
         <comment>The torrent will be added to download list in pause state</comment>
         <translation>Не начинать загрузку автоматически</translation>
     </message>
     <message>
-        <location filename="../gui/options.ui" line="571"/>
+        <location filename="../gui/options.ui" line="562"/>
         <source>Bring torrent dialog to the front</source>
         <translation>Выводить диалог добавления торрента поверх остальных окон</translation>
     </message>
     <message>
-        <location filename="../gui/options.ui" line="593"/>
+        <location filename="../gui/options.ui" line="584"/>
         <source>Hard Disk</source>
         <translation>Жёсткий диск</translation>
     </message>
     <message>
-        <location filename="../gui/options.ui" line="599"/>
+        <location filename="../gui/options.ui" line="590"/>
         <source>Save files to location:</source>
         <translation>Путь сохранения по умолчанию:</translation>
     </message>
     <message>
-        <location filename="../gui/options.ui" line="647"/>
+        <location filename="../gui/options.ui" line="638"/>
         <source>Append the label of the torrent to the save path</source>
         <translation>Добавить метку торрента к пути сохранения</translation>
     </message>
     <message>
-        <location filename="../gui/options.ui" line="657"/>
+        <location filename="../gui/options.ui" line="648"/>
         <source>Pre-allocate disk space for all files</source>
         <translation>Резервировать место на диске для всех файлов</translation>
     </message>
     <message>
-        <location filename="../gui/options.ui" line="664"/>
+        <location filename="../gui/options.ui" line="655"/>
         <source>Keep incomplete torrents in:</source>
         <translation>Хранить незавершённые торренты в:</translation>
     </message>
     <message>
-        <location filename="../gui/options.ui" line="717"/>
+        <location filename="../gui/options.ui" line="708"/>
         <source>Automatically add torrents from:</source>
         <translation>Автоматически добавлять торренты из:</translation>
     </message>
     <message>
-        <location filename="../gui/options.ui" line="770"/>
+        <location filename="../gui/options.ui" line="761"/>
         <source>Add folder...</source>
         <translation>Добавить папку…</translation>
     </message>
     <message>
-        <location filename="../gui/options.ui" line="862"/>
+        <location filename="../gui/options.ui" line="853"/>
         <source>Copy .torrent files for finished downloads to:</source>
         <translation>Копировать .torrent файлы завершённых загрузок в:</translation>
     </message>
     <message>
-        <location filename="../gui/options.ui" line="918"/>
+        <location filename="../gui/options.ui" line="909"/>
         <source>Email notification upon download completion</source>
         <translation>Сообщать об окончании загрузки по e-mail</translation>
     </message>
     <message>
-        <location filename="../gui/options.ui" line="932"/>
+        <location filename="../gui/options.ui" line="923"/>
         <source>Destination email:</source>
         <translation>E-mail получателя:</translation>
     </message>
     <message>
-        <location filename="../gui/options.ui" line="942"/>
+        <location filename="../gui/options.ui" line="933"/>
         <source>SMTP server:</source>
         <translation>SMTP сервер:</translation>
     </message>
     <message>
-        <location filename="../gui/options.ui" line="991"/>
+        <location filename="../gui/options.ui" line="982"/>
         <source>This server requires a secure connection (SSL)</source>
         <translation>Этот сервер требует защищённого соединения (SSL)</translation>
     </message>
@@ -4482,14 +4601,14 @@ Are you sure you want to quit qBittorrent?</source>
         <translation>Не использовать протоколы, неподдерживаемые прокси-сервером</translation>
     </message>
     <message>
-        <location filename="../gui/options.ui" line="1390"/>
+        <location filename="../gui/options.ui" line="1393"/>
         <source>Use proxy only for torrents</source>
-        <translation type="unfinished"></translation>
+        <translation>Использовать прокси только для торрентов</translation>
     </message>
     <message>
-        <location filename="../gui/options.ui" line="1393"/>
+        <location filename="../gui/options.ui" line="1390"/>
         <source>RSS feeds, search engine, software updates or anything else other than torrent transfers and related operations (such as peer exchanges) will use a direct connection</source>
-        <translation type="unfinished"></translation>
+        <translation>RSS подписки, поисковые движки, программные обновления и прочее, что не относится к передаче торрентов (например, обмен пирами), будет использовать прямое соединение.</translation>
     </message>
     <message>
         <location filename="../gui/options.ui" line="1462"/>
@@ -4512,138 +4631,162 @@ Are you sure you want to quit qBittorrent?</source>
         <translation>Применить к трекерам</translation>
     </message>
     <message>
-        <location filename="../gui/options.ui" line="1673"/>
-        <source>Enable bandwidth management (uTP)</source>
-        <translation>Включить управление полосой пропускания (uTP)</translation>
-    </message>
-    <message>
-        <location filename="../gui/options.ui" line="1697"/>
+        <location filename="../gui/options.ui" line="1872"/>
         <source>Apply rate limit to peers on LAN</source>
-        <translation type="unfinished"></translation>
+        <translation>Применять ограничение скорости к локальным пирам</translation>
     </message>
     <message>
-        <location filename="../gui/options.ui" line="1839"/>
-        <source>from</source>
-        <extracomment>from (time1 to time2)</extracomment>
-        <translation>С</translation>
-    </message>
-    <message>
-        <location filename="../gui/options.ui" line="1913"/>
+        <location filename="../gui/options.ui" line="1735"/>
         <source>When:</source>
         <translation>Когда:</translation>
     </message>
     <message>
-        <location filename="../gui/options.ui" line="1996"/>
+        <location filename="../gui/options.ui" line="1754"/>
+        <source>Weekdays</source>
+        <translation>Будни</translation>
+    </message>
+    <message>
+        <location filename="../gui/options.ui" line="1759"/>
+        <source>Weekends</source>
+        <translation>Выходные</translation>
+    </message>
+    <message>
+        <location filename="../gui/options.ui" line="1866"/>
+        <source>Rate Limits Settings</source>
+        <translation>Настройки ограчения скорости</translation>
+    </message>
+    <message utf8="true">
+        <location filename="../gui/options.ui" line="1886"/>
+        <source>Enable µTP protocol</source>
+        <translation>Задействовать протокол µTP</translation>
+    </message>
+    <message utf8="true">
+        <location filename="../gui/options.ui" line="1893"/>
+        <source>Apply rate limit to µTP protocol</source>
+        <translation>Применять ограничение скорости к протоколу µTP</translation>
+    </message>
+    <message>
+        <location filename="../gui/options.ui" line="1961"/>
         <source>Privacy</source>
         <translation>Приватность</translation>
     </message>
     <message>
-        <location filename="../gui/options.ui" line="2002"/>
+        <location filename="../gui/options.ui" line="1967"/>
         <source>Enable DHT (decentralized network) to find more peers</source>
         <translation>Включить DHT (децентрализованную сеть), чтобы найти больше пиров</translation>
     </message>
     <message>
-        <location filename="../gui/options.ui" line="2015"/>
+        <location filename="../gui/options.ui" line="1980"/>
         <source>Enable Peer Exchange (PeX) to find more peers</source>
         <translation>Включить обмен пирами (PeX), чтобы найти больше пиров</translation>
     </message>
     <message>
-        <location filename="../gui/options.ui" line="2025"/>
+        <location filename="../gui/options.ui" line="1990"/>
         <source>Look for peers on your local network</source>
         <translation>Искать пиров в вашей локальной сети</translation>
     </message>
     <message>
-        <location filename="../gui/options.ui" line="2083"/>
+        <location filename="../gui/options.ui" line="2048"/>
         <source>Enable when using a proxy or a VPN connection</source>
         <translation>Рекомендуется использовать при подключении через прокси или VPN</translation>
     </message>
     <message>
-        <location filename="../gui/options.ui" line="2086"/>
+        <location filename="../gui/options.ui" line="2051"/>
         <source>Enable anonymous mode</source>
         <translation>Включить анонимный режим</translation>
     </message>
     <message>
-        <location filename="../gui/options.ui" line="2235"/>
+        <location filename="../gui/options.ui" line="2200"/>
         <source>Do not count slow torrents in these limits</source>
         <translation>Не учитывать количество медленных торрентов в этих ограничениях</translation>
     </message>
     <message>
-        <location filename="../gui/options.ui" line="2256"/>
+        <location filename="../gui/options.ui" line="2221"/>
         <source>Seed torrents until their ratio reaches</source>
         <translation>Раздавать торренты, пока их коэффициент не достигнет</translation>
     </message>
     <message>
-        <location filename="../gui/options.ui" line="2285"/>
+        <location filename="../gui/options.ui" line="2250"/>
         <source>then</source>
         <translation>затем</translation>
     </message>
     <message>
-        <location filename="../gui/options.ui" line="2296"/>
+        <location filename="../gui/options.ui" line="2261"/>
         <source>Pause them</source>
         <translation>Приостановить</translation>
     </message>
     <message>
-        <location filename="../gui/options.ui" line="2301"/>
+        <location filename="../gui/options.ui" line="2266"/>
         <source>Remove them</source>
         <translation>Удалить</translation>
     </message>
     <message>
-        <location filename="../gui/options.ui" line="2399"/>
+        <location filename="../gui/options.ui" line="2285"/>
+        <source>Automatically add these trackers to new downloads:</source>
+        <translation>Автоматически добавлять данные трекеры к новым загрузкам:</translation>
+    </message>
+    <message>
+        <location filename="../gui/options.ui" line="2404"/>
         <source>Use UPnP / NAT-PMP to forward the port from my router</source>
         <translation>Использовать UPnP / NAT-PMP для перенаправления портов через мой маршрутизатор</translation>
     </message>
     <message>
-        <location filename="../gui/options.ui" line="2409"/>
+        <location filename="../gui/options.ui" line="2414"/>
         <source>Use HTTPS instead of HTTP</source>
         <translation>Использовать HTTPS вместо HTTP</translation>
     </message>
     <message>
-        <location filename="../gui/options.ui" line="2452"/>
+        <location filename="../gui/options.ui" line="2457"/>
         <source>Import SSL Certificate</source>
         <translation>Импортировать сертификат SSL</translation>
     </message>
     <message>
-        <location filename="../gui/options.ui" line="2505"/>
+        <location filename="../gui/options.ui" line="2510"/>
         <source>Import SSL Key</source>
         <translation>Импортировать ключ SSL</translation>
     </message>
     <message>
-        <location filename="../gui/options.ui" line="2440"/>
+        <location filename="../gui/options.ui" line="2445"/>
         <source>Certificate:</source>
         <translation>Сертификат:</translation>
     </message>
     <message>
-        <location filename="../gui/options.ui" line="2493"/>
+        <location filename="../gui/options.ui" line="1666"/>
+        <source>Alternative Rate Limits</source>
+        <translation>Иные ограничения скорости</translation>
+    </message>
+    <message>
+        <location filename="../gui/options.ui" line="2498"/>
         <source>Key:</source>
         <translation>Ключ:</translation>
     </message>
     <message>
-        <location filename="../gui/options.ui" line="2527"/>
+        <location filename="../gui/options.ui" line="2532"/>
         <source>&lt;a href=http://httpd.apache.org/docs/2.2/ssl/ssl_faq.html#aboutcerts&gt;Information about certificates&lt;/a&gt;</source>
         <translation>&lt;a href=http://httpd.apache.org/docs/2.2/ssl/ssl_faq.html#aboutcerts&gt;Информация о сертификатах&lt;/a&gt;</translation>
     </message>
     <message>
-        <location filename="../gui/options.ui" line="2572"/>
+        <location filename="../gui/options.ui" line="2577"/>
         <source>Bypass authentication for localhost</source>
         <translation>Пропускать аутентификацию для localhost</translation>
     </message>
     <message>
-        <location filename="../gui/options.ui" line="2596"/>
+        <location filename="../gui/options.ui" line="2601"/>
         <source>Update my dynamic domain name</source>
         <translation>Обновлять мой динамический DNS</translation>
     </message>
     <message>
-        <location filename="../gui/options.ui" line="2608"/>
+        <location filename="../gui/options.ui" line="2613"/>
         <source>Service:</source>
         <translation>Служба:</translation>
     </message>
     <message>
-        <location filename="../gui/options.ui" line="2631"/>
+        <location filename="../gui/options.ui" line="2636"/>
         <source>Register</source>
         <translation>Регистрация</translation>
     </message>
     <message>
-        <location filename="../gui/options.ui" line="2640"/>
+        <location filename="../gui/options.ui" line="2645"/>
         <source>Domain name:</source>
         <translation>Доменное имя:</translation>
     </message>
@@ -4653,7 +4796,7 @@ Are you sure you want to quit qBittorrent?</source>
         <translation>(нет)</translation>
     </message>
     <message>
-        <location filename="../gui/options.ui" line="129"/>
+        <location filename="../gui/options.ui" line="102"/>
         <source>BitTorrent</source>
         <translation>BitTorrent</translation>
     </message>
@@ -4664,45 +4807,45 @@ Are you sure you want to quit qBittorrent?</source>
     </message>
     <message>
         <location filename="../gui/options.ui" line="1342"/>
-        <location filename="../gui/options.ui" line="2364"/>
+        <location filename="../gui/options.ui" line="2369"/>
         <source>Port:</source>
         <translation>Порт:</translation>
     </message>
     <message>
-        <location filename="../gui/options.ui" line="952"/>
+        <location filename="../gui/options.ui" line="943"/>
         <location filename="../gui/options.ui" line="1406"/>
-        <location filename="../gui/options.ui" line="2540"/>
+        <location filename="../gui/options.ui" line="2545"/>
         <source>Authentication</source>
         <translation>Аутентификация</translation>
     </message>
     <message>
-        <location filename="../gui/options.ui" line="964"/>
+        <location filename="../gui/options.ui" line="955"/>
         <location filename="../gui/options.ui" line="1420"/>
-        <location filename="../gui/options.ui" line="2579"/>
-        <location filename="../gui/options.ui" line="2654"/>
+        <location filename="../gui/options.ui" line="2584"/>
+        <location filename="../gui/options.ui" line="2659"/>
         <source>Username:</source>
         <translation>Имя пользователя:</translation>
     </message>
     <message>
-        <location filename="../gui/options.ui" line="974"/>
+        <location filename="../gui/options.ui" line="965"/>
         <location filename="../gui/options.ui" line="1440"/>
-        <location filename="../gui/options.ui" line="2586"/>
-        <location filename="../gui/options.ui" line="2668"/>
+        <location filename="../gui/options.ui" line="2591"/>
+        <location filename="../gui/options.ui" line="2673"/>
         <source>Password:</source>
         <translation>Пароль:</translation>
     </message>
     <message>
-        <location filename="../gui/options.ui" line="2121"/>
+        <location filename="../gui/options.ui" line="2086"/>
         <source>Torrent Queueing</source>
         <translation>Очередность торрентов</translation>
     </message>
     <message>
-        <location filename="../gui/options.ui" line="2245"/>
+        <location filename="../gui/options.ui" line="2210"/>
         <source>Share Ratio Limiting</source>
         <translation>Ограничение коэффициента раздачи</translation>
     </message>
     <message>
-        <location filename="../gui/options.ui" line="2350"/>
+        <location filename="../gui/options.ui" line="2355"/>
         <source>Enable Web User Interface (Remote control)</source>
         <translation>Включить веб-интерфейс (удалённое управление)</translation>
     </message>
@@ -4716,33 +4859,48 @@ Are you sure you want to quit qBittorrent?</source>
         <source>Filter path (.dat, .p2p, .p2b):</source>
         <translation>Путь к фильтрам (.dat, .p2p, .p2b):</translation>
     </message>
+    <message>
+        <location filename="../base/preferences.cpp" line="79"/>
+        <source>Detected unclean program exit. Using fallback file to restore settings.</source>
+        <translation>Обнаружено некорректное завешение программы. Производится попытка восстановить настройки из резервной копии.</translation>
+    </message>
+    <message>
+        <location filename="../base/preferences.cpp" line="174"/>
+        <source>An access error occurred while trying to write the configuration file.</source>
+        <translation>Ошибка доступа при попытке записи файла конфигурации.</translation>
+    </message>
+    <message>
+        <location filename="../base/preferences.cpp" line="176"/>
+        <source>A format error occurred while trying to write the configuration file.</source>
+        <translation>Ошибка формата при попытке записи файла конфигурации.</translation>
+    </message>
 </context>
 <context>
     <name>PreviewSelect</name>
     <message>
-        <location filename="../gui/previewselect.cpp" line="51"/>
+        <location filename="../gui/previewselect.cpp" line="54"/>
         <source>Name</source>
         <translation>Имя</translation>
     </message>
     <message>
-        <location filename="../gui/previewselect.cpp" line="52"/>
+        <location filename="../gui/previewselect.cpp" line="55"/>
         <source>Size</source>
         <translation>Размер</translation>
     </message>
     <message>
-        <location filename="../gui/previewselect.cpp" line="53"/>
+        <location filename="../gui/previewselect.cpp" line="56"/>
         <source>Progress</source>
         <translation>Прогресс</translation>
     </message>
     <message>
-        <location filename="../gui/previewselect.cpp" line="79"/>
-        <location filename="../gui/previewselect.cpp" line="116"/>
+        <location filename="../gui/previewselect.cpp" line="90"/>
+        <location filename="../gui/previewselect.cpp" line="127"/>
         <source>Preview impossible</source>
         <translation>Предпросмотр невозможен</translation>
     </message>
     <message>
-        <location filename="../gui/previewselect.cpp" line="79"/>
-        <location filename="../gui/previewselect.cpp" line="116"/>
+        <location filename="../gui/previewselect.cpp" line="90"/>
+        <location filename="../gui/previewselect.cpp" line="127"/>
         <source>Sorry, we can&apos;t preview this file</source>
         <translation>Извините, предпросмотр этого файла невозможен</translation>
     </message>
@@ -4779,38 +4937,38 @@ Are you sure you want to quit qBittorrent?</source>
         <location filename="../gui/properties/proplistdelegate.cpp" line="164"/>
         <source>Maximum</source>
         <comment>Maximum (priority)</comment>
-        <translation>Максимальный</translation>
+        <translation>Высший</translation>
     </message>
 </context>
 <context>
     <name>PropTabBar</name>
     <message>
-        <location filename="../gui/properties/proptabbar.cpp" line="45"/>
+        <location filename="../gui/properties/proptabbar.cpp" line="46"/>
         <source>General</source>
         <translation>Общие</translation>
     </message>
     <message>
-        <location filename="../gui/properties/proptabbar.cpp" line="50"/>
+        <location filename="../gui/properties/proptabbar.cpp" line="51"/>
         <source>Trackers</source>
         <translation>Трекеры</translation>
     </message>
     <message>
-        <location filename="../gui/properties/proptabbar.cpp" line="54"/>
+        <location filename="../gui/properties/proptabbar.cpp" line="55"/>
         <source>Peers</source>
         <translation>Пиры</translation>
     </message>
     <message>
-        <location filename="../gui/properties/proptabbar.cpp" line="58"/>
+        <location filename="../gui/properties/proptabbar.cpp" line="59"/>
         <source>HTTP Sources</source>
         <translation>Источники HTTP</translation>
     </message>
     <message>
-        <location filename="../gui/properties/proptabbar.cpp" line="62"/>
+        <location filename="../gui/properties/proptabbar.cpp" line="63"/>
         <source>Content</source>
         <translation>Содержимое</translation>
     </message>
     <message>
-        <location filename="../gui/properties/proptabbar.cpp" line="68"/>
+        <location filename="../gui/properties/proptabbar.cpp" line="69"/>
         <source>Speed</source>
         <translation>Скорость</translation>
     </message>
@@ -4818,331 +4976,330 @@ Are you sure you want to quit qBittorrent?</source>
 <context>
     <name>PropertiesWidget</name>
     <message>
-        <location filename="../gui/properties/propertieswidget.ui" line="292"/>
+        <location filename="../gui/properties/propertieswidget.ui" line="330"/>
         <source>Downloaded:</source>
         <translation>Загружено:</translation>
     </message>
     <message>
-        <location filename="../gui/properties/propertieswidget.ui" line="134"/>
+        <location filename="../gui/properties/propertieswidget.ui" line="107"/>
         <source>Availability:</source>
         <translation>Доступно:</translation>
     </message>
     <message>
-        <location filename="../gui/properties/propertieswidget.ui" line="77"/>
+        <location filename="../gui/properties/propertieswidget.ui" line="78"/>
         <source>Progress:</source>
         <translation>Прогресс:</translation>
     </message>
     <message>
-        <location filename="../gui/properties/propertieswidget.ui" line="184"/>
+        <location filename="../gui/properties/propertieswidget.ui" line="154"/>
         <source>Transfer</source>
         <translation>Передача</translation>
     </message>
     <message>
-        <location filename="../gui/properties/propertieswidget.ui" line="196"/>
+        <location filename="../gui/properties/propertieswidget.ui" line="546"/>
         <source>Time Active:</source>
         <extracomment>Time (duration) the torrent is active (not paused)</extracomment>
         <translation>Активен:</translation>
     </message>
     <message>
-        <location filename="../gui/properties/propertieswidget.ui" line="228"/>
+        <location filename="../gui/properties/propertieswidget.ui" line="575"/>
         <source>ETA:</source>
         <translation>Осталось:</translation>
     </message>
     <message>
-        <location filename="../gui/properties/propertieswidget.ui" line="324"/>
+        <location filename="../gui/properties/propertieswidget.ui" line="504"/>
         <source>Uploaded:</source>
         <translation>Отдано:</translation>
     </message>
     <message>
-        <location filename="../gui/properties/propertieswidget.ui" line="356"/>
+        <location filename="../gui/properties/propertieswidget.ui" line="433"/>
         <source>Seeds:</source>
         <translation>Сиды:</translation>
     </message>
     <message>
-        <location filename="../gui/properties/propertieswidget.ui" line="388"/>
+        <location filename="../gui/properties/propertieswidget.ui" line="449"/>
         <source>Download Speed:</source>
         <translation>Загрузка:</translation>
     </message>
     <message>
-        <location filename="../gui/properties/propertieswidget.ui" line="420"/>
+        <location filename="../gui/properties/propertieswidget.ui" line="185"/>
         <source>Upload Speed:</source>
         <translation>Отдача:</translation>
     </message>
     <message>
-        <location filename="../gui/properties/propertieswidget.ui" line="452"/>
+        <location filename="../gui/properties/propertieswidget.ui" line="214"/>
         <source>Peers:</source>
         <translation>Пиры:</translation>
     </message>
     <message>
-        <location filename="../gui/properties/propertieswidget.ui" line="484"/>
+        <location filename="../gui/properties/propertieswidget.ui" line="272"/>
         <source>Download Limit:</source>
         <translation>Огр. загрузки:</translation>
     </message>
     <message>
-        <location filename="../gui/properties/propertieswidget.ui" line="516"/>
+        <location filename="../gui/properties/propertieswidget.ui" line="346"/>
         <source>Upload Limit:</source>
         <translation>Огр. отдачи:</translation>
     </message>
     <message>
-        <location filename="../gui/properties/propertieswidget.ui" line="548"/>
+        <location filename="../gui/properties/propertieswidget.ui" line="591"/>
         <source>Wasted:</source>
         <translation>Потеряно:</translation>
     </message>
     <message>
-        <location filename="../gui/properties/propertieswidget.ui" line="260"/>
+        <location filename="../gui/properties/propertieswidget.ui" line="230"/>
         <source>Connections:</source>
         <translation>Соединения:</translation>
     </message>
     <message>
-        <location filename="../gui/properties/propertieswidget.ui" line="679"/>
+        <location filename="../gui/properties/propertieswidget.ui" line="604"/>
         <source>Information</source>
         <translation>Информация</translation>
     </message>
     <message>
-        <location filename="../gui/properties/propertieswidget.ui" line="959"/>
+        <location filename="../gui/properties/propertieswidget.ui" line="863"/>
         <source>Comment:</source>
         <translation>Комментарий:</translation>
     </message>
     <message>
-        <location filename="../gui/properties/propertieswidget.ui" line="1144"/>
         <source>Torrent content:</source>
-        <translation>Содержимое торрента:</translation>
+        <translation type="obsolete">Содержимое торрента:</translation>
     </message>
     <message>
-        <location filename="../gui/properties/propertieswidget.ui" line="1111"/>
+        <location filename="../gui/properties/propertieswidget.ui" line="1020"/>
         <source>Select All</source>
         <translation>Выбрать все</translation>
     </message>
     <message>
-        <location filename="../gui/properties/propertieswidget.ui" line="1118"/>
+        <location filename="../gui/properties/propertieswidget.ui" line="1027"/>
         <source>Select None</source>
         <translation>Отменить выбор</translation>
     </message>
     <message>
-        <location filename="../gui/properties/propertieswidget.ui" line="1205"/>
+        <location filename="../gui/properties/propertieswidget.ui" line="1103"/>
         <source>Normal</source>
         <translation>Обычный</translation>
     </message>
     <message>
-        <location filename="../gui/properties/propertieswidget.ui" line="1200"/>
+        <location filename="../gui/properties/propertieswidget.ui" line="1098"/>
         <source>High</source>
         <translation>Высокий</translation>
     </message>
     <message>
-        <location filename="../gui/properties/propertieswidget.ui" line="580"/>
+        <location filename="../gui/properties/propertieswidget.ui" line="288"/>
         <source>Share Ratio:</source>
         <translation>Коэффициент:</translation>
     </message>
     <message>
-        <location filename="../gui/properties/propertieswidget.ui" line="612"/>
+        <location filename="../gui/properties/propertieswidget.ui" line="404"/>
         <source>Reannounce In:</source>
         <translation>След. анонс:</translation>
     </message>
     <message>
-        <location filename="../gui/properties/propertieswidget.ui" line="644"/>
+        <location filename="../gui/properties/propertieswidget.ui" line="362"/>
         <source>Last Seen Complete:</source>
         <translation>Замечен целиком:</translation>
     </message>
     <message>
-        <location filename="../gui/properties/propertieswidget.ui" line="691"/>
+        <location filename="../gui/properties/propertieswidget.ui" line="622"/>
         <source>Total Size:</source>
         <translation>Общий объем:</translation>
     </message>
     <message>
-        <location filename="../gui/properties/propertieswidget.ui" line="723"/>
+        <location filename="../gui/properties/propertieswidget.ui" line="651"/>
         <source>Pieces:</source>
         <translation>Частей:</translation>
     </message>
     <message>
-        <location filename="../gui/properties/propertieswidget.ui" line="755"/>
+        <location filename="../gui/properties/propertieswidget.ui" line="680"/>
         <source>Created By:</source>
         <translation>Создан в:</translation>
     </message>
     <message>
-        <location filename="../gui/properties/propertieswidget.ui" line="787"/>
+        <location filename="../gui/properties/propertieswidget.ui" line="709"/>
         <source>Added On:</source>
         <translation>Добавлен:</translation>
     </message>
     <message>
-        <location filename="../gui/properties/propertieswidget.ui" line="819"/>
+        <location filename="../gui/properties/propertieswidget.ui" line="738"/>
         <source>Completed On:</source>
         <translation>Завершён:</translation>
     </message>
     <message>
-        <location filename="../gui/properties/propertieswidget.ui" line="851"/>
+        <location filename="../gui/properties/propertieswidget.ui" line="767"/>
         <source>Created On:</source>
         <translation>Дата создания:</translation>
     </message>
     <message>
-        <location filename="../gui/properties/propertieswidget.ui" line="883"/>
+        <location filename="../gui/properties/propertieswidget.ui" line="796"/>
         <source>Torrent Hash:</source>
         <translation>Хеш торрента:</translation>
     </message>
     <message>
-        <location filename="../gui/properties/propertieswidget.ui" line="918"/>
+        <location filename="../gui/properties/propertieswidget.ui" line="828"/>
         <source>Save Path:</source>
         <translation>Путь сохранения:</translation>
     </message>
     <message>
-        <location filename="../gui/properties/propertieswidget.ui" line="1195"/>
+        <location filename="../gui/properties/propertieswidget.ui" line="1093"/>
         <source>Maximum</source>
         <translation>Высший</translation>
     </message>
     <message>
-        <location filename="../gui/properties/propertieswidget.ui" line="1187"/>
-        <location filename="../gui/properties/propertieswidget.ui" line="1190"/>
+        <location filename="../gui/properties/propertieswidget.ui" line="1085"/>
+        <location filename="../gui/properties/propertieswidget.ui" line="1088"/>
         <source>Do not download</source>
         <translation>Не загружать</translation>
     </message>
     <message>
-        <location filename="../gui/properties/propertieswidget.cpp" line="410"/>
+        <location filename="../gui/properties/propertieswidget.cpp" line="431"/>
         <source>Never</source>
         <translation>Никогда</translation>
     </message>
     <message>
-        <location filename="../gui/properties/propertieswidget.cpp" line="417"/>
+        <location filename="../gui/properties/propertieswidget.cpp" line="438"/>
         <source>%1 x %2 (have %3)</source>
         <comment>(torrent pieces) eg 152 x 4MB (have 25)</comment>
         <translation>%1 x %2 (из них есть %3)</translation>
     </message>
     <message>
-        <location filename="../gui/properties/propertieswidget.cpp" line="362"/>
-        <location filename="../gui/properties/propertieswidget.cpp" line="365"/>
+        <location filename="../gui/properties/propertieswidget.cpp" line="383"/>
+        <location filename="../gui/properties/propertieswidget.cpp" line="386"/>
         <source>%1 (%2 this session)</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 (%2 за эту сессию)</translation>
     </message>
     <message>
-        <location filename="../gui/properties/propertieswidget.cpp" line="374"/>
+        <location filename="../gui/properties/propertieswidget.cpp" line="395"/>
         <source>%1 (seeded for %2)</source>
         <comment>e.g. 4m39s (seeded for 3m10s)</comment>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../gui/properties/propertieswidget.cpp" line="381"/>
-        <source>%1 (%2 max)</source>
-        <comment>%1 and %2 are numbers, e.g. 3 (10 max)</comment>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../gui/properties/propertieswidget.cpp" line="394"/>
-        <location filename="../gui/properties/propertieswidget.cpp" line="398"/>
-        <source>%1 (%2 total)</source>
-        <comment>%1 and %2 are numbers, e.g. 3 (10 total)</comment>
-        <translation type="unfinished"></translation>
+        <translation>%1 (раздаётся в течении %2)</translation>
     </message>
     <message>
         <location filename="../gui/properties/propertieswidget.cpp" line="402"/>
-        <location filename="../gui/properties/propertieswidget.cpp" line="406"/>
-        <source>%1 (%2 avg.)</source>
-        <comment>%1 and %2 are speed rates, e.g. 200KiB/s (100KiB/s avg.)</comment>
-        <translation type="unfinished"></translation>
+        <source>%1 (%2 max)</source>
+        <comment>%1 and %2 are numbers, e.g. 3 (10 max)</comment>
+        <translation>%1 (%2 макс)</translation>
     </message>
     <message>
-        <location filename="../gui/properties/propertieswidget.cpp" line="547"/>
+        <location filename="../gui/properties/propertieswidget.cpp" line="415"/>
+        <location filename="../gui/properties/propertieswidget.cpp" line="419"/>
+        <source>%1 (%2 total)</source>
+        <comment>%1 and %2 are numbers, e.g. 3 (10 total)</comment>
+        <translation>%1 (%2 всего)</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/propertieswidget.cpp" line="423"/>
+        <location filename="../gui/properties/propertieswidget.cpp" line="427"/>
+        <source>%1 (%2 avg.)</source>
+        <comment>%1 and %2 are speed rates, e.g. 200KiB/s (100KiB/s avg.)</comment>
+        <translation>%1 (%2 сред.)</translation>
+    </message>
+    <message>
+        <location filename="../gui/properties/propertieswidget.cpp" line="568"/>
         <source>Open</source>
         <translation>Открыть</translation>
     </message>
     <message>
-        <location filename="../gui/properties/propertieswidget.cpp" line="548"/>
+        <location filename="../gui/properties/propertieswidget.cpp" line="569"/>
         <source>Open Containing Folder</source>
         <translation>Открыть папку назначения</translation>
     </message>
     <message>
-        <location filename="../gui/properties/propertieswidget.cpp" line="549"/>
+        <location filename="../gui/properties/propertieswidget.cpp" line="570"/>
         <source>Rename...</source>
         <translation>Переименовать…</translation>
     </message>
     <message>
-        <location filename="../gui/properties/propertieswidget.cpp" line="554"/>
+        <location filename="../gui/properties/propertieswidget.cpp" line="575"/>
         <source>Priority</source>
         <translation>Приоритет</translation>
     </message>
     <message>
-        <location filename="../gui/properties/propertieswidget.cpp" line="600"/>
+        <location filename="../gui/properties/propertieswidget.cpp" line="621"/>
         <source>New Web seed</source>
         <translation>Новый Web-сид</translation>
     </message>
     <message>
-        <location filename="../gui/properties/propertieswidget.cpp" line="606"/>
+        <location filename="../gui/properties/propertieswidget.cpp" line="627"/>
         <source>Remove Web seed</source>
         <translation>Удалить Web-сид</translation>
     </message>
     <message>
-        <location filename="../gui/properties/propertieswidget.cpp" line="608"/>
+        <location filename="../gui/properties/propertieswidget.cpp" line="629"/>
         <source>Copy Web seed URL</source>
         <translation>Копировать адрес веб-сида</translation>
     </message>
     <message>
-        <location filename="../gui/properties/propertieswidget.cpp" line="609"/>
+        <location filename="../gui/properties/propertieswidget.cpp" line="630"/>
         <source>Edit Web seed URL</source>
         <translation>Изменить адрес веб-сида </translation>
     </message>
     <message>
-        <location filename="../gui/properties/propertieswidget.cpp" line="634"/>
+        <location filename="../gui/properties/propertieswidget.cpp" line="655"/>
         <source>Rename the file</source>
         <translation>Переименовать файл</translation>
     </message>
     <message>
-        <location filename="../gui/properties/propertieswidget.cpp" line="635"/>
+        <location filename="../gui/properties/propertieswidget.cpp" line="656"/>
         <source>New name:</source>
         <translation>Новое имя:</translation>
     </message>
     <message>
-        <location filename="../gui/properties/propertieswidget.cpp" line="639"/>
-        <location filename="../gui/properties/propertieswidget.cpp" line="670"/>
+        <location filename="../gui/properties/propertieswidget.cpp" line="660"/>
+        <location filename="../gui/properties/propertieswidget.cpp" line="691"/>
         <source>The file could not be renamed</source>
         <translation>Файл не может быть переименован</translation>
     </message>
     <message>
-        <location filename="../gui/properties/propertieswidget.cpp" line="640"/>
+        <location filename="../gui/properties/propertieswidget.cpp" line="661"/>
         <source>This file name contains forbidden characters, please choose a different one.</source>
         <translation>Имя файла содержит недопустимые символы. Пожалуйста, выберите другое.</translation>
     </message>
     <message>
-        <location filename="../gui/properties/propertieswidget.cpp" line="671"/>
-        <location filename="../gui/properties/propertieswidget.cpp" line="709"/>
+        <location filename="../gui/properties/propertieswidget.cpp" line="692"/>
+        <location filename="../gui/properties/propertieswidget.cpp" line="730"/>
         <source>This name is already in use in this folder. Please use a different name.</source>
         <translation>Файл с таким именем уже существует в этой папке. Используйте другое имя.</translation>
     </message>
     <message>
-        <location filename="../gui/properties/propertieswidget.cpp" line="708"/>
+        <location filename="../gui/properties/propertieswidget.cpp" line="729"/>
         <source>The folder could not be renamed</source>
         <translation>Папка не может быть переименована</translation>
     </message>
     <message>
-        <location filename="../gui/properties/propertieswidget.cpp" line="811"/>
+        <location filename="../gui/properties/propertieswidget.cpp" line="832"/>
         <source>qBittorrent</source>
         <translation>qBittorrent</translation>
     </message>
     <message>
-        <location filename="../gui/properties/propertieswidget.cpp" line="84"/>
+        <location filename="../gui/properties/propertieswidget.cpp" line="81"/>
         <source>Filter files...</source>
         <translation>Фильтр файлов…</translation>
     </message>
     <message>
-        <location filename="../gui/properties/propertieswidget.cpp" line="754"/>
+        <location filename="../gui/properties/propertieswidget.cpp" line="775"/>
         <source>New URL seed</source>
         <comment>New HTTP source</comment>
         <translation>Новый адрес раздачи</translation>
     </message>
     <message>
-        <location filename="../gui/properties/propertieswidget.cpp" line="755"/>
+        <location filename="../gui/properties/propertieswidget.cpp" line="776"/>
         <source>New URL seed:</source>
         <translation>Новый адрес раздачи:</translation>
     </message>
     <message>
-        <location filename="../gui/properties/propertieswidget.cpp" line="761"/>
-        <location filename="../gui/properties/propertieswidget.cpp" line="812"/>
+        <location filename="../gui/properties/propertieswidget.cpp" line="782"/>
+        <location filename="../gui/properties/propertieswidget.cpp" line="833"/>
         <source>This URL seed is already in the list.</source>
         <translation>Этот адрес источника уже в списке.</translation>
     </message>
     <message>
-        <location filename="../gui/properties/propertieswidget.cpp" line="804"/>
+        <location filename="../gui/properties/propertieswidget.cpp" line="825"/>
         <source>Web seed editing</source>
         <translation>Редактирование Web-сида</translation>
     </message>
     <message>
-        <location filename="../gui/properties/propertieswidget.cpp" line="805"/>
+        <location filename="../gui/properties/propertieswidget.cpp" line="826"/>
         <source>Web seed URL:</source>
         <translation>Адрес веб-сида:</translation>
     </message>
@@ -5155,19 +5312,19 @@ Are you sure you want to quit qBittorrent?</source>
         <translation>Ваш IP-адрес был забанен после слишком большого количества неудачных попыток аутентификации.</translation>
     </message>
     <message>
-        <location filename="../webui/webapplication.cpp" line="338"/>
+        <location filename="../webui/webapplication.cpp" line="388"/>
         <source>Error: &apos;%1&apos; is not a valid torrent file.
 </source>
         <translation>Ошибка: &apos;%1&apos; не является действительным торрент-файлом.
 </translation>
     </message>
     <message>
-        <location filename="../webui/webapplication.cpp" line="343"/>
+        <location filename="../webui/webapplication.cpp" line="396"/>
         <source>Error: Could not add torrent to session.</source>
         <translation>Ошибка: не удалось добавить торрент в сеанс.</translation>
     </message>
     <message>
-        <location filename="../webui/webapplication.cpp" line="352"/>
+        <location filename="../webui/webapplication.cpp" line="405"/>
         <source>I/O Error: Could not create temporary file.</source>
         <translation>Ошибка ввода-вывода: Невозможно создать временный файл</translation>
     </message>
@@ -5189,78 +5346,78 @@ Are you sure you want to quit qBittorrent?</source>
         <translation>%1 должен содержать корректный порт (с 1 до 65535).</translation>
     </message>
     <message>
-        <location filename="../app/main.cpp" line="191"/>
+        <location filename="../app/main.cpp" line="199"/>
         <source>You cannot use %1: qBittorrent is already running for this user.</source>
         <translation>Нельзя использовать %1: qBittorrent уже выполняется для данного пользователя.</translation>
     </message>
     <message>
-        <location filename="../app/main.cpp" line="370"/>
+        <location filename="../app/main.cpp" line="384"/>
         <source>Usage:</source>
         <translation>Использование:</translation>
     </message>
     <message>
-        <location filename="../app/main.cpp" line="383"/>
+        <location filename="../app/main.cpp" line="397"/>
         <source>Options:</source>
         <translation>Настройки</translation>
     </message>
     <message>
-        <location filename="../app/main.cpp" line="385"/>
+        <location filename="../app/main.cpp" line="399"/>
         <source>Displays program version</source>
         <translation>Отображает версию программы</translation>
     </message>
     <message>
-        <location filename="../app/main.cpp" line="387"/>
+        <location filename="../app/main.cpp" line="401"/>
         <source>Displays this help message</source>
         <translation>Показать эту справку</translation>
     </message>
     <message>
-        <location filename="../app/main.cpp" line="389"/>
+        <location filename="../app/main.cpp" line="403"/>
         <source>Changes the Web UI port (current: %1)</source>
         <translation>Изменяет порт веб-интерфейса (текущий: %1)</translation>
     </message>
     <message>
-        <location filename="../app/main.cpp" line="392"/>
+        <location filename="../app/main.cpp" line="406"/>
         <source>Disable splash screen</source>
         <translation>Отключить заставку при загрузке</translation>
     </message>
     <message>
-        <location filename="../app/main.cpp" line="394"/>
+        <location filename="../app/main.cpp" line="408"/>
         <source>Run in daemon-mode (background)</source>
         <translation>Работать в режиме службы (в фоне)</translation>
     </message>
     <message>
-        <location filename="../app/main.cpp" line="396"/>
+        <location filename="../app/main.cpp" line="410"/>
         <source>Downloads the torrents passed by the user</source>
         <translation>Загружает торренты, обозначенные пользователем</translation>
     </message>
     <message>
-        <location filename="../app/main.cpp" line="406"/>
+        <location filename="../app/main.cpp" line="420"/>
         <source>Help</source>
         <translation>Помощь</translation>
     </message>
     <message>
-        <location filename="../app/main.cpp" line="415"/>
+        <location filename="../app/main.cpp" line="429"/>
         <source>Run application with -h option to read about command line parameters.</source>
         <translation>Запустите программу с параметром -h, чтобы получить справку по параметрам командной строки</translation>
     </message>
     <message>
-        <location filename="../app/main.cpp" line="417"/>
+        <location filename="../app/main.cpp" line="431"/>
         <source>Bad command line</source>
         <translation>Недопустимая командная строка</translation>
     </message>
     <message>
-        <location filename="../app/main.cpp" line="423"/>
+        <location filename="../app/main.cpp" line="437"/>
         <source>Bad command line: </source>
         <translation>Недопустимая командная строка:</translation>
     </message>
     <message>
-        <location filename="../app/main.cpp" line="436"/>
+        <location filename="../app/main.cpp" line="450"/>
         <source>Legal Notice</source>
         <translation>Официальное уведомление</translation>
     </message>
     <message>
-        <location filename="../app/main.cpp" line="437"/>
-        <location filename="../app/main.cpp" line="447"/>
+        <location filename="../app/main.cpp" line="451"/>
+        <location filename="../app/main.cpp" line="461"/>
         <source>qBittorrent is a file sharing program. When you run a torrent, its data will be made available to others by means of upload. Any content you share is your sole responsibility.
 
 No further notices will be issued.</source>
@@ -5269,22 +5426,22 @@ No further notices will be issued.</source>
 Никаких дальнейших уведомлений выводится не будет.</translation>
     </message>
     <message>
-        <location filename="../app/main.cpp" line="438"/>
+        <location filename="../app/main.cpp" line="452"/>
         <source>Press %1 key to accept and continue...</source>
         <translation>Нажмите %1 чтобы принять и продолжить…</translation>
     </message>
     <message>
-        <location filename="../app/main.cpp" line="448"/>
+        <location filename="../app/main.cpp" line="462"/>
         <source>Legal notice</source>
         <translation>Официальное уведомление</translation>
     </message>
     <message>
-        <location filename="../app/main.cpp" line="449"/>
+        <location filename="../app/main.cpp" line="463"/>
         <source>Cancel</source>
         <translation>Отмена</translation>
     </message>
     <message>
-        <location filename="../app/main.cpp" line="450"/>
+        <location filename="../app/main.cpp" line="464"/>
         <source>I Agree</source>
         <translation>Я согласен</translation>
     </message>
@@ -5317,141 +5474,141 @@ No further notices will be issued.</source>
     <message>
         <location filename="../app/application.cpp" line="134"/>
         <source>[qBittorrent] &apos;%1&apos; has finished downloading</source>
-        <translation type="unfinished"></translation>
+        <translation>[qBittorrent] загрузка &apos;%1&apos; завершена</translation>
     </message>
     <message>
-        <location filename="../core/net/downloadhandler.cpp" line="204"/>
+        <location filename="../base/net/downloadhandler.cpp" line="204"/>
         <source>The remote host name was not found (invalid hostname)</source>
         <translation>Удаленный хост не был найден (неверное имя хоста)</translation>
     </message>
     <message>
-        <location filename="../core/net/downloadhandler.cpp" line="206"/>
+        <location filename="../base/net/downloadhandler.cpp" line="206"/>
         <source>The operation was canceled</source>
         <translation>Операция была отменена</translation>
     </message>
     <message>
-        <location filename="../core/net/downloadhandler.cpp" line="208"/>
+        <location filename="../base/net/downloadhandler.cpp" line="208"/>
         <source>The remote server closed the connection prematurely, before the entire reply was received and processed</source>
         <translation>Сервер закрыл соединение, прежде чем весь ответ был принят и обработан</translation>
     </message>
     <message>
-        <location filename="../core/net/downloadhandler.cpp" line="210"/>
+        <location filename="../base/net/downloadhandler.cpp" line="210"/>
         <source>The connection to the remote server timed out</source>
         <translation>Время соединения с сервером вышло</translation>
     </message>
     <message>
-        <location filename="../core/net/downloadhandler.cpp" line="212"/>
+        <location filename="../base/net/downloadhandler.cpp" line="212"/>
         <source>SSL/TLS handshake failed</source>
         <translation>Соединение SSL/TLS не удалось</translation>
     </message>
     <message>
-        <location filename="../core/net/downloadhandler.cpp" line="214"/>
+        <location filename="../base/net/downloadhandler.cpp" line="214"/>
         <source>The remote server refused the connection</source>
         <translation>Удалённый сервер отклонил соединение</translation>
     </message>
     <message>
-        <location filename="../core/net/downloadhandler.cpp" line="216"/>
+        <location filename="../base/net/downloadhandler.cpp" line="216"/>
         <source>The connection to the proxy server was refused</source>
         <translation>Прокси-сервер отклонил соединение</translation>
     </message>
     <message>
-        <location filename="../core/net/downloadhandler.cpp" line="218"/>
+        <location filename="../base/net/downloadhandler.cpp" line="218"/>
         <source>The proxy server closed the connection prematurely</source>
         <translation>Прокси-сервер преждевременно закрыл соединение</translation>
     </message>
     <message>
-        <location filename="../core/net/downloadhandler.cpp" line="220"/>
+        <location filename="../base/net/downloadhandler.cpp" line="220"/>
         <source>The proxy host name was not found</source>
         <translation>Имя прокси-сервера не было найдено</translation>
     </message>
     <message>
-        <location filename="../core/net/downloadhandler.cpp" line="222"/>
+        <location filename="../base/net/downloadhandler.cpp" line="222"/>
         <source>The connection to the proxy timed out or the proxy did not reply in time to the request sent</source>
         <translation>Подключение к прокси-серверу истекло или прокси-сервер не ответил на запрос</translation>
     </message>
     <message>
-        <location filename="../core/net/downloadhandler.cpp" line="224"/>
+        <location filename="../base/net/downloadhandler.cpp" line="224"/>
         <source>The proxy requires authentication in order to honor the request but did not accept any credentials offered</source>
-        <translation type="unfinished"></translation>
+        <translation>Прокси-сервер требует аутентификации, но не принял указанные учетные данные</translation>
     </message>
     <message>
-        <location filename="../core/net/downloadhandler.cpp" line="226"/>
+        <location filename="../base/net/downloadhandler.cpp" line="226"/>
         <source>The access to the remote content was denied (401)</source>
         <translation>В доступе к сторонним данным было отказано (401)</translation>
     </message>
     <message>
-        <location filename="../core/net/downloadhandler.cpp" line="228"/>
+        <location filename="../base/net/downloadhandler.cpp" line="228"/>
         <source>The operation requested on the remote content is not permitted</source>
         <translation>В данной операции над сторонними данными отказано</translation>
     </message>
     <message>
-        <location filename="../core/net/downloadhandler.cpp" line="230"/>
+        <location filename="../base/net/downloadhandler.cpp" line="230"/>
         <source>The remote content was not found at the server (404)</source>
         <translation>Сторонние данные не были найдены на сервере (404)</translation>
     </message>
     <message>
-        <location filename="../core/net/downloadhandler.cpp" line="232"/>
+        <location filename="../base/net/downloadhandler.cpp" line="232"/>
         <source>The remote server requires authentication to serve the content but the credentials provided were not accepted</source>
         <translation>Удалённый сервер требует аутентификации для отдачи данных, но указанные учетные данные не были приняты</translation>
     </message>
     <message>
-        <location filename="../core/net/downloadhandler.cpp" line="234"/>
+        <location filename="../base/net/downloadhandler.cpp" line="234"/>
         <source>The Network Access API cannot honor the request because the protocol is not known</source>
         <translation>API сетевого доступа не может выполнить запрос, потому что протокол неизвестен</translation>
     </message>
     <message>
-        <location filename="../core/net/downloadhandler.cpp" line="236"/>
+        <location filename="../base/net/downloadhandler.cpp" line="236"/>
         <source>The requested operation is invalid for this protocol</source>
         <translation>Запрошенная операция не поддерживается данным протоколом</translation>
     </message>
     <message>
-        <location filename="../core/net/downloadhandler.cpp" line="238"/>
+        <location filename="../base/net/downloadhandler.cpp" line="238"/>
         <source>An unknown network-related error was detected</source>
         <translation>Неизвестная сетевая ошибка</translation>
     </message>
     <message>
-        <location filename="../core/net/downloadhandler.cpp" line="240"/>
+        <location filename="../base/net/downloadhandler.cpp" line="240"/>
         <source>An unknown proxy-related error was detected</source>
         <translation>Неизвестная ошибка прокси-сервера</translation>
     </message>
     <message>
-        <location filename="../core/net/downloadhandler.cpp" line="242"/>
+        <location filename="../base/net/downloadhandler.cpp" line="242"/>
         <source>An unknown error related to the remote content was detected</source>
         <translation>Неизвестная ошибка сторонних данных</translation>
     </message>
     <message>
-        <location filename="../core/net/downloadhandler.cpp" line="244"/>
+        <location filename="../base/net/downloadhandler.cpp" line="244"/>
         <source>A breakdown in protocol was detected</source>
         <translation>Ошибка в протоколе</translation>
     </message>
     <message>
-        <location filename="../core/net/downloadhandler.cpp" line="246"/>
+        <location filename="../base/net/downloadhandler.cpp" line="246"/>
         <source>Unknown error</source>
         <translation>Неизвестная ошибка</translation>
     </message>
     <message>
-        <location filename="../app/upgrade.h" line="50"/>
-        <location filename="../app/upgrade.h" line="63"/>
+        <location filename="../app/upgrade.h" line="52"/>
+        <location filename="../app/upgrade.h" line="65"/>
         <source>Upgrade</source>
         <translation>Обновить</translation>
     </message>
     <message>
-        <location filename="../app/upgrade.h" line="53"/>
+        <location filename="../app/upgrade.h" line="55"/>
         <source>You updated from an older version that saved things differently. You must migrate to the new saving system. You will not be able to use an older version than v3.3.0 again. Continue? [y/n]</source>
-        <translation>Вы обновились со старой версии, которая сохраняла настройки иначе. Вы должны перейти на новую систему сохранения. В дальнейшем вы не сможете использовать версии старее v3.3.0. Продолжить? [у/n]</translation>
+        <translation>Вы обновились со старой версии, которая сохраняла настройки иначе. Вы должны перейти на новую систему сохранения. В дальнейшем вы не сможете использовать версии старше v3.3.0. Продолжить? [у/n]</translation>
     </message>
     <message>
-        <location filename="../app/upgrade.h" line="62"/>
+        <location filename="../app/upgrade.h" line="64"/>
         <source>You updated from an older version that saved things differently. You must migrate to the new saving system. If you continue, you will not be able to use an older version than v3.3.0 again.</source>
-        <translation>Вы обновились со старой версии, которая сохраняла настройки иначе. Вы должны перейти на новую систему сохранения. В дальнейшем вы не сможете использовать версии старее v3.3.0.</translation>
+        <translation>Вы обновились со старой версии, которая сохраняла настройки иначе. Вы должны перейти на новую систему сохранения. В дальнейшем вы не сможете использовать версии старше v3.3.0.</translation>
     </message>
     <message>
-        <location filename="../app/upgrade.h" line="122"/>
+        <location filename="../app/upgrade.h" line="138"/>
         <source>Couldn&apos;t migrate torrent with hash: %1</source>
         <translation>Не удалось перенести торрент с хешем: %1</translation>
     </message>
     <message>
-        <location filename="../app/upgrade.h" line="125"/>
+        <location filename="../app/upgrade.h" line="141"/>
         <source>Couldn&apos;t migrate torrent. Invalid fastresume file name: %1</source>
         <translation>Не удалось перенести торрент. Неверное имя файла &quot;быстрого возобновления&quot;: %1</translation>
     </message>
@@ -5493,7 +5650,7 @@ No further notices will be issued.</source>
     <message>
         <location filename="../gui/rss/rss.ui" line="124"/>
         <source>Torrents: (double-click to download)</source>
-        <translation type="unfinished"></translation>
+        <translation>Торренты: (двойной клик для загрузки)</translation>
     </message>
     <message>
         <location filename="../gui/rss/rss.ui" line="158"/>
@@ -5592,47 +5749,47 @@ No further notices will be issued.</source>
         <translation>Новая папка</translation>
     </message>
     <message>
-        <location filename="../gui/rss/rss_imp.cpp" line="255"/>
+        <location filename="../gui/rss/rss_imp.cpp" line="254"/>
         <source>Deletion confirmation</source>
-        <translation type="unfinished"></translation>
+        <translation>Подтверждение удаления</translation>
     </message>
     <message>
-        <location filename="../gui/rss/rss_imp.cpp" line="256"/>
+        <location filename="../gui/rss/rss_imp.cpp" line="255"/>
         <source>Are you sure you want to delete the selected RSS feeds?</source>
-        <translation type="unfinished"></translation>
+        <translation>Вы уверены, что хотите удалить выбранную подписку RSS?</translation>
     </message>
     <message>
-        <location filename="../gui/rss/rss_imp.cpp" line="409"/>
+        <location filename="../gui/rss/rss_imp.cpp" line="406"/>
         <source>Please choose a new name for this RSS feed</source>
         <translation>Укажите новое имя для этого RSS канала</translation>
     </message>
     <message>
-        <location filename="../gui/rss/rss_imp.cpp" line="409"/>
+        <location filename="../gui/rss/rss_imp.cpp" line="406"/>
         <source>New feed name:</source>
         <translation>Новое имя канала:</translation>
     </message>
     <message>
-        <location filename="../gui/rss/rss_imp.cpp" line="413"/>
+        <location filename="../gui/rss/rss_imp.cpp" line="410"/>
         <source>Name already in use</source>
         <translation>Имя уже используется</translation>
     </message>
     <message>
-        <location filename="../gui/rss/rss_imp.cpp" line="413"/>
+        <location filename="../gui/rss/rss_imp.cpp" line="410"/>
         <source>This name is already used by another item, please choose another one.</source>
         <translation>Это имя уже используется. Выберите, пожалуйста, другое.</translation>
     </message>
     <message>
-        <location filename="../gui/rss/rss_imp.cpp" line="581"/>
+        <location filename="../gui/rss/rss_imp.cpp" line="580"/>
         <source>Date: </source>
         <translation>Дата: </translation>
     </message>
     <message>
-        <location filename="../gui/rss/rss_imp.cpp" line="583"/>
+        <location filename="../gui/rss/rss_imp.cpp" line="582"/>
         <source>Author: </source>
         <translation>Автор: </translation>
     </message>
     <message>
-        <location filename="../gui/rss/rss_imp.cpp" line="660"/>
+        <location filename="../gui/rss/rss_imp.cpp" line="659"/>
         <source>Unread</source>
         <translation>Непрочитанные</translation>
     </message>
@@ -5640,14 +5797,14 @@ No further notices will be issued.</source>
 <context>
     <name>RssFeed</name>
     <message>
-        <location filename="../gui/rss/rssfeed.cpp" line="368"/>
+        <location filename="../gui/rss/rssfeed.cpp" line="369"/>
         <source>Automatic download of &apos;%1&apos; from &apos;%2&apos; RSS feed failed because it doesn&apos;t contain a torrent or a magnet link...</source>
-        <translation type="unfinished"></translation>
+        <translation>Автоматическая загрузка &apos;%1&apos; из RSS канала &apos;%2&apos; не удалась, потому что он не содержит торрента или магнет-ссылки...</translation>
     </message>
     <message>
-        <location filename="../gui/rss/rssfeed.cpp" line="373"/>
+        <location filename="../gui/rss/rssfeed.cpp" line="374"/>
         <source>Automatically downloading &apos;%1&apos; torrent from &apos;%2&apos; RSS feed...</source>
-        <translation type="unfinished"></translation>
+        <translation>Автоматическая загрузка торрента &apos;%1&apos; с RSS канала &apos;%2&apos;...</translation>
     </message>
 </context>
 <context>
@@ -5660,7 +5817,7 @@ No further notices will be issued.</source>
     <message>
         <location filename="../gui/rss/rssparser.cpp" line="501"/>
         <source>Invalid RSS feed at &apos;%1&apos;.</source>
-        <translation type="unfinished"></translation>
+        <translation>Некорректный RSS канал &apos;%1&apos;.</translation>
     </message>
 </context>
 <context>
@@ -5689,14 +5846,19 @@ No further notices will be issued.</source>
 <context>
     <name>ScanFoldersModel</name>
     <message>
-        <location filename="../core/scanfoldersmodel.cpp" line="139"/>
+        <location filename="../base/scanfoldersmodel.cpp" line="157"/>
         <source>Watched Folder</source>
         <translation>Отслеживаемые папки</translation>
     </message>
     <message>
-        <location filename="../core/scanfoldersmodel.cpp" line="141"/>
+        <location filename="../base/scanfoldersmodel.cpp" line="160"/>
         <source>Download here</source>
         <translation>Загружать сюда</translation>
+    </message>
+    <message>
+        <location filename="../base/scanfoldersmodel.cpp" line="163"/>
+        <source>Download path</source>
+        <translation>Папка загрузки</translation>
     </message>
 </context>
 <context>
@@ -5850,31 +6012,31 @@ No further notices will be issued.</source>
 <context>
     <name>SearchTab</name>
     <message>
-        <location filename="../searchengine/searchtab.cpp" line="55"/>
+        <location filename="../searchengine/searchtab.cpp" line="66"/>
         <source>Name</source>
         <comment>i.e: file name</comment>
         <translation>Имя</translation>
     </message>
     <message>
-        <location filename="../searchengine/searchtab.cpp" line="56"/>
+        <location filename="../searchengine/searchtab.cpp" line="67"/>
         <source>Size</source>
         <comment>i.e: file size</comment>
         <translation>Размер</translation>
     </message>
     <message>
-        <location filename="../searchengine/searchtab.cpp" line="57"/>
+        <location filename="../searchengine/searchtab.cpp" line="68"/>
         <source>Seeders</source>
         <comment>i.e: Number of full sources</comment>
         <translation>Сиды</translation>
     </message>
     <message>
-        <location filename="../searchengine/searchtab.cpp" line="58"/>
+        <location filename="../searchengine/searchtab.cpp" line="69"/>
         <source>Leechers</source>
         <comment>i.e: Number of partial sources</comment>
         <translation>Пиры</translation>
     </message>
     <message>
-        <location filename="../searchengine/searchtab.cpp" line="59"/>
+        <location filename="../searchengine/searchtab.cpp" line="70"/>
         <source>Search engine</source>
         <translation>Поисковик</translation>
     </message>
@@ -5955,12 +6117,12 @@ No further notices will be issued.</source>
     <message>
         <location filename="../gui/properties/speedplotview.cpp" line="57"/>
         <source>Overhead Upload</source>
-        <translation>Отдано служебного траффика</translation>
+        <translation>Отдано служебного трафика</translation>
     </message>
     <message>
         <location filename="../gui/properties/speedplotview.cpp" line="58"/>
         <source>Overhead Download</source>
-        <translation>Загружено служебного траффика</translation>
+        <translation>Загружено служебного трафика</translation>
     </message>
     <message>
         <location filename="../gui/properties/speedplotview.cpp" line="62"/>
@@ -6038,12 +6200,12 @@ No further notices will be issued.</source>
     <message>
         <location filename="../gui/properties/speedwidget.cpp" line="83"/>
         <source>Overhead Upload</source>
-        <translation>Отдано служебного траффика</translation>
+        <translation>Отдано служебного трафика</translation>
     </message>
     <message>
         <location filename="../gui/properties/speedwidget.cpp" line="84"/>
         <source>Overhead Download</source>
-        <translation>Загружено служебного траффика</translation>
+        <translation>Загружено служебного трафика</translation>
     </message>
     <message>
         <location filename="../gui/properties/speedwidget.cpp" line="85"/>
@@ -6111,7 +6273,7 @@ No further notices will be issued.</source>
     <message>
         <location filename="../gui/statsdialog.ui" line="105"/>
         <source>Read cache Hits:</source>
-        <translation>Попадений в кеш чтения:</translation>
+        <translation>Попаданий в кеш чтения:</translation>
     </message>
     <message>
         <location filename="../gui/statsdialog.ui" line="126"/>
@@ -6203,7 +6365,7 @@ No further notices will be issued.</source>
     <message>
         <location filename="../gui/statusbar.cpp" line="203"/>
         <source>Click to switch to alternative speed limits</source>
-        <translation>Нажмите для включения альтернативных ограничений скорости</translation>
+        <translation>Нажмите для включения иных ограничений скорости</translation>
     </message>
     <message>
         <location filename="../gui/statusbar.cpp" line="199"/>
@@ -6270,44 +6432,54 @@ No further notices will be issued.</source>
         <translation>Неактивны (0)</translation>
     </message>
     <message>
-        <location filename="../gui/transferlistfilterswidget.cpp" line="153"/>
+        <location filename="../gui/transferlistfilterswidget.cpp" line="141"/>
+        <source>Errored (0)</source>
+        <translation>С ошибкой (0)</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistfilterswidget.cpp" line="158"/>
         <source>All (%1)</source>
         <translation>Все (%1)</translation>
     </message>
     <message>
-        <location filename="../gui/transferlistfilterswidget.cpp" line="154"/>
+        <location filename="../gui/transferlistfilterswidget.cpp" line="159"/>
         <source>Downloading (%1)</source>
         <translation>Загружаются (%1)</translation>
     </message>
     <message>
-        <location filename="../gui/transferlistfilterswidget.cpp" line="155"/>
+        <location filename="../gui/transferlistfilterswidget.cpp" line="160"/>
         <source>Seeding (%1)</source>
         <translation>Раздаются (%1)</translation>
     </message>
     <message>
-        <location filename="../gui/transferlistfilterswidget.cpp" line="156"/>
+        <location filename="../gui/transferlistfilterswidget.cpp" line="161"/>
         <source>Completed (%1)</source>
         <translation>Завершены (%1)</translation>
     </message>
     <message>
-        <location filename="../gui/transferlistfilterswidget.cpp" line="157"/>
+        <location filename="../gui/transferlistfilterswidget.cpp" line="162"/>
         <source>Paused (%1)</source>
         <translation>Приостановлены (%1)</translation>
     </message>
     <message>
-        <location filename="../gui/transferlistfilterswidget.cpp" line="158"/>
+        <location filename="../gui/transferlistfilterswidget.cpp" line="163"/>
         <source>Resumed (%1)</source>
         <translation>Возобновлены (%1)</translation>
     </message>
     <message>
-        <location filename="../gui/transferlistfilterswidget.cpp" line="159"/>
+        <location filename="../gui/transferlistfilterswidget.cpp" line="164"/>
         <source>Active (%1)</source>
         <translation>Активны (%1)</translation>
     </message>
     <message>
-        <location filename="../gui/transferlistfilterswidget.cpp" line="160"/>
+        <location filename="../gui/transferlistfilterswidget.cpp" line="165"/>
         <source>Inactive (%1)</source>
         <translation>Неактивны (%1)</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistfilterswidget.cpp" line="166"/>
+        <source>Errored (%1)</source>
+        <translation>С ошибкой (%1)</translation>
     </message>
 </context>
 <context>
@@ -6363,13 +6535,13 @@ No further notices will be issued.</source>
     <message>
         <location filename="../gui/torrentcreatordlg.cpp" line="124"/>
         <source>Torrent Files (*.torrent)</source>
-        <translation type="unfinished"></translation>
+        <translation>Торрент файлы (*.torrent)</translation>
     </message>
     <message>
         <location filename="../gui/torrentcreatordlg.cpp" line="176"/>
         <source>Torrent was created successfully: %1</source>
         <comment>%1 is the path of the torrent</comment>
-        <translation type="unfinished"></translation>
+        <translation>Торрент успешно создан: %1</translation>
     </message>
     <message>
         <location filename="../gui/torrentcreatordlg.cpp" line="152"/>
@@ -6440,13 +6612,13 @@ No further notices will be issued.</source>
         <location filename="../gui/torrentimportdlg.cpp" line="89"/>
         <source>&apos;%1&apos; Files</source>
         <comment>%1 is a file extension (e.g. PDF)</comment>
-        <translation type="unfinished"></translation>
+        <translation>&apos;%1&apos; файлы</translation>
     </message>
     <message>
         <location filename="../gui/torrentimportdlg.cpp" line="91"/>
         <source>Please provide the location of &apos;%1&apos;</source>
         <comment>%1 is a file name</comment>
-        <translation type="unfinished"></translation>
+        <translation>Пожалуйста, укажите расположение &apos;%1&apos;</translation>
     </message>
     <message>
         <location filename="../gui/torrentimportdlg.cpp" line="124"/>
@@ -6636,84 +6808,84 @@ No further notices will be issued.</source>
 <context>
     <name>TrackerFiltersList</name>
     <message>
-        <location filename="../gui/transferlistfilterswidget.cpp" line="426"/>
+        <location filename="../gui/transferlistfilterswidget.cpp" line="428"/>
         <source>All (0)</source>
         <comment>this is for the label filter</comment>
         <translation>Все (0)</translation>
     </message>
     <message>
-        <location filename="../gui/transferlistfilterswidget.cpp" line="429"/>
+        <location filename="../gui/transferlistfilterswidget.cpp" line="431"/>
         <source>Trackerless (0)</source>
         <translation>Без трекера (0)</translation>
     </message>
     <message>
-        <location filename="../gui/transferlistfilterswidget.cpp" line="432"/>
+        <location filename="../gui/transferlistfilterswidget.cpp" line="434"/>
         <source>Error (0)</source>
         <translation>С ошибкой (0)</translation>
     </message>
     <message>
-        <location filename="../gui/transferlistfilterswidget.cpp" line="435"/>
+        <location filename="../gui/transferlistfilterswidget.cpp" line="437"/>
         <source>Warning (0)</source>
         <translation>Предупреждения (0)</translation>
     </message>
     <message>
-        <location filename="../gui/transferlistfilterswidget.cpp" line="476"/>
-        <location filename="../gui/transferlistfilterswidget.cpp" line="533"/>
+        <location filename="../gui/transferlistfilterswidget.cpp" line="478"/>
+        <location filename="../gui/transferlistfilterswidget.cpp" line="535"/>
         <source>Trackerless (%1)</source>
         <translation>Без трекера (%1)</translation>
     </message>
     <message>
-        <location filename="../gui/transferlistfilterswidget.cpp" line="482"/>
-        <location filename="../gui/transferlistfilterswidget.cpp" line="528"/>
+        <location filename="../gui/transferlistfilterswidget.cpp" line="484"/>
+        <location filename="../gui/transferlistfilterswidget.cpp" line="530"/>
         <source>%1 (%2)</source>
         <comment>openbittorrent.com (10)</comment>
         <translation>%1 (%2)</translation>
     </message>
     <message>
-        <location filename="../gui/transferlistfilterswidget.cpp" line="558"/>
-        <location filename="../gui/transferlistfilterswidget.cpp" line="590"/>
+        <location filename="../gui/transferlistfilterswidget.cpp" line="560"/>
+        <location filename="../gui/transferlistfilterswidget.cpp" line="592"/>
         <source>Error (%1)</source>
         <translation>С ошибкой (%1)</translation>
     </message>
     <message>
-        <location filename="../gui/transferlistfilterswidget.cpp" line="571"/>
-        <location filename="../gui/transferlistfilterswidget.cpp" line="605"/>
+        <location filename="../gui/transferlistfilterswidget.cpp" line="573"/>
+        <location filename="../gui/transferlistfilterswidget.cpp" line="607"/>
         <source>Warning (%1)</source>
         <translation>Предупреждения (%1)</translation>
     </message>
     <message>
-        <location filename="../gui/transferlistfilterswidget.cpp" line="633"/>
+        <location filename="../gui/transferlistfilterswidget.cpp" line="635"/>
         <source>Couldn&apos;t decode favicon for URL &apos;%1&apos;. Trying to download favicon in PNG format.</source>
-        <translation type="unfinished"></translation>
+        <translation>Не удалось декодировать favicon для адреса &apos;%1&apos;. Попытка загрузить favicon в формате PNG.</translation>
     </message>
     <message>
-        <location filename="../gui/transferlistfilterswidget.cpp" line="638"/>
+        <location filename="../gui/transferlistfilterswidget.cpp" line="640"/>
         <source>Couldn&apos;t decode favicon for URL &apos;%1&apos;.</source>
-        <translation type="unfinished"></translation>
+        <translation>Не удалось декодировать favicon для адреса &apos;%1&apos;.</translation>
     </message>
     <message>
-        <location filename="../gui/transferlistfilterswidget.cpp" line="652"/>
+        <location filename="../gui/transferlistfilterswidget.cpp" line="654"/>
         <source>Couldn&apos;t download favicon for URL &apos;%1&apos;. Reason: %2</source>
-        <translation type="unfinished"></translation>
+        <translation>Не удалось загрузить favicon для адреса &apos;%1&apos;. Причина: %2</translation>
     </message>
     <message>
-        <location filename="../gui/transferlistfilterswidget.cpp" line="661"/>
+        <location filename="../gui/transferlistfilterswidget.cpp" line="663"/>
         <source>Resume torrents</source>
         <translation>Возобновить</translation>
     </message>
     <message>
-        <location filename="../gui/transferlistfilterswidget.cpp" line="662"/>
+        <location filename="../gui/transferlistfilterswidget.cpp" line="664"/>
         <source>Pause torrents</source>
         <translation>Приостановить</translation>
     </message>
     <message>
-        <location filename="../gui/transferlistfilterswidget.cpp" line="663"/>
+        <location filename="../gui/transferlistfilterswidget.cpp" line="665"/>
         <source>Delete torrents</source>
         <translation>Удалить</translation>
     </message>
     <message>
-        <location filename="../gui/transferlistfilterswidget.cpp" line="697"/>
-        <location filename="../gui/transferlistfilterswidget.cpp" line="711"/>
+        <location filename="../gui/transferlistfilterswidget.cpp" line="699"/>
+        <location filename="../gui/transferlistfilterswidget.cpp" line="713"/>
         <source>All (%1)</source>
         <comment>this is for the tracker filter</comment>
         <translation>Все (%1)</translation>
@@ -6722,109 +6894,109 @@ No further notices will be issued.</source>
 <context>
     <name>TrackerList</name>
     <message>
-        <location filename="../gui/properties/trackerlist.cpp" line="65"/>
+        <location filename="../gui/properties/trackerlist.cpp" line="69"/>
         <source>URL</source>
         <translation>Адрес</translation>
     </message>
     <message>
-        <location filename="../gui/properties/trackerlist.cpp" line="66"/>
+        <location filename="../gui/properties/trackerlist.cpp" line="70"/>
         <source>Status</source>
         <translation>Статус</translation>
     </message>
     <message>
-        <location filename="../gui/properties/trackerlist.cpp" line="67"/>
+        <location filename="../gui/properties/trackerlist.cpp" line="71"/>
         <source>Peers</source>
         <translation>Пиры</translation>
     </message>
     <message>
-        <location filename="../gui/properties/trackerlist.cpp" line="68"/>
+        <location filename="../gui/properties/trackerlist.cpp" line="72"/>
         <source>Message</source>
         <translation>Сообщение</translation>
     </message>
     <message>
-        <location filename="../gui/properties/trackerlist.cpp" line="204"/>
-        <location filename="../gui/properties/trackerlist.cpp" line="273"/>
+        <location filename="../gui/properties/trackerlist.cpp" line="217"/>
+        <location filename="../gui/properties/trackerlist.cpp" line="286"/>
         <source>Working</source>
         <translation>Работает</translation>
     </message>
     <message>
-        <location filename="../gui/properties/trackerlist.cpp" line="205"/>
+        <location filename="../gui/properties/trackerlist.cpp" line="218"/>
         <source>Disabled</source>
         <translation>Выключен</translation>
     </message>
     <message>
-        <location filename="../gui/properties/trackerlist.cpp" line="226"/>
+        <location filename="../gui/properties/trackerlist.cpp" line="239"/>
         <source>This torrent is private</source>
         <translation>Это приватный торрент</translation>
     </message>
     <message>
-        <location filename="../gui/properties/trackerlist.cpp" line="277"/>
+        <location filename="../gui/properties/trackerlist.cpp" line="290"/>
         <source>Updating...</source>
         <translation>Обновляется…</translation>
     </message>
     <message>
-        <location filename="../gui/properties/trackerlist.cpp" line="281"/>
+        <location filename="../gui/properties/trackerlist.cpp" line="294"/>
         <source>Not working</source>
         <translation>Не работает</translation>
     </message>
     <message>
-        <location filename="../gui/properties/trackerlist.cpp" line="285"/>
+        <location filename="../gui/properties/trackerlist.cpp" line="298"/>
         <source>Not contacted yet</source>
         <translation>Не соединился</translation>
     </message>
     <message>
-        <location filename="../gui/properties/trackerlist.cpp" line="367"/>
+        <location filename="../gui/properties/trackerlist.cpp" line="380"/>
         <source>Tracker URL:</source>
         <translation>Адрес трекера:</translation>
     </message>
     <message>
-        <location filename="../gui/properties/trackerlist.cpp" line="367"/>
+        <location filename="../gui/properties/trackerlist.cpp" line="380"/>
         <source>Tracker editing</source>
         <translation>Редактирование трекера</translation>
     </message>
     <message>
-        <location filename="../gui/properties/trackerlist.cpp" line="373"/>
-        <location filename="../gui/properties/trackerlist.cpp" line="384"/>
+        <location filename="../gui/properties/trackerlist.cpp" line="386"/>
+        <location filename="../gui/properties/trackerlist.cpp" line="397"/>
         <source>Tracker editing failed</source>
         <translation>Ошибка редактирования</translation>
     </message>
     <message>
-        <location filename="../gui/properties/trackerlist.cpp" line="373"/>
+        <location filename="../gui/properties/trackerlist.cpp" line="386"/>
         <source>The tracker URL entered is invalid.</source>
         <translation>Введен неверный адрес трекера.</translation>
     </message>
     <message>
-        <location filename="../gui/properties/trackerlist.cpp" line="384"/>
+        <location filename="../gui/properties/trackerlist.cpp" line="397"/>
         <source>The tracker URL already exists.</source>
         <translation>Трекер с таким адресом уже существует.</translation>
     </message>
     <message>
-        <location filename="../gui/properties/trackerlist.cpp" line="435"/>
+        <location filename="../gui/properties/trackerlist.cpp" line="448"/>
         <source>Add a new tracker...</source>
         <translation>Добавить новый трекер…</translation>
     </message>
     <message>
-        <location filename="../gui/properties/trackerlist.cpp" line="441"/>
+        <location filename="../gui/properties/trackerlist.cpp" line="454"/>
         <source>Copy tracker URL</source>
         <translation>Скопировать адрес трекера</translation>
     </message>
     <message>
-        <location filename="../gui/properties/trackerlist.cpp" line="442"/>
+        <location filename="../gui/properties/trackerlist.cpp" line="455"/>
         <source>Edit selected tracker URL</source>
         <translation>Изменить адрес выбранного трекера</translation>
     </message>
     <message>
-        <location filename="../gui/properties/trackerlist.cpp" line="447"/>
+        <location filename="../gui/properties/trackerlist.cpp" line="460"/>
         <source>Force reannounce to selected trackers</source>
         <translation>Переанонсировать на выбранные трекеры</translation>
     </message>
     <message>
-        <location filename="../gui/properties/trackerlist.cpp" line="449"/>
+        <location filename="../gui/properties/trackerlist.cpp" line="462"/>
         <source>Force reannounce to all trackers</source>
         <translation>Переанонсировать на все трекеры</translation>
     </message>
     <message>
-        <location filename="../gui/properties/trackerlist.cpp" line="440"/>
+        <location filename="../gui/properties/trackerlist.cpp" line="453"/>
         <source>Remove tracker</source>
         <translation>Удалить трекер</translation>
     </message>
@@ -6952,7 +7124,7 @@ No further notices will be issued.</source>
     <message>
         <location filename="../gui/transferlistdelegate.cpp" line="136"/>
         <source>Completed</source>
-        <translation>Завершённые</translation>
+        <translation>Завершён</translation>
     </message>
     <message>
         <location filename="../gui/transferlistdelegate.cpp" line="139"/>
@@ -6960,13 +7132,19 @@ No further notices will be issued.</source>
         <translation>Отсутствуют файлы</translation>
     </message>
     <message>
-        <location filename="../gui/transferlistdelegate.cpp" line="169"/>
-        <source>%1 (seeded for %2)</source>
-        <comment>e.g. 4m39s (seeded for 3m10s)</comment>
-        <translation type="unfinished"></translation>
+        <location filename="../gui/transferlistdelegate.cpp" line="142"/>
+        <source>Errored</source>
+        <comment>torrent status, the torrent has an error</comment>
+        <translation>С ошибкой</translation>
     </message>
     <message>
-        <location filename="../gui/transferlistdelegate.cpp" line="234"/>
+        <location filename="../gui/transferlistdelegate.cpp" line="172"/>
+        <source>%1 (seeded for %2)</source>
+        <comment>e.g. 4m39s (seeded for 3m10s)</comment>
+        <translation>%1 (раздавался в течении %1)</translation>
+    </message>
+    <message>
+        <location filename="../gui/transferlistdelegate.cpp" line="237"/>
         <source>%1 ago</source>
         <comment>e.g.: 1h 20m ago</comment>
         <translation>%1 назад</translation>
@@ -6975,17 +7153,17 @@ No further notices will be issued.</source>
 <context>
     <name>TransferListFiltersWidget</name>
     <message>
-        <location filename="../gui/transferlistfilterswidget.cpp" line="793"/>
+        <location filename="../gui/transferlistfilterswidget.cpp" line="792"/>
         <source>Status</source>
         <translation>Статус</translation>
     </message>
     <message>
-        <location filename="../gui/transferlistfilterswidget.cpp" line="801"/>
+        <location filename="../gui/transferlistfilterswidget.cpp" line="800"/>
         <source>Labels</source>
         <translation>Метки</translation>
     </message>
     <message>
-        <location filename="../gui/transferlistfilterswidget.cpp" line="809"/>
+        <location filename="../gui/transferlistfilterswidget.cpp" line="808"/>
         <source>Trackers</source>
         <translation>Трекеры</translation>
     </message>
@@ -6993,196 +7171,196 @@ No further notices will be issued.</source>
 <context>
     <name>TransferListWidget</name>
     <message>
-        <location filename="../gui/transferlistwidget.cpp" line="503"/>
+        <location filename="../gui/transferlistwidget.cpp" line="511"/>
         <source>Column visibility</source>
         <translation>Отображение колонок</translation>
     </message>
     <message>
-        <location filename="../gui/transferlistwidget.cpp" line="748"/>
+        <location filename="../gui/transferlistwidget.cpp" line="763"/>
         <source>Label</source>
         <translation>Метка</translation>
     </message>
     <message>
-        <location filename="../gui/transferlistwidget.cpp" line="240"/>
+        <location filename="../gui/transferlistwidget.cpp" line="252"/>
         <source>Choose save path</source>
         <translation>Выберите путь сохранения</translation>
     </message>
     <message>
-        <location filename="../gui/transferlistwidget.cpp" line="431"/>
+        <location filename="../gui/transferlistwidget.cpp" line="439"/>
         <source>Torrent Download Speed Limiting</source>
         <translation>Ограничение скорости загрузки торрента</translation>
     </message>
     <message>
-        <location filename="../gui/transferlistwidget.cpp" line="460"/>
+        <location filename="../gui/transferlistwidget.cpp" line="468"/>
         <source>Torrent Upload Speed Limiting</source>
         <translation>Ограничение скорости раздачи торрента</translation>
     </message>
     <message>
-        <location filename="../gui/transferlistwidget.cpp" line="491"/>
+        <location filename="../gui/transferlistwidget.cpp" line="499"/>
         <source>Recheck confirmation</source>
         <translation>Подтвердите повторную проверку</translation>
     </message>
     <message>
-        <location filename="../gui/transferlistwidget.cpp" line="491"/>
+        <location filename="../gui/transferlistwidget.cpp" line="499"/>
         <source>Are you sure you want to recheck the selected torrent(s)?</source>
         <translation>Вы уверены, что хотите выполнить повторную проверку выбранных торрентов?</translation>
     </message>
     <message>
-        <location filename="../gui/transferlistwidget.cpp" line="567"/>
+        <location filename="../gui/transferlistwidget.cpp" line="575"/>
         <source>New Label</source>
         <translation>Новая метка</translation>
     </message>
     <message>
-        <location filename="../gui/transferlistwidget.cpp" line="567"/>
+        <location filename="../gui/transferlistwidget.cpp" line="575"/>
         <source>Label:</source>
         <translation>Метка:</translation>
     </message>
     <message>
-        <location filename="../gui/transferlistwidget.cpp" line="573"/>
+        <location filename="../gui/transferlistwidget.cpp" line="581"/>
         <source>Invalid label name</source>
         <translation>Неправильное имя метки</translation>
     </message>
     <message>
-        <location filename="../gui/transferlistwidget.cpp" line="573"/>
+        <location filename="../gui/transferlistwidget.cpp" line="581"/>
         <source>Please don&apos;t use any special characters in the label name.</source>
         <translation>Пожалуйста, не используйте специальные символы в имени метки.</translation>
     </message>
     <message>
-        <location filename="../gui/transferlistwidget.cpp" line="592"/>
+        <location filename="../gui/transferlistwidget.cpp" line="600"/>
         <source>Rename</source>
         <translation>Переименовать</translation>
     </message>
     <message>
-        <location filename="../gui/transferlistwidget.cpp" line="592"/>
+        <location filename="../gui/transferlistwidget.cpp" line="600"/>
         <source>New name:</source>
         <translation>Новое имя:</translation>
     </message>
     <message>
-        <location filename="../gui/transferlistwidget.cpp" line="621"/>
+        <location filename="../gui/transferlistwidget.cpp" line="629"/>
         <source>Resume</source>
         <comment>Resume/start the torrent</comment>
         <translation>Возобновить</translation>
     </message>
     <message>
-        <location filename="../gui/transferlistwidget.cpp" line="625"/>
+        <location filename="../gui/transferlistwidget.cpp" line="633"/>
         <source>Force Resume</source>
         <comment>Force Resume/start the torrent</comment>
         <translation>Продолжить принудительно</translation>
     </message>
     <message>
-        <location filename="../gui/transferlistwidget.cpp" line="623"/>
+        <location filename="../gui/transferlistwidget.cpp" line="631"/>
         <source>Pause</source>
         <comment>Pause the torrent</comment>
         <translation>Приостановить</translation>
     </message>
     <message>
-        <location filename="../gui/transferlistwidget.cpp" line="627"/>
+        <location filename="../gui/transferlistwidget.cpp" line="635"/>
         <source>Delete</source>
         <comment>Delete the torrent</comment>
         <translation>Удалить</translation>
     </message>
     <message>
-        <location filename="../gui/transferlistwidget.cpp" line="629"/>
+        <location filename="../gui/transferlistwidget.cpp" line="637"/>
         <source>Preview file...</source>
         <translation>Предпросмотр файла…</translation>
     </message>
     <message>
-        <location filename="../gui/transferlistwidget.cpp" line="631"/>
+        <location filename="../gui/transferlistwidget.cpp" line="639"/>
         <source>Limit share ratio...</source>
         <translation>Ограничить коэффициент раздачи…</translation>
     </message>
     <message>
-        <location filename="../gui/transferlistwidget.cpp" line="633"/>
+        <location filename="../gui/transferlistwidget.cpp" line="641"/>
         <source>Limit upload rate...</source>
         <translation>Ограничить скорости раздачи…</translation>
     </message>
     <message>
-        <location filename="../gui/transferlistwidget.cpp" line="635"/>
+        <location filename="../gui/transferlistwidget.cpp" line="643"/>
         <source>Limit download rate...</source>
         <translation>Ограничить скорости загрузки…</translation>
     </message>
     <message>
-        <location filename="../gui/transferlistwidget.cpp" line="637"/>
+        <location filename="../gui/transferlistwidget.cpp" line="645"/>
         <source>Open destination folder</source>
         <translation>Открыть папку назначения</translation>
     </message>
     <message>
-        <location filename="../gui/transferlistwidget.cpp" line="639"/>
+        <location filename="../gui/transferlistwidget.cpp" line="647"/>
         <source>Move up</source>
         <comment>i.e. move up in the queue</comment>
         <translation>Вверх</translation>
     </message>
     <message>
-        <location filename="../gui/transferlistwidget.cpp" line="641"/>
+        <location filename="../gui/transferlistwidget.cpp" line="649"/>
         <source>Move down</source>
         <comment>i.e. Move down in the queue</comment>
         <translation>Вниз</translation>
     </message>
     <message>
-        <location filename="../gui/transferlistwidget.cpp" line="643"/>
+        <location filename="../gui/transferlistwidget.cpp" line="651"/>
         <source>Move to top</source>
         <comment>i.e. Move to top of the queue</comment>
         <translation>На самый верх</translation>
     </message>
     <message>
-        <location filename="../gui/transferlistwidget.cpp" line="645"/>
+        <location filename="../gui/transferlistwidget.cpp" line="653"/>
         <source>Move to bottom</source>
         <comment>i.e. Move to bottom of the queue</comment>
         <translation>В самый низ</translation>
     </message>
     <message>
-        <location filename="../gui/transferlistwidget.cpp" line="647"/>
+        <location filename="../gui/transferlistwidget.cpp" line="655"/>
         <source>Set location...</source>
         <translation>Переместить…</translation>
     </message>
     <message>
-        <location filename="../gui/transferlistwidget.cpp" line="653"/>
+        <location filename="../gui/transferlistwidget.cpp" line="661"/>
         <source>Copy name</source>
         <translation>Копировать имя</translation>
     </message>
     <message>
-        <location filename="../gui/transferlistwidget.cpp" line="792"/>
+        <location filename="../gui/transferlistwidget.cpp" line="813"/>
         <source>Priority</source>
         <translation>Приоритет</translation>
     </message>
     <message>
-        <location filename="../gui/transferlistwidget.cpp" line="649"/>
+        <location filename="../gui/transferlistwidget.cpp" line="657"/>
         <source>Force recheck</source>
         <translation>Проверить принудительно</translation>
     </message>
     <message>
-        <location filename="../gui/transferlistwidget.cpp" line="651"/>
+        <location filename="../gui/transferlistwidget.cpp" line="659"/>
         <source>Copy magnet link</source>
         <translation>Скопировать magnet-ссылку</translation>
     </message>
     <message>
-        <location filename="../gui/transferlistwidget.cpp" line="655"/>
+        <location filename="../gui/transferlistwidget.cpp" line="663"/>
         <source>Super seeding mode</source>
         <translation>Режим суперсида</translation>
     </message>
     <message>
-        <location filename="../gui/transferlistwidget.cpp" line="658"/>
+        <location filename="../gui/transferlistwidget.cpp" line="666"/>
         <source>Rename...</source>
         <translation>Переименовать…</translation>
     </message>
     <message>
-        <location filename="../gui/transferlistwidget.cpp" line="660"/>
+        <location filename="../gui/transferlistwidget.cpp" line="668"/>
         <source>Download in sequential order</source>
         <translation>Загружать последовательно</translation>
     </message>
     <message>
-        <location filename="../gui/transferlistwidget.cpp" line="663"/>
+        <location filename="../gui/transferlistwidget.cpp" line="671"/>
         <source>Download first and last piece first</source>
         <translation>Сперва загружать первую и последнюю часть</translation>
     </message>
     <message>
-        <location filename="../gui/transferlistwidget.cpp" line="749"/>
+        <location filename="../gui/transferlistwidget.cpp" line="764"/>
         <source>New...</source>
         <comment>New label...</comment>
         <translation>Новая…</translation>
     </message>
     <message>
-        <location filename="../gui/transferlistwidget.cpp" line="750"/>
+        <location filename="../gui/transferlistwidget.cpp" line="765"/>
         <source>Reset</source>
         <comment>Reset label</comment>
         <translation>Сбросить</translation>
@@ -7470,7 +7648,7 @@ No further notices will be issued.</source>
     <message>
         <location filename="../gui/torrentcreatordlg.ui" line="265"/>
         <source>Ignore share ratio limits for this torrent</source>
-        <translation>Игнорировать ограничения коэффицента раздачи для этого торрента</translation>
+        <translation>Игнорировать ограничения коэффициента раздачи для этого торрента</translation>
     </message>
     <message>
         <location filename="../gui/torrentcreatordlg.ui" line="301"/>
@@ -7583,135 +7761,145 @@ No further notices will be issued.</source>
 <context>
     <name>engineSelectDlg</name>
     <message>
-        <location filename="../searchengine/engineselectdlg.cpp" line="191"/>
+        <location filename="../searchengine/engineselectdlg.cpp" line="203"/>
         <source>Uninstall warning</source>
         <translation>Удаление не выполнено</translation>
     </message>
     <message>
-        <location filename="../searchengine/engineselectdlg.cpp" line="193"/>
+        <location filename="../searchengine/engineselectdlg.cpp" line="205"/>
         <source>Uninstall success</source>
         <translation>Успешно удалено</translation>
     </message>
     <message>
-        <location filename="../searchengine/engineselectdlg.cpp" line="254"/>
+        <location filename="../searchengine/engineselectdlg.cpp" line="264"/>
+        <source>Invalid plugin</source>
+        <translation>Недопустимое дополнение</translation>
+    </message>
+    <message>
+        <location filename="../searchengine/engineselectdlg.cpp" line="264"/>
+        <source>The search engine plugin is invalid, please contact the author.</source>
+        <translation>Данное поисковое дополнение не работает, пожалуйста, свяжитесь с его автором.</translation>
+    </message>
+    <message>
+        <location filename="../searchengine/engineselectdlg.cpp" line="270"/>
         <source>A more recent version of &apos;%1&apos; search engine plugin is already installed.</source>
         <comment>%1 is the name of the search engine</comment>
-        <translation type="unfinished"></translation>
+        <translation>Последняя версия поискового движка &apos;%1&apos; уже установлена.</translation>
     </message>
     <message>
-        <location filename="../searchengine/engineselectdlg.cpp" line="279"/>
+        <location filename="../searchengine/engineselectdlg.cpp" line="295"/>
         <source>&apos;%1&apos; search engine plugin could not be updated, keeping old version.</source>
         <comment>%1 is the name of the search engine</comment>
-        <translation type="unfinished"></translation>
+        <translation>Плагин поискового движка &apos;%1&apos; не может быть обновлен, остаётся старая версия.</translation>
     </message>
     <message>
-        <location filename="../searchengine/engineselectdlg.cpp" line="284"/>
+        <location filename="../searchengine/engineselectdlg.cpp" line="300"/>
         <source>&apos;%1&apos; search engine plugin could not be installed.</source>
         <comment>%1 is the name of the search engine</comment>
-        <translation type="unfinished"></translation>
+        <translation>Плагин поискового движка &apos;%1&apos; не может быть установлен.</translation>
     </message>
     <message>
-        <location filename="../searchengine/engineselectdlg.cpp" line="294"/>
+        <location filename="../searchengine/engineselectdlg.cpp" line="310"/>
         <source>&apos;%1&apos; search engine plugin was successfully updated.</source>
         <comment>%1 is the name of the search engine</comment>
-        <translation type="unfinished"></translation>
+        <translation>Плагин поискового движка &apos;%1&apos; был успешно обновлен.</translation>
     </message>
     <message>
-        <location filename="../searchengine/engineselectdlg.cpp" line="297"/>
+        <location filename="../searchengine/engineselectdlg.cpp" line="313"/>
         <source>&apos;%1&apos; search engine plugin was successfully installed.</source>
         <comment>%1 is the name of the search engine</comment>
-        <translation type="unfinished"></translation>
+        <translation>Плагин поискового движка &apos;%1&apos; был успешно установлен.</translation>
     </message>
     <message>
-        <location filename="../searchengine/engineselectdlg.cpp" line="358"/>
+        <location filename="../searchengine/engineselectdlg.cpp" line="381"/>
         <source>The link doesn&apos;t seem to point to a search engine plugin.</source>
         <translation>Ссылка не указывает на дополнение поиска.</translation>
     </message>
     <message>
-        <location filename="../searchengine/engineselectdlg.cpp" line="373"/>
+        <location filename="../searchengine/engineselectdlg.cpp" line="396"/>
         <source>Select search plugins</source>
         <translation>Выбрать дополнения поиска</translation>
     </message>
     <message>
-        <location filename="../searchengine/engineselectdlg.cpp" line="494"/>
+        <location filename="../searchengine/engineselectdlg.cpp" line="517"/>
         <source>Sorry, &apos;%1&apos; search plugin installation failed.</source>
         <comment>%1 is the name of the search engine</comment>
-        <translation type="unfinished"></translation>
+        <translation>Извините, установка поискового плагина &apos;%1&apos; не удалась.</translation>
     </message>
     <message>
-        <location filename="../searchengine/engineselectdlg.cpp" line="254"/>
-        <location filename="../searchengine/engineselectdlg.cpp" line="279"/>
-        <location filename="../searchengine/engineselectdlg.cpp" line="284"/>
-        <location filename="../searchengine/engineselectdlg.cpp" line="294"/>
-        <location filename="../searchengine/engineselectdlg.cpp" line="297"/>
+        <location filename="../searchengine/engineselectdlg.cpp" line="270"/>
+        <location filename="../searchengine/engineselectdlg.cpp" line="295"/>
+        <location filename="../searchengine/engineselectdlg.cpp" line="300"/>
+        <location filename="../searchengine/engineselectdlg.cpp" line="310"/>
+        <location filename="../searchengine/engineselectdlg.cpp" line="313"/>
         <source>Search plugin install</source>
         <translation>Установка дополнения поиска</translation>
     </message>
     <message>
-        <location filename="../searchengine/engineselectdlg.cpp" line="134"/>
-        <location filename="../searchengine/engineselectdlg.cpp" line="205"/>
-        <location filename="../searchengine/engineselectdlg.cpp" line="317"/>
+        <location filename="../searchengine/engineselectdlg.cpp" line="146"/>
+        <location filename="../searchengine/engineselectdlg.cpp" line="217"/>
+        <location filename="../searchengine/engineselectdlg.cpp" line="333"/>
         <source>Yes</source>
         <translation>Да</translation>
     </message>
     <message>
-        <location filename="../searchengine/engineselectdlg.cpp" line="137"/>
-        <location filename="../searchengine/engineselectdlg.cpp" line="171"/>
-        <location filename="../searchengine/engineselectdlg.cpp" line="208"/>
-        <location filename="../searchengine/engineselectdlg.cpp" line="320"/>
+        <location filename="../searchengine/engineselectdlg.cpp" line="149"/>
+        <location filename="../searchengine/engineselectdlg.cpp" line="183"/>
+        <location filename="../searchengine/engineselectdlg.cpp" line="220"/>
+        <location filename="../searchengine/engineselectdlg.cpp" line="336"/>
         <source>No</source>
         <translation>Нет</translation>
     </message>
     <message>
-        <location filename="../searchengine/engineselectdlg.cpp" line="374"/>
+        <location filename="../searchengine/engineselectdlg.cpp" line="397"/>
         <source>qBittorrent search plugin</source>
         <translation>Дополнение поиска qBittorrent</translation>
     </message>
     <message>
-        <location filename="../searchengine/engineselectdlg.cpp" line="425"/>
-        <location filename="../searchengine/engineselectdlg.cpp" line="466"/>
-        <location filename="../searchengine/engineselectdlg.cpp" line="487"/>
-        <location filename="../searchengine/engineselectdlg.cpp" line="494"/>
+        <location filename="../searchengine/engineselectdlg.cpp" line="448"/>
+        <location filename="../searchengine/engineselectdlg.cpp" line="489"/>
+        <location filename="../searchengine/engineselectdlg.cpp" line="510"/>
+        <location filename="../searchengine/engineselectdlg.cpp" line="517"/>
         <source>Search plugin update</source>
         <translation>Обновление дополнений поиска</translation>
     </message>
     <message>
-        <location filename="../searchengine/engineselectdlg.cpp" line="466"/>
-        <location filename="../searchengine/engineselectdlg.cpp" line="487"/>
+        <location filename="../searchengine/engineselectdlg.cpp" line="489"/>
+        <location filename="../searchengine/engineselectdlg.cpp" line="510"/>
         <source>Sorry, update server is temporarily unavailable.</source>
         <translation>Извините, сервер обновлений временно недоступен.</translation>
     </message>
     <message>
-        <location filename="../searchengine/engineselectdlg.cpp" line="425"/>
+        <location filename="../searchengine/engineselectdlg.cpp" line="448"/>
         <source>All your plugins are already up to date.</source>
         <translation>Все ваши дополнения имеют последние версии.</translation>
     </message>
     <message>
-        <location filename="../searchengine/engineselectdlg.cpp" line="193"/>
+        <location filename="../searchengine/engineselectdlg.cpp" line="205"/>
         <source>All selected plugins were uninstalled successfully</source>
         <translation>Все выбранные дополнения были успешно удалены</translation>
     </message>
     <message>
-        <location filename="../searchengine/engineselectdlg.cpp" line="191"/>
+        <location filename="../searchengine/engineselectdlg.cpp" line="203"/>
         <source>Some plugins could not be uninstalled because they are included in qBittorrent. Only the ones you added yourself can be uninstalled.
 Those plugins were disabled.</source>
         <translation>Некоторые дополнения не могут быть удалены, так как включены в qBittorrent. Удалены могут быть лишь те, что вы установили сами.
 Данные дополнения были отключены.</translation>
     </message>
     <message>
-        <location filename="../searchengine/engineselectdlg.cpp" line="358"/>
+        <location filename="../searchengine/engineselectdlg.cpp" line="381"/>
         <source>Invalid link</source>
         <translation>Некорректная ссылка</translation>
     </message>
     <message>
-        <location filename="../searchengine/engineselectdlg.cpp" line="350"/>
-        <location filename="../searchengine/engineselectdlg.cpp" line="359"/>
+        <location filename="../searchengine/engineselectdlg.cpp" line="373"/>
+        <location filename="../searchengine/engineselectdlg.cpp" line="382"/>
         <source>New search engine plugin URL</source>
         <translation>Адрес нового дополнения поиска</translation>
     </message>
     <message>
-        <location filename="../searchengine/engineselectdlg.cpp" line="351"/>
-        <location filename="../searchengine/engineselectdlg.cpp" line="360"/>
+        <location filename="../searchengine/engineselectdlg.cpp" line="374"/>
+        <location filename="../searchengine/engineselectdlg.cpp" line="383"/>
         <source>URL:</source>
         <translation>Адрес:</translation>
     </message>
@@ -7727,11 +7915,11 @@ Those plugins were disabled.</source>
 <context>
     <name>fsutils</name>
     <message>
-        <location filename="../core/utils/fs.cpp" line="446"/>
-        <location filename="../core/utils/fs.cpp" line="453"/>
-        <location filename="../core/utils/fs.cpp" line="463"/>
-        <location filename="../core/utils/fs.cpp" line="496"/>
-        <location filename="../core/utils/fs.cpp" line="508"/>
+        <location filename="../base/utils/fs.cpp" line="446"/>
+        <location filename="../base/utils/fs.cpp" line="453"/>
+        <location filename="../base/utils/fs.cpp" line="463"/>
+        <location filename="../base/utils/fs.cpp" line="496"/>
+        <location filename="../base/utils/fs.cpp" line="508"/>
         <source>Downloads</source>
         <translation>Загрузки</translation>
     </message>
@@ -7739,103 +7927,103 @@ Those plugins were disabled.</source>
 <context>
     <name>misc</name>
     <message>
-        <location filename="../core/utils/misc.cpp" line="81"/>
+        <location filename="../base/utils/misc.cpp" line="82"/>
         <source>B</source>
         <comment>bytes</comment>
         <translation>Б</translation>
     </message>
     <message>
-        <location filename="../core/utils/misc.cpp" line="82"/>
+        <location filename="../base/utils/misc.cpp" line="83"/>
         <source>KiB</source>
         <comment>kibibytes (1024 bytes)</comment>
         <translation>КБ</translation>
     </message>
     <message>
-        <location filename="../core/utils/misc.cpp" line="83"/>
+        <location filename="../base/utils/misc.cpp" line="84"/>
         <source>MiB</source>
         <comment>mebibytes (1024 kibibytes)</comment>
         <translation>МБ</translation>
     </message>
     <message>
-        <location filename="../core/utils/misc.cpp" line="84"/>
+        <location filename="../base/utils/misc.cpp" line="85"/>
         <source>GiB</source>
         <comment>gibibytes (1024 mibibytes)</comment>
         <translation>ГБ</translation>
     </message>
     <message>
-        <location filename="../core/utils/misc.cpp" line="85"/>
+        <location filename="../base/utils/misc.cpp" line="86"/>
         <source>TiB</source>
         <comment>tebibytes (1024 gibibytes)</comment>
         <translation>Тб</translation>
     </message>
     <message>
-        <location filename="../core/utils/misc.cpp" line="282"/>
+        <location filename="../base/utils/misc.cpp" line="283"/>
         <source>Python not detected</source>
         <translation>Python не найден</translation>
     </message>
     <message>
-        <location filename="../core/utils/misc.cpp" line="305"/>
+        <location filename="../base/utils/misc.cpp" line="311"/>
         <source>Python version: %1</source>
         <translation>Версия Python: %1</translation>
     </message>
     <message>
-        <location filename="../core/utils/misc.cpp" line="331"/>
+        <location filename="../base/utils/misc.cpp" line="338"/>
         <source>/s</source>
         <comment>per second</comment>
         <translation>/с</translation>
     </message>
     <message>
-        <location filename="../core/utils/misc.cpp" line="419"/>
+        <location filename="../base/utils/misc.cpp" line="426"/>
         <source>%1h %2m</source>
         <comment>e.g: 3hours 5minutes</comment>
         <translation>%1 ч %2 мин</translation>
     </message>
     <message>
-        <location filename="../core/utils/misc.cpp" line="423"/>
+        <location filename="../base/utils/misc.cpp" line="430"/>
         <source>%1d %2h</source>
         <comment>e.g: 2days 10hours</comment>
         <translation>%1 д %2 ч</translation>
     </message>
     <message>
-        <location filename="../core/utils/misc.cpp" line="319"/>
+        <location filename="../base/utils/misc.cpp" line="326"/>
         <source>Unknown</source>
         <comment>Unknown (size)</comment>
         <translation>Неизвестно</translation>
     </message>
     <message>
-        <location filename="../core/utils/misc.cpp" line="205"/>
+        <location filename="../base/utils/misc.cpp" line="206"/>
         <source>qBittorrent will shutdown the computer now because all downloads are complete.</source>
         <translation>qBittorent сейчас выключит компьютер, так как все загрузки завершены.</translation>
     </message>
     <message>
-        <location filename="../core/utils/misc.cpp" line="412"/>
+        <location filename="../base/utils/misc.cpp" line="419"/>
         <source>&lt; 1m</source>
         <comment>&lt; 1 minute</comment>
         <translation>&lt; 1м</translation>
     </message>
     <message>
-        <location filename="../core/utils/misc.cpp" line="415"/>
+        <location filename="../base/utils/misc.cpp" line="422"/>
         <source>%1m</source>
         <comment>e.g: 10minutes</comment>
         <translation>%1 мин</translation>
     </message>
     <message>
-        <location filename="../webui/btjson.cpp" line="386"/>
+        <location filename="../webui/btjson.cpp" line="457"/>
         <source>Working</source>
         <translation>Работает</translation>
     </message>
     <message>
-        <location filename="../webui/btjson.cpp" line="384"/>
+        <location filename="../webui/btjson.cpp" line="455"/>
         <source>Updating...</source>
         <translation>Обновляется…</translation>
     </message>
     <message>
-        <location filename="../webui/btjson.cpp" line="388"/>
+        <location filename="../webui/btjson.cpp" line="459"/>
         <source>Not working</source>
         <translation>Не работает</translation>
     </message>
     <message>
-        <location filename="../webui/btjson.cpp" line="382"/>
+        <location filename="../webui/btjson.cpp" line="453"/>
         <source>Not contacted yet</source>
         <translation>Не соединился</translation>
     </message>
@@ -7843,38 +8031,33 @@ Those plugins were disabled.</source>
 <context>
     <name>options_imp</name>
     <message>
-        <location filename="../gui/options_imp.cpp" line="1180"/>
-        <location filename="../gui/options_imp.cpp" line="1182"/>
+        <location filename="../gui/options_imp.cpp" line="1249"/>
+        <location filename="../gui/options_imp.cpp" line="1251"/>
         <source>Choose export directory</source>
         <translation>Выберите папку для экспорта</translation>
     </message>
     <message>
-        <location filename="../gui/options_imp.cpp" line="1218"/>
-        <location filename="../gui/options_imp.cpp" line="1220"/>
-        <location filename="../gui/options_imp.cpp" line="1231"/>
-        <location filename="../gui/options_imp.cpp" line="1233"/>
+        <location filename="../gui/options_imp.cpp" line="1289"/>
+        <location filename="../gui/options_imp.cpp" line="1291"/>
+        <location filename="../gui/options_imp.cpp" line="1302"/>
+        <location filename="../gui/options_imp.cpp" line="1304"/>
         <source>Choose a save directory</source>
         <translation>Выберите путь сохранения</translation>
     </message>
     <message>
-        <location filename="../gui/options_imp.cpp" line="1134"/>
+        <location filename="../gui/options_imp.cpp" line="1202"/>
         <source>Add directory to scan</source>
         <translation>Добавить папку для сканирования</translation>
     </message>
     <message>
-        <location filename="../gui/options_imp.cpp" line="184"/>
+        <location filename="../gui/options_imp.cpp" line="185"/>
         <source>Supported parameters (case sensitive):</source>
         <translation>Поддерживаемые параметры (с учетом регистра):</translation>
     </message>
     <message>
-        <location filename="../gui/options_imp.cpp" line="185"/>
+        <location filename="../gui/options_imp.cpp" line="186"/>
         <source>%N: Torrent name</source>
         <translation>%N: Имя торрента</translation>
-    </message>
-    <message>
-        <location filename="../gui/options_imp.cpp" line="186"/>
-        <source>%F: Downloaded file name (single-file torrent only)</source>
-        <translation>%F: Имя загруженного файла (для торрентов с одним файлом)</translation>
     </message>
     <message>
         <location filename="../gui/options_imp.cpp" line="187"/>
@@ -7883,129 +8066,134 @@ Those plugins were disabled.</source>
     </message>
     <message>
         <location filename="../gui/options_imp.cpp" line="188"/>
+        <source>%F: Content path (same as root path for multifile torrent)</source>
+        <translation>%F: Папка содержимого (та же, что и корневая папка для множественных торрентов)</translation>
+    </message>
+    <message>
+        <location filename="../gui/options_imp.cpp" line="189"/>
+        <source>%R: Root path (first torrent subdirectory path)</source>
+        <translation>%R: Корневая папка (главный путь для подкаталога торрента)</translation>
+    </message>
+    <message>
+        <location filename="../gui/options_imp.cpp" line="190"/>
         <source>%D: Save path</source>
         <translation>%D: Путь сохранения</translation>
     </message>
     <message>
-        <location filename="../gui/options_imp.cpp" line="189"/>
-        <source>%K: &quot;single&quot;|&quot;multi&quot; file(s)</source>
-        <translation>%K: &quot;один&quot;|&quot;много&quot; файл(ов)</translation>
-    </message>
-    <message>
-        <location filename="../gui/options_imp.cpp" line="190"/>
+        <location filename="../gui/options_imp.cpp" line="191"/>
         <source>%C: Number of files</source>
         <translation>%C: Количество файлов</translation>
     </message>
     <message>
-        <location filename="../gui/options_imp.cpp" line="191"/>
+        <location filename="../gui/options_imp.cpp" line="192"/>
         <source>%Z: Torrent size (bytes)</source>
         <translation>%Z: Размер торрента (в байтах)</translation>
     </message>
     <message>
-        <location filename="../gui/options_imp.cpp" line="192"/>
+        <location filename="../gui/options_imp.cpp" line="193"/>
         <source>%T: Current tracker</source>
         <translation>%T: Текущий трекер</translation>
     </message>
     <message>
-        <location filename="../gui/options_imp.cpp" line="193"/>
+        <location filename="../gui/options_imp.cpp" line="194"/>
         <source>%I: Info hash</source>
         <translation>%I: Хеш</translation>
     </message>
     <message>
-        <location filename="../gui/options_imp.cpp" line="1141"/>
+        <location filename="../gui/options_imp.cpp" line="1209"/>
         <source>Folder is already being watched.</source>
         <translation>Папка уже отслеживается.</translation>
     </message>
     <message>
-        <location filename="../gui/options_imp.cpp" line="1144"/>
+        <location filename="../gui/options_imp.cpp" line="1212"/>
         <source>Folder does not exist.</source>
         <translation>Папка не существует.</translation>
     </message>
     <message>
-        <location filename="../gui/options_imp.cpp" line="1147"/>
+        <location filename="../gui/options_imp.cpp" line="1215"/>
         <source>Folder is not readable.</source>
         <translation>Папка недоступна для чтения.</translation>
     </message>
     <message>
-        <location filename="../gui/options_imp.cpp" line="1157"/>
+        <location filename="../gui/options_imp.cpp" line="1225"/>
         <source>Failure</source>
         <translation>Ошибка</translation>
     </message>
     <message>
-        <location filename="../gui/options_imp.cpp" line="1157"/>
+        <location filename="../gui/options_imp.cpp" line="1225"/>
         <source>Failed to add Scan Folder &apos;%1&apos;: %2</source>
         <translation>Не удалось добавить папку для сканирования &apos;%1&apos;: %2</translation>
     </message>
     <message>
-        <location filename="../gui/options_imp.cpp" line="1204"/>
-        <location filename="../gui/options_imp.cpp" line="1206"/>
+        <location filename="../gui/options_imp.cpp" line="1275"/>
+        <location filename="../gui/options_imp.cpp" line="1277"/>
         <source>Filters</source>
         <translation>Фильтры</translation>
     </message>
     <message>
-        <location filename="../gui/options_imp.cpp" line="1204"/>
-        <location filename="../gui/options_imp.cpp" line="1206"/>
+        <location filename="../gui/options_imp.cpp" line="1275"/>
+        <location filename="../gui/options_imp.cpp" line="1277"/>
         <source>Choose an IP filter file</source>
         <translation>Укажите файл IP-фильтра</translation>
     </message>
     <message>
-        <location filename="../gui/options_imp.cpp" line="1272"/>
+        <location filename="../gui/options_imp.cpp" line="1344"/>
         <source>SSL Certificate</source>
         <translation>Сертификат SSL</translation>
     </message>
     <message>
-        <location filename="../gui/options_imp.cpp" line="1283"/>
+        <location filename="../gui/options_imp.cpp" line="1356"/>
         <source>SSL Key</source>
         <translation>Ключ SSL</translation>
     </message>
     <message>
-        <location filename="../gui/options_imp.cpp" line="1314"/>
+        <location filename="../gui/options_imp.cpp" line="1389"/>
         <source>Parsing error</source>
         <translation>Ошибка разбора</translation>
     </message>
     <message>
-        <location filename="../gui/options_imp.cpp" line="1314"/>
+        <location filename="../gui/options_imp.cpp" line="1389"/>
         <source>Failed to parse the provided IP filter</source>
         <translation>Невозможно разобрать данный IP фильтр</translation>
     </message>
     <message>
-        <location filename="../gui/options_imp.cpp" line="1316"/>
+        <location filename="../gui/options_imp.cpp" line="1391"/>
         <source>Successfully refreshed</source>
         <translation>Успешно обновлён</translation>
     </message>
     <message>
-        <location filename="../gui/options_imp.cpp" line="1316"/>
+        <location filename="../gui/options_imp.cpp" line="1391"/>
         <source>Successfully parsed the provided IP filter: %1 rules were applied.</source>
         <comment>%1 is a number</comment>
         <translation>Указанный IP-фильтр был успешно проанализирован. Применено %1 правил.</translation>
     </message>
     <message>
-        <location filename="../gui/options_imp.cpp" line="1403"/>
+        <location filename="../gui/options_imp.cpp" line="1479"/>
         <source>Invalid key</source>
         <translation>Недействительный ключ</translation>
     </message>
     <message>
-        <location filename="../gui/options_imp.cpp" line="1403"/>
+        <location filename="../gui/options_imp.cpp" line="1479"/>
         <source>This is not a valid SSL key.</source>
         <translation>Это недействительный SSL ключ.</translation>
     </message>
     <message>
-        <location filename="../gui/options_imp.cpp" line="1418"/>
+        <location filename="../gui/options_imp.cpp" line="1495"/>
         <source>Invalid certificate</source>
         <translation>Недействительный сертификат</translation>
     </message>
     <message>
-        <location filename="../gui/options_imp.cpp" line="1418"/>
+        <location filename="../gui/options_imp.cpp" line="1495"/>
         <source>This is not a valid SSL certificate.</source>
         <translation>Это недействительный SSL сертификат.</translation>
     </message>
     <message>
-        <location filename="../gui/options_imp.cpp" line="1427"/>
+        <location filename="../gui/options_imp.cpp" line="1505"/>
         <source>The start time and the end time can&apos;t be the same.</source>
         <translation>Время начала и завершения не могут быть одинаковыми.</translation>
     </message>
     <message>
-        <location filename="../gui/options_imp.cpp" line="1430"/>
+        <location filename="../gui/options_imp.cpp" line="1508"/>
         <source>Time Error</source>
         <translation>Ошибка времени</translation>
     </message>
@@ -8087,7 +8275,7 @@ Those plugins were disabled.</source>
     <message>
         <location filename="../searchengine/search.ui" line="127"/>
         <source>Copy description page URL</source>
-        <translation>Скопировать ссылку страницы описания</translation>
+        <translation>Скопировать адрес страницы описания</translation>
     </message>
     <message>
         <location filename="../searchengine/search.ui" line="147"/>

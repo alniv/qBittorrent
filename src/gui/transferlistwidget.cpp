@@ -40,23 +40,26 @@
 #include <QRegExp>
 #include <QFileDialog>
 #include <QMessageBox>
+#ifdef QBT_USES_QT5
+#include <QTableView>
+#endif
 
 #include "transferlistwidget.h"
-#include "core/bittorrent/session.h"
-#include "core/bittorrent/torrenthandle.h"
-#include "core/torrentfilter.h"
+#include "base/bittorrent/session.h"
+#include "base/bittorrent/torrenthandle.h"
+#include "base/torrentfilter.h"
 #include "transferlistdelegate.h"
 #include "previewselect.h"
 #include "speedlimitdlg.h"
 #include "updownratiodlg.h"
 #include "options_imp.h"
 #include "mainwindow.h"
-#include "core/preferences.h"
+#include "base/preferences.h"
 #include "torrentmodel.h"
 #include "deletionconfirmationdlg.h"
 #include "propertieswidget.h"
 #include "guiiconprovider.h"
-#include "core/utils/fs.h"
+#include "base/utils/fs.h"
 #include "autoexpandabledialog.h"
 #include "transferlistsortmodel.h"
 
@@ -152,6 +155,15 @@ TransferListWidget::TransferListWidget(QWidget *parent, MainWindow *main_window)
 
     editHotkey = new QShortcut(QKeySequence("F2"), this, SLOT(renameSelectedTorrent()), 0, Qt::WidgetShortcut);
     deleteHotkey = new QShortcut(QKeySequence::Delete, this, SLOT(deleteSelectedTorrents()), 0, Qt::WidgetShortcut);
+
+#ifdef QBT_USES_QT5
+    // This hack fixes reordering of first column with Qt5.
+    // https://github.com/qtproject/qtbase/commit/e0fc088c0c8bc61dbcaf5928b24986cd61a22777
+    QTableView unused;
+    unused.setVerticalHeader(header());
+    header()->setParent(this);
+    unused.setVerticalHeader(new QHeaderView(Qt::Horizontal));
+#endif
 }
 
 TransferListWidget::~TransferListWidget()
@@ -213,9 +225,9 @@ void TransferListWidget::torrentDoubleClicked(const QModelIndex& index)
         break;
     case OPEN_DEST:
         if (torrent->filesCount() == 1)
-            Utils::Misc::openFolderSelect(QDir(torrent->rootPath()).absoluteFilePath(torrent->filePath(0)));
+            Utils::Misc::openFolderSelect(torrent->contentPath(true));
         else
-            Utils::Misc::openPath(torrent->rootPath());
+            Utils::Misc::openPath(torrent->contentPath(true));
         break;
     }
 }
@@ -383,15 +395,11 @@ void TransferListWidget::openSelectedTorrentsFolder() const
 {
     QSet<QString> pathsList;
     foreach (BitTorrent::TorrentHandle *const torrent, getSelectedTorrents()) {
-        QString path;
-        if (torrent->filesCount() == 1) {
-            path = QDir(torrent->rootPath()).absoluteFilePath(torrent->filePath(0));
-            if (!pathsList.contains(path))
+        QString path = torrent->contentPath(true);
+        if (!pathsList.contains(path)) {
+            if (torrent->filesCount() == 1)
                 Utils::Misc::openFolderSelect(path);
-        }
-        else {
-            path = torrent->rootPath();
-            if (!pathsList.contains(path))
+            else
                 Utils::Misc::openPath(path);
         }
         pathsList.insert(path);
@@ -554,7 +562,7 @@ void TransferListWidget::toggleSelectedTorrentsSequentialDownload() const
 void TransferListWidget::toggleSelectedFirstLastPiecePrio() const
 {
     foreach (BitTorrent::TorrentHandle *const torrent, getSelectedTorrents())
-        torrent->setFirstLastPiecePriority(!torrent->hasFirstLastPiecePriority());
+        torrent->toggleFirstLastPiecePriority();
 }
 
 void TransferListWidget::askNewLabelForSelection()
@@ -866,7 +874,7 @@ void TransferListWidget::applyTrackerFilter(const QStringList &hashes)
 
 void TransferListWidget::applyNameFilter(const QString& name)
 {
-    nameFilterModel->setFilterRegExp(QRegExp(QRegExp::escape(name), Qt::CaseInsensitive));
+    nameFilterModel->setFilterRegExp(QRegExp(name, Qt::CaseInsensitive, QRegExp::WildcardUnix));
 }
 
 void TransferListWidget::applyStatusFilter(int f)

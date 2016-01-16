@@ -29,19 +29,21 @@
  */
 
 #include "btjson.h"
-#include "core/utils/misc.h"
-#include "core/utils/fs.h"
-#include "core/preferences.h"
-#include "core/bittorrent/session.h"
-#include "core/bittorrent/sessionstatus.h"
-#include "core/bittorrent/torrenthandle.h"
-#include "core/bittorrent/trackerentry.h"
-#include "core/torrentfilter.h"
+#include "base/utils/misc.h"
+#include "base/utils/fs.h"
+#include "base/preferences.h"
+#include "base/bittorrent/session.h"
+#include "base/bittorrent/sessionstatus.h"
+#include "base/bittorrent/torrenthandle.h"
+#include "base/bittorrent/trackerentry.h"
+#include "base/bittorrent/peerinfo.h"
+#include "base/torrentfilter.h"
+#include "base/net/geoipmanager.h"
 #include "jsonutils.h"
 
 #include <QDebug>
 #include <QVariant>
-#if QT_VERSION < QT_VERSION_CHECK(5, 0, 0)
+#ifndef QBT_USES_QT5
 #include <QMetaType>
 #endif
 #if QT_VERSION >= QT_VERSION_CHECK(4, 7, 0)
@@ -104,6 +106,22 @@ static const char KEY_TORRENT_LABEL[] = "label";
 static const char KEY_TORRENT_SUPER_SEEDING[] = "super_seeding";
 static const char KEY_TORRENT_FORCE_START[] = "force_start";
 static const char KEY_TORRENT_SAVE_PATH[] = "save_path";
+
+// Peer keys
+static const char KEY_PEER_IP[] = "ip";
+static const char KEY_PEER_PORT[] = "port";
+static const char KEY_PEER_COUNTRY_CODE[] = "country_code";
+static const char KEY_PEER_COUNTRY[] = "country";
+static const char KEY_PEER_CLIENT[] = "client";
+static const char KEY_PEER_PROGRESS[] = "progress";
+static const char KEY_PEER_DOWN_SPEED[] = "dl_speed";
+static const char KEY_PEER_UP_SPEED[] = "up_speed";
+static const char KEY_PEER_TOT_DOWN[] = "downloaded";
+static const char KEY_PEER_TOT_UP[] = "uploaded";
+static const char KEY_PEER_CONNECTION_TYPE[] = "connection";
+static const char KEY_PEER_FLAGS[] = "flags";
+static const char KEY_PEER_FLAGS_DESCRIPTION[] = "flags_desc";
+static const char KEY_PEER_RELEVANCE[] = "relevance";
 
 // Tracker keys
 static const char KEY_TRACKER_URL[] = "url";
@@ -171,6 +189,9 @@ static const char KEY_SYNC_MAINDATA_QUEUEING[] = "queueing";
 static const char KEY_SYNC_MAINDATA_USE_ALT_SPEED_LIMITS[] = "use_alt_speed_limits";
 static const char KEY_SYNC_MAINDATA_REFRESH_INTERVAL[] = "refresh_interval";
 
+// Sync torrent peers keys
+static const char KEY_SYNC_TORRENT_PEERS_SHOW_FLAGS[] = "show_flags";
+
 static const char KEY_FULL_UPDATE[] = "full_update";
 static const char KEY_RESPONSE_ID[] = "rid";
 static const char KEY_SUFFIX_REMOVED[] = "_removed";
@@ -188,7 +209,7 @@ public:
     QTorrentCompare(QString key, bool greaterThan = false)
         : key_(key)
         , greaterThan_(greaterThan)
-#if QT_VERSION < QT_VERSION_CHECK(5, 0, 0)
+#ifndef QBT_USES_QT5
         , type_(QVariant::Invalid)
 #endif
     {
@@ -196,24 +217,24 @@ public:
 
     bool operator()(QVariant torrent1, QVariant torrent2)
     {
-#if QT_VERSION < QT_VERSION_CHECK(5, 0, 0)
+#ifndef QBT_USES_QT5
         if (type_ == QVariant::Invalid)
             type_ = torrent1.toMap().value(key_).type();
 
-        switch (type_) {
-        case QVariant::Int:
+        switch (static_cast<QMetaType::Type>(type_)) {
+        case QMetaType::Int:
             return greaterThan_ ? torrent1.toMap().value(key_).toInt() > torrent2.toMap().value(key_).toInt()
                    : torrent1.toMap().value(key_).toInt() < torrent2.toMap().value(key_).toInt();
-        case QVariant::LongLong:
+        case QMetaType::LongLong:
             return greaterThan_ ? torrent1.toMap().value(key_).toLongLong() > torrent2.toMap().value(key_).toLongLong()
                    : torrent1.toMap().value(key_).toLongLong() < torrent2.toMap().value(key_).toLongLong();
-        case QVariant::ULongLong:
+        case QMetaType::ULongLong:
             return greaterThan_ ? torrent1.toMap().value(key_).toULongLong() > torrent2.toMap().value(key_).toULongLong()
                    : torrent1.toMap().value(key_).toULongLong() < torrent2.toMap().value(key_).toULongLong();
         case QMetaType::Float:
             return greaterThan_ ? torrent1.toMap().value(key_).toFloat() > torrent2.toMap().value(key_).toFloat()
                    : torrent1.toMap().value(key_).toFloat() < torrent2.toMap().value(key_).toFloat();
-        case QVariant::Double:
+        case QMetaType::Double:
             return greaterThan_ ? torrent1.toMap().value(key_).toDouble() > torrent2.toMap().value(key_).toDouble()
                    : torrent1.toMap().value(key_).toDouble() < torrent2.toMap().value(key_).toDouble();
         default:
@@ -229,7 +250,7 @@ public:
 private:
     QString key_;
     bool greaterThan_;
-#if QT_VERSION < QT_VERSION_CHECK(5, 0, 0)
+#ifndef QBT_USES_QT5
     QVariant::Type type_;
 #endif
 };
@@ -256,6 +277,7 @@ private:
  *   - "seq_dl": Torrent sequential download state
  *   - "f_l_piece_prio": Torrent first last piece priority state
  *   - "force_start": Torrent force start state
+ *   - "label": Torrent label
  */
 QByteArray btjson::getTorrents(QString filter, QString label,
                                QString sortedColumn, bool reverse, int limit, int offset)
@@ -349,6 +371,54 @@ QByteArray btjson::getSyncMainData(int acceptedResponseId, QVariantMap &lastData
     serverState[KEY_SYNC_MAINDATA_USE_ALT_SPEED_LIMITS] = Preferences::instance()->isAltBandwidthEnabled();
     serverState[KEY_SYNC_MAINDATA_REFRESH_INTERVAL] = Preferences::instance()->getRefreshInterval();
     data["server_state"] = serverState;
+
+    return json::toJson(generateSyncData(acceptedResponseId, data, lastAcceptedData, lastData));
+}
+
+QByteArray btjson::getSyncTorrentPeersData(int acceptedResponseId, QString hash, QVariantMap &lastData, QVariantMap &lastAcceptedData)
+{
+    BitTorrent::TorrentHandle *const torrent = BitTorrent::Session::instance()->findTorrent(hash);
+    if (!torrent) {
+        qWarning() << Q_FUNC_INFO << "Invalid torrent " << qPrintable(hash);
+        return QByteArray();
+    }
+
+    QVariantMap data;
+    QVariantHash peers;
+    QList<BitTorrent::PeerInfo> peersList = torrent->peers();
+#ifndef DISABLE_COUNTRIES_RESOLUTION
+    bool resolvePeerCountries = Preferences::instance()->resolvePeerCountries();
+#else
+    bool resolvePeerCountries = false;
+#endif
+
+    data[KEY_SYNC_TORRENT_PEERS_SHOW_FLAGS] = resolvePeerCountries;
+
+    foreach (const BitTorrent::PeerInfo &pi, peersList) {
+        if (pi.address().ip.isNull()) continue;
+        QVariantMap peer;
+#ifndef DISABLE_COUNTRIES_RESOLUTION
+        if (resolvePeerCountries) {
+            peer[KEY_PEER_COUNTRY_CODE] = pi.country().toLower();
+            peer[KEY_PEER_COUNTRY] = Net::GeoIPManager::CountryName(pi.country());
+        }
+#endif
+        peer[KEY_PEER_IP] = pi.address().ip.toString();
+        peer[KEY_PEER_PORT] = pi.address().port;
+        peer[KEY_PEER_CLIENT] = pi.client();
+        peer[KEY_PEER_PROGRESS] = pi.progress();
+        peer[KEY_PEER_DOWN_SPEED] = pi.payloadDownSpeed();
+        peer[KEY_PEER_UP_SPEED] = pi.payloadUpSpeed();
+        peer[KEY_PEER_TOT_DOWN] = pi.totalDownload();
+        peer[KEY_PEER_TOT_UP] = pi.totalUpload();
+        peer[KEY_PEER_CONNECTION_TYPE] = pi.connectionType();
+        peer[KEY_PEER_FLAGS] = pi.flags();
+        peer[KEY_PEER_FLAGS_DESCRIPTION] = pi.flagsDescription();
+        peer[KEY_PEER_RELEVANCE] = pi.relevance();
+        peers[pi.address().ip.toString() + ":" + QString::number(pi.address().port)] = peer;
+    }
+
+    data["peers"] = peers;
 
     return json::toJson(generateSyncData(acceptedResponseId, data, lastAcceptedData, lastData));
 }
@@ -510,7 +580,7 @@ QByteArray btjson::getPropertiesForTorrent(const QString& hash)
         dataDict[KEY_PROP_COMPLETION_DATE] = -1;
         dataDict[KEY_PROP_CREATION_DATE] = -1;
     }
-    dataDict[KEY_PROP_SAVE_PATH] = Utils::Fs::toNativePath(torrent->rootPath());
+    dataDict[KEY_PROP_SAVE_PATH] = Utils::Fs::toNativePath(torrent->savePath());
     dataDict[KEY_PROP_COMMENT] = torrent->comment();
 
     return json::toJson(dataDict);
@@ -609,7 +679,7 @@ QByteArray btjson::getTorrentsRatesLimits(QStringList &hashes, bool downloadLimi
         map[hash] = limit;
     }
 
-   return json::toJson(map);
+    return json::toJson(map);
 }
 
 QVariantMap toMap(BitTorrent::TorrentHandle *const torrent)
@@ -636,7 +706,7 @@ QVariantMap toMap(BitTorrent::TorrentHandle *const torrent)
     ret[KEY_TORRENT_LABEL] = torrent->label();
     ret[KEY_TORRENT_SUPER_SEEDING] = torrent->superSeeding();
     ret[KEY_TORRENT_FORCE_START] = torrent->isForced();
-    ret[KEY_TORRENT_SAVE_PATH] = Utils::Fs::toNativePath(torrent->rootPath());
+    ret[KEY_TORRENT_SAVE_PATH] = Utils::Fs::toNativePath(torrent->savePath());
 
     return ret;
 }
@@ -652,15 +722,15 @@ void processMap(QVariantMap prevData, QVariantMap data, QVariantMap &syncData)
     foreach (QString key, data.keys()) {
         removedItems.clear();
 
-        switch (data[key].type()) {
-        case QVariant::Map: {
+        switch (static_cast<QMetaType::Type>(data[key].type())) {
+        case QMetaType::QVariantMap: {
                 QVariantMap map;
                 processMap(prevData[key].toMap(), data[key].toMap(), map);
                 if (!map.isEmpty())
                     syncData[key] = map;
             }
             break;
-        case QVariant::Hash: {
+        case QMetaType::QVariantHash: {
                 QVariantMap map;
                 processHash(prevData[key].toHash(), data[key].toHash(), map, removedItems);
                 if (!map.isEmpty())
@@ -669,7 +739,7 @@ void processMap(QVariantMap prevData, QVariantMap data, QVariantMap &syncData)
                     syncData[key + KEY_SUFFIX_REMOVED] = removedItems;
             }
             break;
-        case QVariant::List: {
+        case QMetaType::QVariantList: {
                 QVariantList list;
                 processList(prevData[key].toList(), data[key].toList(), list, removedItems);
                 if (!list.isEmpty())
@@ -678,14 +748,14 @@ void processMap(QVariantMap prevData, QVariantMap data, QVariantMap &syncData)
                     syncData[key + KEY_SUFFIX_REMOVED] = removedItems;
             }
             break;
-        case QVariant::String:
-        case QVariant::LongLong:
+        case QMetaType::QString:
+        case QMetaType::LongLong:
         case QMetaType::Float:
-        case QVariant::Int:
-        case QVariant::Bool:
-        case QVariant::Double:
-        case QVariant::ULongLong:
-        case QVariant::UInt:
+        case QMetaType::Int:
+        case QMetaType::Bool:
+        case QMetaType::Double:
+        case QMetaType::ULongLong:
+        case QMetaType::UInt:
             if (prevData[key] != data[key])
                 syncData[key] = data[key];
             break;
@@ -792,7 +862,7 @@ QVariantMap generateSyncData(int acceptedResponseId, QVariantMap data, QVariantM
         lastAcceptedData.clear();
         syncData = data;
 
-#if (QT_VERSION >= QT_VERSION_CHECK(5, 0, 0) && QT_VERSION < QT_VERSION_CHECK(5, 5, 0))
+#if (QBT_USES_QT5 && QT_VERSION < QT_VERSION_CHECK(5, 5, 0))
         // QJsonDocument::fromVariant() supports QVariantHash only
         // since Qt5.5, so manually convert data["torrents"]
         QVariantMap torrentsMap;

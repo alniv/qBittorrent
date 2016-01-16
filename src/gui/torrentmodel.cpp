@@ -34,10 +34,10 @@
 #include <QPalette>
 #include <QIcon>
 
-#include "core/bittorrent/session.h"
-#include "core/bittorrent/torrenthandle.h"
-#include "core/torrentfilter.h"
-#include "core/utils/fs.h"
+#include "base/bittorrent/session.h"
+#include "base/bittorrent/torrenthandle.h"
+#include "base/torrentfilter.h"
+#include "base/utils/fs.h"
 #include "torrentmodel.h"
 
 static QIcon getIconByState(BitTorrent::TorrentState state);
@@ -67,7 +67,7 @@ TorrentModel::TorrentModel(QObject *parent)
     // Listen for torrent changes
     connect(BitTorrent::Session::instance(), SIGNAL(torrentAdded(BitTorrent::TorrentHandle *const)), SLOT(addTorrent(BitTorrent::TorrentHandle *const)));
     connect(BitTorrent::Session::instance(), SIGNAL(torrentAboutToBeRemoved(BitTorrent::TorrentHandle *const)), SLOT(handleTorrentAboutToBeRemoved(BitTorrent::TorrentHandle *const)));
-    connect(BitTorrent::Session::instance(), SIGNAL(torrentStatusUpdated(BitTorrent::TorrentHandle *const)), this, SLOT(handleTorrentStatusUpdated(BitTorrent::TorrentHandle *const)));
+    connect(BitTorrent::Session::instance(), SIGNAL(torrentsUpdated()), SLOT(handleTorrentsUpdated()));
 
     connect(BitTorrent::Session::instance(), SIGNAL(torrentFinished(BitTorrent::TorrentHandle *const)), SLOT(handleTorrentStatusUpdated(BitTorrent::TorrentHandle *const)));
     connect(BitTorrent::Session::instance(), SIGNAL(torrentMetadataLoaded(BitTorrent::TorrentHandle *const)), SLOT(handleTorrentStatusUpdated(BitTorrent::TorrentHandle *const)));
@@ -221,7 +221,7 @@ QVariant TorrentModel::data(const QModelIndex &index, int role) const
     case TR_TIME_ELAPSED:
         return (role == Qt::DisplayRole) ? torrent->activeTime() : torrent->seedingTime();
     case TR_SAVE_PATH:
-        return Utils::Fs::toNativePath(torrent->rootPath());
+        return Utils::Fs::toNativePath(torrent->savePath());
     case TR_COMPLETED:
         return torrent->completedSize();
     case TR_RATIO_LIMIT:
@@ -307,6 +307,11 @@ void TorrentModel::handleTorrentStatusUpdated(BitTorrent::TorrentHandle *const t
         emit dataChanged(index(row, 0), index(row, columnCount() - 1));
 }
 
+void TorrentModel::handleTorrentsUpdated()
+{
+    emit dataChanged(index(0, 0), index(rowCount() - 1, columnCount() - 1));
+}
+
 // Static functions
 
 QIcon getIconByState(BitTorrent::TorrentState state)
@@ -337,6 +342,7 @@ QIcon getIconByState(BitTorrent::TorrentState state)
     case BitTorrent::TorrentState::CheckingResumeData:
         return getCheckingIcon();
     case BitTorrent::TorrentState::Unknown:
+    case BitTorrent::TorrentState::MissingFiles:
     case BitTorrent::TorrentState::Error:
         return getErrorIcon();
     default:
@@ -354,14 +360,17 @@ QColor getColorByState(BitTorrent::TorrentState state)
     case BitTorrent::TorrentState::Downloading:
     case BitTorrent::TorrentState::ForcedDownloading:
     case BitTorrent::TorrentState::DownloadingMetadata:
-        return QColor(34, 139, 34); // Forest Green
+        if (!dark)
+            return QColor(34, 139, 34); // Forest Green
+        else
+            return QColor(50, 205, 50); // Lime Green
     case BitTorrent::TorrentState::Allocating:
     case BitTorrent::TorrentState::StalledDownloading:
     case BitTorrent::TorrentState::StalledUploading:
         if (!dark)
             return QColor(0, 0, 0); // Black
         else
-            return QColor(255, 255, 255); // White
+            return QColor(204, 204, 204); // Gray 80
     case BitTorrent::TorrentState::Uploading:
     case BitTorrent::TorrentState::ForcedUploading:
         if (!dark)
@@ -376,6 +385,7 @@ QColor getColorByState(BitTorrent::TorrentState state)
         else
             return QColor(79, 148, 205); // Steel Blue 3
     case BitTorrent::TorrentState::Error:
+    case BitTorrent::TorrentState::MissingFiles:
         return QColor(255, 0, 0); // red
     case BitTorrent::TorrentState::QueuedDownloading:
     case BitTorrent::TorrentState::QueuedUploading:

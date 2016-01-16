@@ -58,17 +58,17 @@
 #endif
 
 #include "application.h"
-#include "core/logger.h"
-#include "core/preferences.h"
-#include "core/utils/fs.h"
-#include "core/utils/misc.h"
-#include "core/iconprovider.h"
-#include "core/scanfoldersmodel.h"
-#include "core/net/smtp.h"
-#include "core/net/downloadmanager.h"
-#include "core/net/geoipmanager.h"
-#include "core/bittorrent/session.h"
-#include "core/bittorrent/torrenthandle.h"
+#include "base/logger.h"
+#include "base/preferences.h"
+#include "base/utils/fs.h"
+#include "base/utils/misc.h"
+#include "base/iconprovider.h"
+#include "base/scanfoldersmodel.h"
+#include "base/net/smtp.h"
+#include "base/net/downloadmanager.h"
+#include "base/net/geoipmanager.h"
+#include "base/bittorrent/session.h"
+#include "base/bittorrent/torrenthandle.h"
 
 static const char PARAMS_SEPARATOR[] = "|";
 
@@ -142,13 +142,12 @@ void Application::torrentFinished(BitTorrent::TorrentHandle *const torrent)
     // AutoRun program
     if (pref->isAutoRunEnabled()) {
         QString program = pref->getAutoRunProgram();
-        int file_count = torrent->filesCount();
 
         program.replace("%N", torrent->name());
-        program.replace("%F", (file_count > 1) ? "" : torrent->fileName(0));
         program.replace("%L", torrent->label());
-        program.replace("%D", Utils::Fs::toNativePath(torrent->rootPath()));
-        program.replace("%K", (file_count > 1) ? "multi" : "single");
+        program.replace("%F", Utils::Fs::toNativePath(torrent->contentPath()));
+        program.replace("%R", Utils::Fs::toNativePath(torrent->rootPath()));
+        program.replace("%D", Utils::Fs::toNativePath(torrent->savePath()));
         program.replace("%C", QString::number(torrent->filesCount()));
         program.replace("%Z", QString::number(torrent->totalSize()));
         program.replace("%T", torrent->currentTracker());
@@ -358,7 +357,7 @@ void Application::initializeTranslation()
     }
 
     if (m_qtTranslator.load(
-#if (QT_VERSION >= QT_VERSION_CHECK(5, 0, 0))
+#ifdef QBT_USES_QT5
             QString::fromUtf8("qtbase_") + locale, QLibraryInfo::location(QLibraryInfo::TranslationsPath)) ||
         m_qtTranslator.load(
 #endif

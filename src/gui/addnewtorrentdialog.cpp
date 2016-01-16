@@ -35,16 +35,16 @@
 #include <QMenu>
 #include <QFileDialog>
 
-#include "core/preferences.h"
-#include "core/net/downloadmanager.h"
-#include "core/net/downloadhandler.h"
-#include "core/bittorrent/session.h"
-#include "core/bittorrent/magneturi.h"
-#include "core/bittorrent/torrentinfo.h"
-#include "core/bittorrent/torrenthandle.h"
-#include "core/utils/fs.h"
-#include "core/utils/misc.h"
-#include "core/unicodestrings.h"
+#include "base/preferences.h"
+#include "base/net/downloadmanager.h"
+#include "base/net/downloadhandler.h"
+#include "base/bittorrent/session.h"
+#include "base/bittorrent/magneturi.h"
+#include "base/bittorrent/torrentinfo.h"
+#include "base/bittorrent/torrenthandle.h"
+#include "base/utils/fs.h"
+#include "base/utils/misc.h"
+#include "base/unicodestrings.h"
 #include "guiiconprovider.h"
 #include "autoexpandabledialog.h"
 #include "messageboxraised.h"
@@ -77,9 +77,16 @@ AddNewTorrentDialog::AddNewTorrentDialog(QWidget *parent)
 
     // Load labels
     const QStringList customLabels = pref->getTorrentLabels();
+    const QString defaultLabel = pref->getDefaultLabel();
+
+    if (!defaultLabel.isEmpty())
+        ui->label_combo->addItem(defaultLabel);
     ui->label_combo->addItem("");
+
     foreach (const QString& label, customLabels)
-        ui->label_combo->addItem(label);
+        if (label != defaultLabel)
+            ui->label_combo->addItem(label);
+
     ui->label_combo->model()->sort(0);
     ui->content_tree->header()->setSortIndicator(0, Qt::AscendingOrder);
     loadState();
@@ -587,6 +594,9 @@ void AddNewTorrentDialog::accept()
     // Label
     params.label = ui->label_combo->currentText();
 
+    if (ui->defaultLabel->isChecked())
+        pref->setDefaultLabel(params.label);
+
     // Save file priorities
     if (m_contentModel)
         params.filePriorities = m_contentModel->model()->getFilePriorities();
@@ -667,8 +677,7 @@ void AddNewTorrentDialog::setupTreeview()
         setWindowTitle(m_torrentInfo.name());
 
         // Set torrent information
-        QString comment = m_torrentInfo.comment();
-        ui->comment_lbl->setText(comment.replace('\n', ' '));
+        ui->comment_lbl->setText(Utils::Misc::parseHtmlLinks(m_torrentInfo.comment()));
         ui->date_lbl->setText(!m_torrentInfo.creationDate().isNull() ? m_torrentInfo.creationDate().toString(Qt::DefaultLocaleLongDate) : tr("Not available"));
 
         // Prepare content tree

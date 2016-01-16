@@ -49,20 +49,20 @@
 
 #include "mainwindow.h"
 #include "transferlistwidget.h"
-#include "core/utils/misc.h"
+#include "base/utils/misc.h"
 #include "torrentcreatordlg.h"
 #include "downloadfromurldlg.h"
 #include "addnewtorrentdialog.h"
 #include "searchengine.h"
 #include "rss_imp.h"
-#include "core/bittorrent/session.h"
-#include "core/bittorrent/sessionstatus.h"
-#include "core/bittorrent/torrenthandle.h"
+#include "base/bittorrent/session.h"
+#include "base/bittorrent/sessionstatus.h"
+#include "base/bittorrent/torrenthandle.h"
 #include "about_imp.h"
 #include "trackerlogin.h"
 #include "options_imp.h"
 #include "speedlimitdlg.h"
-#include "core/preferences.h"
+#include "base/preferences.h"
 #include "trackerlist.h"
 #include "peerlistwidget.h"
 #include "transferlistfilterswidget.h"
@@ -73,7 +73,7 @@
 #include "torrentmodel.h"
 #include "executionlog.h"
 #include "guiiconprovider.h"
-#include "core/logger.h"
+#include "base/logger.h"
 #include "autoexpandabledialog.h"
 #ifdef Q_OS_MAC
 void qt_mac_set_dock_menu(QMenu *menu);
@@ -85,8 +85,8 @@ void qt_mac_set_dock_menu(QMenu *menu);
 #endif
 #include "powermanagement.h"
 #ifdef Q_OS_WIN
-#include "core/net/downloadmanager.h"
-#include "core/net/downloadhandler.h"
+#include "base/net/downloadmanager.h"
+#include "base/net/downloadhandler.h"
 #endif
 
 #define TIME_TRAY_BALLOON 5000
@@ -104,6 +104,9 @@ MainWindow::MainWindow(QWidget *parent)
     , m_posInitialized(false)
     , force_exit(false)
     , unlockDlgShowing(false)
+#if defined(Q_OS_WIN) || defined(Q_OS_MAC)
+    , m_wasUpdateCheckEnabled(false)
+#endif
     , has_python(false)
 {
     setupUi(this);
@@ -179,7 +182,7 @@ MainWindow::MainWindow(QWidget *parent)
 
     hSplitter = new QSplitter(Qt::Vertical, this);
     hSplitter->setChildrenCollapsible(false);
-    hSplitter->setContentsMargins(0, 4, 0, 0);
+    hSplitter->setFrameShape(QFrame::NoFrame);
 
     // Name filter
     search_filter = new LineEdit(this);
@@ -193,6 +196,7 @@ MainWindow::MainWindow(QWidget *parent)
 
     // Transfer List tab
     transferList = new TransferListWidget(hSplitter, this);
+    //transferList->setStyleSheet("QTreeView {border: none;}");  // borderless
     properties = new PropertiesWidget(hSplitter, this, transferList);
     transferListFilters = new TransferListFiltersWidget(vSplitter, transferList);
     hSplitter->addWidget(transferList);
@@ -214,7 +218,7 @@ MainWindow::MainWindow(QWidget *parent)
     connect(BitTorrent::Session::instance(), SIGNAL(trackerError(BitTorrent::TorrentHandle *const, const QString &)), transferListFilters, SLOT(trackerError(BitTorrent::TorrentHandle *const, const QString &)));
     connect(BitTorrent::Session::instance(), SIGNAL(trackerWarning(BitTorrent::TorrentHandle *const, const QString &)), transferListFilters, SLOT(trackerWarning(BitTorrent::TorrentHandle *const, const QString &)));
 
-    vboxLayout->addWidget(tabs);
+    centralWidgetLayout->addWidget(tabs);
 
     prioSeparator = toolBar->insertSeparator(actionTopPriority);
     prioSeparatorMenu = menu_Edit->insertSeparator(actionTopPriority);
@@ -335,6 +339,8 @@ MainWindow::MainWindow(QWidget *parent)
     updateNbTorrents();
     connect(transferList->getSourceModel(), SIGNAL(rowsInserted(QModelIndex, int, int)), this, SLOT(updateNbTorrents()));
     connect(transferList->getSourceModel(), SIGNAL(rowsRemoved(QModelIndex, int, int)), this, SLOT(updateNbTorrents()));
+
+    connect(pref, SIGNAL(changed()), this, SLOT(optionsSaved()));
 
     qDebug("GUI Built");
 #ifdef Q_OS_WIN
@@ -721,7 +727,7 @@ void MainWindow::handleDownloadFromUrlFailure(QString url, QString reason) const
 
 void MainWindow::on_actionSet_global_upload_limit_triggered()
 {
-    qDebug("actionSet_global_upload_limit_triggered");
+    qDebug() << Q_FUNC_INFO;
     bool ok;
     int cur_limit = BitTorrent::Session::instance()->uploadRateLimit();
     const long new_limit = SpeedLimitDialog::askSpeedLimit(&ok, tr("Global Upload Speed Limit"), cur_limit);
@@ -737,7 +743,7 @@ void MainWindow::on_actionSet_global_upload_limit_triggered()
 
 void MainWindow::on_actionSet_global_download_limit_triggered()
 {
-    qDebug("actionSet_global_download_limit_triggered");
+    qDebug() << Q_FUNC_INFO;
     bool ok;
     int cur_limit = BitTorrent::Session::instance()->downloadRateLimit();
     const long new_limit = SpeedLimitDialog::askSpeedLimit(&ok, tr("Global Download Speed Limit"), cur_limit);
@@ -1107,7 +1113,7 @@ void MainWindow::loadPreferences(bool configure_session)
         toolBar->setVisible(false);
     }
 
-    if (pref->preventFromSuspend()) {
+    if (pref->preventFromSuspend() && !preventTimer->isActive()) {
         preventTimer->start(PREVENT_SUSPEND_INTERVAL);
     }
     else {
@@ -1148,16 +1154,20 @@ void MainWindow::loadPreferences(bool configure_session)
     properties->reloadPreferences();
 
 #if defined(Q_OS_WIN) || defined(Q_OS_MAC)
-    if (pref->isUpdateCheckEnabled())
+    if (pref->isUpdateCheckEnabled() && !m_wasUpdateCheckEnabled) {
+        m_wasUpdateCheckEnabled = true;
         checkProgramUpdate();
-    else
+    }
+    else if (!pref->isUpdateCheckEnabled() && m_wasUpdateCheckEnabled) {
+        m_wasUpdateCheckEnabled = false;
         programUpdateTimer.stop();
+    }
 #endif
 
     qDebug("GUI settings loaded");
 }
 
-void MainWindow::addUnauthenticatedTracker(const QPair<BitTorrent::TorrentHandle *const, QString> &tracker)
+void MainWindow::addUnauthenticatedTracker(const QPair<BitTorrent::TorrentHandle*, QString> &tracker)
 {
     // Trackers whose authentication was cancelled
     if (unauthenticated_trackers.indexOf(tracker) < 0)
@@ -1167,7 +1177,7 @@ void MainWindow::addUnauthenticatedTracker(const QPair<BitTorrent::TorrentHandle
 // Called when a tracker requires authentication
 void MainWindow::trackerAuthenticationRequired(BitTorrent::TorrentHandle *const torrent)
 {
-    if (unauthenticated_trackers.indexOf(QPair<BitTorrent::TorrentHandle *const, QString>(torrent, torrent->currentTracker())) < 0)
+    if (unauthenticated_trackers.indexOf(qMakePair(torrent, torrent->currentTracker())) < 0)
         // Tracker login
         new trackerLogin(this, torrent);
 }
@@ -1335,14 +1345,10 @@ void MainWindow::createTrayIcon()
 // Display Program Options
 void MainWindow::on_actionOptions_triggered()
 {
-    if (options) {
-        // Get focus
+    if (options)
         options->setFocus();
-    }
-    else {
+    else
         options = new options_imp(this);
-        connect(options, SIGNAL(status_changed()), this, SLOT(optionsSaved()));
-    }
 }
 
 void MainWindow::on_actionTop_tool_bar_triggered()
@@ -1485,7 +1491,7 @@ void MainWindow::handleUpdateCheckFinished(bool update_available, QString new_ve
 
 void MainWindow::on_actionDonate_money_triggered()
 {
-    QDesktopServices::openUrl(QUrl("http://sourceforge.net/donate/index.php?group_id=163414"));
+    QDesktopServices::openUrl(QUrl("http://www.qbittorrent.org/donate"));
 }
 
 void MainWindow::showConnectionSettings()

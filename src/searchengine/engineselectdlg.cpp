@@ -29,10 +29,10 @@
  */
 
 #include "engineselectdlg.h"
-#include "core/net/downloadmanager.h"
-#include "core/net/downloadhandler.h"
-#include "core/utils/fs.h"
-#include "core/utils/misc.h"
+#include "base/net/downloadmanager.h"
+#include "base/net/downloadhandler.h"
+#include "base/utils/fs.h"
+#include "base/utils/misc.h"
 #include "ico.h"
 #include "searchengine.h"
 #include "pluginsource.h"
@@ -46,6 +46,10 @@
 #include <QDropEvent>
 #include <QTemporaryFile>
 #include <QMimeData>
+#include <QClipboard>
+#ifdef QBT_USES_QT5
+#include <QTableView>
+#endif
 
 enum EngineColumns {ENGINE_NAME, ENGINE_VERSION, ENGINE_URL, ENGINE_STATE, ENGINE_ID};
 
@@ -56,6 +60,14 @@ engineSelectDlg::engineSelectDlg(QWidget *parent, SupportedEngines *supported_en
 {
   setupUi(this);
   setAttribute(Qt::WA_DeleteOnClose);
+#ifdef QBT_USES_QT5
+  // This hack fixes reordering of first column with Qt5.
+  // https://github.com/qtproject/qtbase/commit/e0fc088c0c8bc61dbcaf5928b24986cd61a22777
+  QTableView unused;
+  unused.setVerticalHeader(pluginsTree->header());
+  pluginsTree->header()->setParent(pluginsTree);
+  unused.setVerticalHeader(new QHeaderView(Qt::Horizontal));
+#endif
   pluginsTree->setRootIsDecorated(false);
   pluginsTree->header()->resizeSection(0, 160);
   pluginsTree->header()->resizeSection(1, 80);
@@ -248,6 +260,10 @@ bool engineSelectDlg::isUpdateNeeded(QString plugin_name, qreal new_version) con
 void engineSelectDlg::installPlugin(QString path, QString plugin_name) {
   qDebug("Asked to install plugin at %s", qPrintable(path));
   qreal new_version = SearchEngine::getPluginVersion(path);
+  if (new_version == 0.0) {
+    QMessageBox::warning(this, tr("Invalid plugin"), tr("The search engine plugin is invalid, please contact the author."));
+    return;
+  }
   qDebug("Version to be installed: %.2f", new_version);
   if (!isUpdateNeeded(plugin_name, new_version)) {
     qDebug("Apparently update is not needed, we have a more recent version");
@@ -347,9 +363,16 @@ void engineSelectDlg::on_installButton_clicked() {
 
 void engineSelectDlg::askForPluginUrl() {
   bool ok(false);
+  QString clipTxt = qApp->clipboard()->text();
+  QString defaultUrl = "http://";
+  if ((clipTxt.startsWith("http://", Qt::CaseInsensitive)
+    || clipTxt.startsWith("https://", Qt::CaseInsensitive)
+    || clipTxt.startsWith("ftp://", Qt::CaseInsensitive))
+    && clipTxt.endsWith(".py"))
+    defaultUrl = clipTxt;
   QString url = AutoExpandableDialog::getText(this, tr("New search engine plugin URL"),
                                       tr("URL:"), QLineEdit::Normal,
-                                      "http://", &ok);
+                                      defaultUrl, &ok);
 
   while(true) {
     if (!ok || url.isEmpty())

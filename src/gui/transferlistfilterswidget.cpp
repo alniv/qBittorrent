@@ -41,34 +41,39 @@
 
 #include "transferlistdelegate.h"
 #include "transferlistwidget.h"
-#include "core/preferences.h"
+#include "base/preferences.h"
 #include "torrentmodel.h"
 #include "guiiconprovider.h"
-#include "core/utils/fs.h"
-#include "core/utils/string.h"
+#include "base/utils/fs.h"
+#include "base/utils/string.h"
 #include "autoexpandabledialog.h"
-#include "core/torrentfilter.h"
-#include "core/bittorrent/trackerentry.h"
-#include "core/bittorrent/session.h"
-#include "core/bittorrent/torrenthandle.h"
-#include "core/net/downloadmanager.h"
-#include "core/net/downloadhandler.h"
-#include "core/utils/misc.h"
-#include "core/logger.h"
+#include "base/torrentfilter.h"
+#include "base/bittorrent/trackerentry.h"
+#include "base/bittorrent/session.h"
+#include "base/bittorrent/torrenthandle.h"
+#include "base/net/downloadmanager.h"
+#include "base/net/downloadhandler.h"
+#include "base/utils/misc.h"
+#include "base/logger.h"
 
 FiltersBase::FiltersBase(QWidget *parent, TransferListWidget *transferList)
     : QListWidget(parent)
     , transferList(transferList)
 {
-    setStyleSheet("QListWidget { background: transparent; border: 0 }");
+    setFrameShape(QFrame::NoFrame);
+    setHorizontalScrollBarPolicy(Qt::ScrollBarAlwaysOff);
+    setVerticalScrollBarPolicy(Qt::ScrollBarAlwaysOff);
+    setSizePolicy(QSizePolicy::Expanding, QSizePolicy::Fixed);
+    setUniformItemSizes(true);
+    setSpacing(0);
+
+    setIconSize(Utils::Misc::smallIconSize());
+
 #if defined(Q_OS_MAC)
     setAttribute(Qt::WA_MacShowFocusRect, false);
 #endif
-    setHorizontalScrollBarPolicy(Qt::ScrollBarAlwaysOff);
+
     setContextMenuPolicy(Qt::CustomContextMenu);
-
-    setIconSize(QSize(16, 16));
-
     connect(this, SIGNAL(customContextMenuRequested(QPoint)), SLOT(showMenu(QPoint)));
     connect(this, SIGNAL(currentRowChanged(int)), SLOT(applyFilter(int)));
 
@@ -80,9 +85,9 @@ QSize FiltersBase::sizeHint() const
 {
     QSize size;
     // Height should be exactly the height of the content
-    size.setHeight((sizeHintForRow(0) * count()) + (2 * frameWidth()) + 6);
-    // Width should be exactly the height of the content
-    size.setWidth(sizeHintForColumn(0) + (2 * frameWidth()));
+    size.setHeight(((sizeHintForRow(0) + 2 * spacing()) * (count() + 0.5)));
+    // Width should be exactly the width of the content
+    size.setWidth(sizeHintForColumn(0));
     return size;
 }
 
@@ -105,12 +110,7 @@ void FiltersBase::toggleFilter(bool checked)
 StatusFiltersWidget::StatusFiltersWidget(QWidget *parent, TransferListWidget *transferList)
     : FiltersBase(parent, transferList)
 {
-    setUniformItemSizes(true);
-    setVerticalScrollBarPolicy(Qt::ScrollBarAlwaysOff);
-    // Height is fixed (sizeHint().height() is used)
-    setSizePolicy(QSizePolicy::Preferred, QSizePolicy::Fixed);
-    setSpacing(0);
-    connect(BitTorrent::Session::instance(), SIGNAL(torrentsUpdated(const BitTorrent::TorrentStatusReport &)), SLOT(updateTorrentNumbers(const BitTorrent::TorrentStatusReport &)));
+    connect(BitTorrent::Session::instance(), SIGNAL(torrentsUpdated()), SLOT(updateTorrentNumbers()));
 
     // Add status filters
     QListWidgetItem *all = new QListWidgetItem(this);
@@ -137,6 +137,9 @@ StatusFiltersWidget::StatusFiltersWidget(QWidget *parent, TransferListWidget *tr
     QListWidgetItem *inactive = new QListWidgetItem(this);
     inactive->setData(Qt::DisplayRole, QVariant(tr("Inactive (0)")));
     inactive->setData(Qt::DecorationRole, QIcon(":/icons/skin/filterinactive.png"));
+    QListWidgetItem *errored = new QListWidgetItem(this);
+    errored->setData(Qt::DisplayRole, QVariant(tr("Errored (0)")));
+    errored->setData(Qt::DecorationRole, QIcon(":/icons/skin/error.png"));
 
     const Preferences* const pref = Preferences::instance();
     setCurrentRow(pref->getTransSelFilter(), QItemSelectionModel::SelectCurrent);
@@ -148,8 +151,10 @@ StatusFiltersWidget::~StatusFiltersWidget()
     Preferences::instance()->setTransSelFilter(currentRow());
 }
 
-void StatusFiltersWidget::updateTorrentNumbers(const BitTorrent::TorrentStatusReport &report)
+void StatusFiltersWidget::updateTorrentNumbers()
 {
+    auto report = BitTorrent::Session::instance()->torrentStatusReport();
+
     item(TorrentFilter::All)->setData(Qt::DisplayRole, QVariant(tr("All (%1)").arg(report.nbActive + report.nbInactive)));
     item(TorrentFilter::Downloading)->setData(Qt::DisplayRole, QVariant(tr("Downloading (%1)").arg(report.nbDownloading)));
     item(TorrentFilter::Seeding)->setData(Qt::DisplayRole, QVariant(tr("Seeding (%1)").arg(report.nbSeeding)));
@@ -158,6 +163,7 @@ void StatusFiltersWidget::updateTorrentNumbers(const BitTorrent::TorrentStatusRe
     item(TorrentFilter::Resumed)->setData(Qt::DisplayRole, QVariant(tr("Resumed (%1)").arg(report.nbResumed)));
     item(TorrentFilter::Active)->setData(Qt::DisplayRole, QVariant(tr("Active (%1)").arg(report.nbActive)));
     item(TorrentFilter::Inactive)->setData(Qt::DisplayRole, QVariant(tr("Inactive (%1)").arg(report.nbInactive)));
+    item(TorrentFilter::Errored)->setData(Qt::DisplayRole, QVariant(tr("Errored (%1)").arg(report.nbErrored)));
 }
 
 void StatusFiltersWidget::showMenu(QPoint) {}
@@ -176,8 +182,6 @@ LabelFiltersList::LabelFiltersList(QWidget *parent, TransferListWidget *transfer
     , m_totalTorrents(0)
     , m_totalLabeled(0)
 {
-    setSizePolicy(QSizePolicy::Preferred, QSizePolicy::Preferred);
-
     connect(BitTorrent::Session::instance(), SIGNAL(torrentLabelChanged(BitTorrent::TorrentHandle *const, QString)), SLOT(torrentChangedLabel(BitTorrent::TorrentHandle *const, QString)));
 
     // Add Label filters
@@ -420,8 +424,6 @@ TrackerFiltersList::TrackerFiltersList(QWidget *parent, TransferListWidget *tran
     : FiltersBase(parent, transferList)
     , m_totalTorrents(0)
 {
-    setSizePolicy(QSizePolicy::Preferred, QSizePolicy::Expanding);
-
     QListWidgetItem *allTrackers = new QListWidgetItem(this);
     allTrackers->setData(Qt::DisplayRole, QVariant(tr("All (0)", "this is for the label filter")));
     allTrackers->setData(Qt::DecorationRole, GuiIconProvider::instance()->getIcon("network-server"));
@@ -772,23 +774,20 @@ TransferListFiltersWidget::TransferListFiltersWidget(QWidget *parent, TransferLi
     font.setBold(true);
     font.setCapitalization(QFont::AllUppercase);
 
-    frame->setFrameShadow(QFrame::Plain);
-    frame->setFrameShape(QFrame::NoFrame);
-    scroll->setFrameShadow(QFrame::Plain);
-    scroll->setFrameShape(QFrame::NoFrame);
-    scroll->setStyleSheet("QFrame { background: transparent; }");
     scroll->setWidgetResizable(true);
     scroll->setHorizontalScrollBarPolicy(Qt::ScrollBarAlwaysOff);
 
-    vLayout->setContentsMargins(0, 4, 0, 0);
-    frameLayout->setContentsMargins(0, 4, 0, 0);
+    setStyleSheet("QFrame {background: transparent;}");
+    scroll->setStyleSheet("QFrame {border: none;}");
+    vLayout->setContentsMargins(0, 0, 0, 0);
+    frameLayout->setContentsMargins(0, 2, 0, 0);
     frameLayout->setSpacing(2);
+    frameLayout->setAlignment(Qt::AlignLeft | Qt::AlignTop);
 
     frame->setLayout(frameLayout);
     scroll->setWidget(frame);
     vLayout->addWidget(scroll);
     setLayout(vLayout);
-    setContentsMargins(0,0,0,0);
 
     QCheckBox * statusLabel = new QCheckBox(tr("Status"), this);
     statusLabel->setChecked(pref->getStatusFilterState());
@@ -813,8 +812,6 @@ TransferListFiltersWidget::TransferListFiltersWidget(QWidget *parent, TransferLi
 
     trackerFilters = new TrackerFiltersList(this, transferList);
     frameLayout->addWidget(trackerFilters);
-
-    frameLayout->addStretch();
 
     connect(statusLabel, SIGNAL(toggled(bool)), statusFilters, SLOT(toggleFilter(bool)));
     connect(statusLabel, SIGNAL(toggled(bool)), pref, SLOT(setStatusFilterState(const bool)));

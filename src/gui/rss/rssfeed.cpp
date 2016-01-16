@@ -31,18 +31,19 @@
 #include <QDebug>
 #include "rssfeed.h"
 #include "rssmanager.h"
-#include "core/bittorrent/session.h"
+#include "base/bittorrent/session.h"
+#include "base/bittorrent/magneturi.h"
 #include "rssfolder.h"
-#include "core/preferences.h"
-#include "core/qinisettings.h"
+#include "base/preferences.h"
+#include "base/qinisettings.h"
 #include "rssarticle.h"
 #include "rssparser.h"
-#include "core/utils/misc.h"
+#include "base/utils/misc.h"
 #include "rssdownloadrulelist.h"
-#include "core/net/downloadmanager.h"
-#include "core/net/downloadhandler.h"
-#include "core/utils/fs.h"
-#include "core/logger.h"
+#include "base/net/downloadmanager.h"
+#include "base/net/downloadhandler.h"
+#include "base/utils/fs.h"
+#include "base/logger.h"
 
 bool rssArticleDateRecentThan(const RssArticlePtr& left, const RssArticlePtr& right)
 {
@@ -371,8 +372,11 @@ void RssFeed::downloadArticleTorrentIfMatching(RssDownloadRuleList* rules, const
   }
 
   Logger::instance()->addMessage(tr("Automatically downloading '%1' torrent from '%2' RSS feed...").arg(article->title()).arg(displayName()));
-  connect(BitTorrent::Session::instance(), SIGNAL(downloadFromUrlFinished(QString)), article.data(), SLOT(handleTorrentDownloadSuccess(const QString&)), Qt::UniqueConnection);
   connect(article.data(), SIGNAL(articleWasRead()), SLOT(handleArticleStateChanged()), Qt::UniqueConnection);
+  if (BitTorrent::MagnetUri(torrent_url).isValid())
+      article->markAsRead();
+  else
+      connect(BitTorrent::Session::instance(), SIGNAL(downloadFromUrlFinished(QString)), article.data(), SLOT(handleTorrentDownloadSuccess(const QString&)), Qt::UniqueConnection);
 
   BitTorrent::AddTorrentParams params;
   params.savePath = matching_rule->savePath();

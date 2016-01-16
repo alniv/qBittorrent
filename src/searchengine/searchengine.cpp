@@ -49,10 +49,10 @@
 #endif
 
 #include "searchengine.h"
-#include "core/bittorrent/session.h"
-#include "core/utils/fs.h"
-#include "core/utils/misc.h"
-#include "core/preferences.h"
+#include "base/bittorrent/session.h"
+#include "base/utils/fs.h"
+#include "base/utils/misc.h"
+#include "base/preferences.h"
 #include "searchlistdelegate.h"
 #include "mainwindow.h"
 #include "addnewtorrentdialog.h"
@@ -64,7 +64,7 @@
 /*SEARCH ENGINE START*/
 SearchEngine::SearchEngine(MainWindow* parent)
     : QWidget(parent)
-    , search_pattern(new LineEdit)
+    , search_pattern(new LineEdit(this))
     , mp_mainWindow(parent)
 {
     setupUi(this);

@@ -75,7 +75,7 @@
                         <a class="returnFalse">QBT_TR(&Help)QBT_TR</a>
                         <ul>
                             <li><a id="docsLink" target="_blank" href="http://wiki.qbittorrent.org/"><img class="MyMenuIcon" src="theme/help-contents" alt="QBT_TR(&Documentation)QBT_TR" width="16" height="16" onload="fixPNG(this)"/>QBT_TR(&Documentation)QBT_TR</a></li>
-                            <li class="divider"><a id="bugLink" target="_blank" href="http://sourceforge.net/donate/index.php?group_id=163414"><img class="MyMenuIcon" src="theme/wallet-open" alt="QBT_TR(Do&nate!)QBT_TR" width="16" height="16" onload="fixPNG(this)"/>QBT_TR(Do&nate!)QBT_TR</a></li>
+                            <li class="divider"><a id="bugLink" target="_blank" href="http://www.qbittorrent.org/donate"><img class="MyMenuIcon" src="theme/wallet-open" alt="QBT_TR(Do&nate!)QBT_TR" width="16" height="16" onload="fixPNG(this)"/>QBT_TR(Do&nate!)QBT_TR</a></li>
                             <li><a id="aboutLink"><img class="MyMenuIcon" src="theme/help-about" alt="QBT_TR(&About)QBT_TR" width="16" height="16" onload="fixPNG(this)"/>QBT_TR(&About)QBT_TR</a></li>
                         </ul>
                     </li>
@@ -105,6 +105,10 @@
         <li><a href="#Pause"><img src="theme/media-playback-pause" alt="QBT_TR(Pause)QBT_TR"/> QBT_TR(Pause)QBT_TR</a></li>
         <li><a href="#ForceStart"><img src="theme/media-seek-forward" alt="QBT_TR(Force Resume)QBT_TR"/> QBT_TR(Force Resume)QBT_TR</a></li>
         <li class="separator"><a href="#Delete"><img src="theme/list-remove" alt="QBT_TR(Delete)QBT_TR"/> QBT_TR(Delete)QBT_TR</a></li>
+        <li class="separator">
+            <a href="#Label" class="arrow-right"><img src="theme/view-categories" alt="QBT_TR(Label)QBT_TR"/> QBT_TR(Label)QBT_TR</a>
+            <ul id="contextLabelList"></ul>
+        </li>
         <li id="queueingMenuItems" class="separator">
             <a href="#priority" class="arrow-right"><span style="display: inline-block; width:16px"></span> QBT_TR(Priority)QBT_TR</a>
             <ul>
@@ -116,9 +120,9 @@
         </li>
         <li class="separator"><a href="#DownloadLimit"><img src="images/skin/download.png" alt="QBT_TR(Limit download rate...)QBT_TR"/> QBT_TR(Limit download rate...)QBT_TR</a></li>
         <li><a href="#UploadLimit"><img src="images/skin/seeding.png" alt="QBT_TR(Limit upload rate...)QBT_TR"/> QBT_TR(Limit upload rate...)QBT_TR</a></li>
+        <li><a href="#SuperSeeding"><img src="theme/checked" alt="QBT_TR(Super seeding mode)QBT_TR"/> QBT_TR(Super seeding mode)QBT_TR</a></li>
         <li class="separator"><a href="#SequentialDownload"><img src="theme/checked" alt="QBT_TR(Download in sequential order)QBT_TR"/> QBT_TR(Download in sequential order)QBT_TR</a></li>
         <li><a href="#FirstLastPiecePrio"><img src="theme/checked" alt="QBT_TR(Download first and last piece first)QBT_TR"/> QBT_TR(Download first and last piece first)QBT_TR</a></li>
-        <li class="separator"><a href="#SuperSeeding"><img src="theme/checked" alt="QBT_TR(Super seeding mode)QBT_TR"/> QBT_TR(Super seeding mode)QBT_TR</a></li>
         <li class="separator"><a href="#ForceRecheck"><img src="theme/document-edit-verify" alt="QBT_TR(Force recheck)QBT_TR"/>  QBT_TR(Force recheck)QBT_TR</a></li>
     </ul>
     <div id="desktopFooterWrapper">
